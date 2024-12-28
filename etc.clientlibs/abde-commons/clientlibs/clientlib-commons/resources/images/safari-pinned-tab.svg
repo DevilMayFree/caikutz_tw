@@ -1,0 +1,15 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="32" height="32" viewBox="0 0 32 32">
+  <defs>
+    <clipPath id="clip-ABLogo_Favicon_App_32x32">
+      <rect width="32" height="32"/>
+    </clipPath>
+  </defs>
+  <g id="ABLogo_Favicon_App_32x32" clip-path="url(#clip-ABLogo_Favicon_App_32x32)">
+    <rect width="32" height="32" fill="#fff"/>
+    <rect id="Rectangle_1" data-name="Rectangle 1" width="32" height="32"/>
+    <g id="Layer_1-2" transform="translate(1.803 1.803)">
+      <path id="Path_1" data-name="Path 1" d="M28.394,28.394H0V0H28.394Z" transform="translate(0)"/>
+      <path id="Path_2" data-name="Path 2" d="M10.054,16.783h14.2v.71h-14.2ZM15.4,14.648H13.236l2.588-8.442H18.47l.021.053,2.577,8.39H18.907l-.447-1.615H15.851L15.4,14.648Zm.931-3.356h1.62l-.8-2.961ZM24.951,6.2V7.973h1.357V26.288H24.951v1.773h3.13V6.205h-3.13ZM6.23,6.2V28.061H9.36V26.288H8V7.978H9.36V6.205H6.23ZM20.406,21.428v.721a1.567,1.567,0,0,1-1.084,1.5,1.579,1.579,0,0,1,1.084,1.5v.815c0,1.184-.7,2.094-2.372,2.094H14.062V19.618h4.25c1.336,0,2.1.7,2.1,1.809Zm-4.461,1.6h1.83a.707.707,0,0,0,.773-.752V21.8c0-.568-.442-.679-1.036-.679H15.945Zm2.6,2.367a.707.707,0,0,0-.773-.752h-1.83v1.915h1.567c.589,0,1.036-.116,1.036-.679Z" transform="translate(-2.953 -2.939)" fill="#fff"/>
+    </g>
+  </g>
+</svg>

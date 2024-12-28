@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="146px" height="300px" viewBox="0 0 146 300" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 53.2 (72643) - https://sketchapp.com -->
+    <title>sec22-fgC</title>
+    <desc>Created with Sketch.</desc>
+    <defs>
+        <polygon id="path-1" points="0 26.8507 26.851 26.8507 26.851 -0.0003 0 -0.0003"></polygon>
+    </defs>
+    <g id="sec22-fgC" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g>
+            <rect id="c" fill="#D8D8D8" opacity="0" x="0" y="0" width="146" height="300"></rect>
+            <g id="sec22-fgC-btn" transform="translate(37.000000, 104.000000)">
+                <path d="M26.3507,13.4254 C26.3507,20.5634 20.5637,26.3504 13.4257,26.3504 C6.2867,26.3504 0.4997,20.5634 0.4997,13.4254 C0.4997,6.2874 6.2867,0.5004 13.4257,0.5004 C20.5637,0.5004 26.3507,6.2874 26.3507,13.4254" id="Fill-1" fill="#FFFFFF"></path>
+                <path d="M22.7142,4.4375 C24.9652,6.7635 26.3512,9.9325 26.3512,13.4255 C26.3512,20.5635 20.5642,26.3505 13.4252,26.3505 C6.2872,26.3505 0.5002,20.5635 0.5002,13.4255 C0.5002,6.2865 6.2872,0.5005 13.4252,0.5005 C16.0292,0.5005 18.4542,1.2705 20.4832,2.5955" id="Stroke-3" stroke="#343434"></path>
+                <polygon id="Fill-5" fill="#343434" points="4.9563 13.9834 4.9563 11.9364 11.9363 11.9364 11.9363 4.9564 13.9843 4.9564 13.9843 13.9834"></polygon>
+                <mask id="mask-2" fill="white">
+                    <use xlink:href="#path-1"></use>
+                </mask>
+                <g id="Clip-8"></g>
+                <polygon id="Fill-7" fill="#343434" mask="url(#mask-2)" points="15.659 13.9837 21.895 13.9837 21.895 11.9367 15.659 11.9367"></polygon>
+                <polygon id="Fill-9" fill="#343434" mask="url(#mask-2)" points="11.936 21.8947 13.984 21.8947 13.984 15.6597 11.936 15.6597"></polygon>
+            </g>
+        </g>
+    </g>
+</svg>

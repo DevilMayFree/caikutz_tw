@@ -1,0 +1,11 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="114" height="114" viewBox="0 0 114 114">
+  <g id="CIRCLE" transform="translate(1.132 1)">
+    <g id="Earth" transform="translate(-0.132)">
+      <path id="Path_2063" data-name="Path 2063" d="M877.648,518.363l17.288,17.285,5.764.3,8.2,5.459v8.2l5.8,5.8-2.4,25.6,2.4,2.4,8.231-8.237L942.7,555.412l-14-14.07-19.82-5.39-8.178-6.065,8.165-.021-.035-8.112,8.16-8.159,11.777-.115L914.7,499.413l-2.4,2.4h-3.77l-7.575-8.637" transform="translate(-872.698 -485.413)" fill="none" stroke="#ffbf27" stroke-linecap="round" stroke-linejoin="round" stroke-width="2"/>
+      <path id="Path_2064" data-name="Path 2064" d="M932.074,564.409l-8.669-8.675v-19.8l-11.78-.11-8.023-8.021V516.14h8.135v-8.2l11.6-11.6" transform="translate(-827.738 -479.937)" fill="none" stroke="#ffbf27" stroke-linecap="round" stroke-linejoin="round" stroke-width="2"/>
+      <path id="Path_2065" data-name="Path 2065" d="M987.835,546.334a56,56,0,1,1-56-56A56,56,0,0,1,987.835,546.334Z" transform="translate(-875.836 -490.335)" fill="none" stroke="#ffbf27" stroke-linecap="round" stroke-linejoin="round" stroke-width="2"/>
+      <path id="Path_2066" data-name="Path 2066" d="M903.577,496.339v3.469l4.835,4.766v-8.234Z" transform="translate(-827.781 -479.937)" fill="none" stroke="#ffbf27" stroke-linecap="round" stroke-linejoin="round" stroke-width="2"/>
+      <path id="Path_2067" data-name="Path 2067" d="M896.331,490.336v8.939l4.392,4.389L911.8,492.612" transform="translate(-840.332 -490.336)" fill="none" stroke="#ffbf27" stroke-linecap="round" stroke-linejoin="round" stroke-width="2"/>
+    </g>
+  </g>
+</svg>

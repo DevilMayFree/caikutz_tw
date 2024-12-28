@@ -1,0 +1,16 @@
+<svg id="Group_18068" data-name="Group 18068" xmlns="http://www.w3.org/2000/svg" width="112" height="112" viewBox="0 0 112 112">
+  <g id="Ellipse_2357" data-name="Ellipse 2357" fill="none" stroke="#ffbf27" stroke-width="2">
+    <circle cx="56" cy="56" r="56" stroke="none"/>
+    <circle cx="56" cy="56" r="55" fill="none"/>
+  </g>
+  <g id="Group_14660" data-name="Group 14660" transform="translate(37.276 20.113)">
+    <g id="Award">
+      <path id="Path_12439" data-name="Path 12439" d="M805.7,1091.233l5.959,12.041,12.764,1.413-9.081,9.626,1.929,11.978L805.7,1121.11l-11.572,5.125,1.93-11.908-9.081-9.639,12.764-1.413Z" transform="translate(-786.971 -1091.233)" fill="none" stroke="#ffbf27" stroke-linecap="round" stroke-linejoin="round" stroke-width="2"/>
+      <line id="Line_10694" data-name="Line 10694" y1="13.192" transform="translate(14.207 35.516)" fill="none" stroke="#ffbf27" stroke-linecap="round" stroke-linejoin="round" stroke-width="2"/>
+      <line id="Line_10695" data-name="Line 10695" y2="13.192" transform="translate(23.339 35.516)" fill="none" stroke="#ffbf27" stroke-linecap="round" stroke-linejoin="round" stroke-width="2"/>
+      <path id="Path_12440" data-name="Path 12440" d="M805.695,1122.233h9.362v6.241h1.56a3.12,3.12,0,0,1,3.121,3.121v6.241h1.56a3.12,3.12,0,0,1,3.12,3.121v4.681H786.971v-4.681a3.121,3.121,0,0,1,3.121-3.121h1.56v-6.241a3.121,3.121,0,0,1,3.121-3.121h1.56v-6.241h9.362" transform="translate(-786.971 -1073.863)" fill="none" stroke="#ffbf27" stroke-linecap="round" stroke-linejoin="round" stroke-width="2"/>
+      <line id="Line_10696" data-name="Line 10696" x2="9.133" transform="translate(5.074 63.929)" fill="none" stroke="#ffbf27" stroke-linecap="round" stroke-linejoin="round" stroke-width="2"/>
+      <line id="Line_10697" data-name="Line 10697" x2="9.133" transform="translate(23.339 63.929)" fill="none" stroke="#ffbf27" stroke-linecap="round" stroke-linejoin="round" stroke-width="2"/>
+    </g>
+  </g>
+</svg>

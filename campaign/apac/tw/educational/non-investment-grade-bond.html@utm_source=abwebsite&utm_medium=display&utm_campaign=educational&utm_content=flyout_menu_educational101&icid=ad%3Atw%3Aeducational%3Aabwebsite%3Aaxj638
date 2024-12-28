@@ -1,0 +1,810 @@
+<!DOCTYPE html>
+<html lang="zh-Hant-TW">
+
+<head>
+    <title>非投資等級債券101：非投資等級債是什麼？循著投資專家認識非投資等級債券基金</title>
+
+    <meta charset="utf-8">
+    <meta http-equiv="x-ua-compatible" content="ie=edge" />
+    <meta name="viewport" content="width=device-width,minimum-scale=1.0,maximum-scale=1.0,user-scalable=no" />
+    <meta http-equiv="X-UA-Compatible" content="IE=10; IE=9; IE=8; IE=7; IE=EDGE" />
+    <meta http-equiv="content-language" content="zh-tw">
+    <meta name="title" content="非投資等級債券101：非投資等級債是什麼？循著投資專家認識非投資等級債券基金">
+    <meta itemprop="name" content="聯博投信">
+    <meta itemprop="url" content="https://www.abfunds.com.tw/campaign/apac/tw/educational/non-investment-grade-bond.html">
+    <meta name="description" content="非投資等級債券即過去俗稱的高收益債券，是債券市場重要的投資標的之一，本單元將協助您掌握其特性、風險與機會，並說明如何挑選非投資等級債券基金，以期挑選適合自己投資項目、達成您的長期收益投資目標。">
+    <meta name="Keywords" content="基金,投資,非投資等級債券">
+    <meta property="og:type" content="website">
+    <meta property="og:url" content="https://www.abfunds.com.tw/campaign/apac/tw/educational/non-investment-grade-bond.html">
+    <meta name="og:description" content="非投資等級債券即過去俗稱的高收益債券，是債券市場重要的投資標的之一，本單元將協助您掌握其特性、風險與機會，並說明如何挑選非投資等級債券基金，以期挑選適合自己投資項目、達成您的長期收益投資目標。">
+    <meta property="og:title" content="聯博投信">
+    <meta name="twitter:image" content="https://www.abfunds.com.tw/campaign/apac/tw/educational/images/share_non-investment-grade-bond.jpg" />
+
+    <!-- fav ico -->
+    <link rel="shortcut icon" type="image/ico" href="./ico/favicon.ico">
+    <link rel="apple-touch-icon" sizes="57x57" href="./ico/apple-icon-57x57.png">
+    <link rel="apple-touch-icon" sizes="60x60" href="./ico/apple-icon-60x60.png">
+    <link rel="apple-touch-icon" sizes="72x72" href="./ico/apple-icon-72x72.png">
+    <link rel="apple-touch-icon" sizes="76x76" href="./ico/apple-icon-76x76.png">
+    <link rel="apple-touch-icon" sizes="114x114" href="./ico/apple-icon-114x114.png">
+    <link rel="apple-touch-icon" sizes="120x120" href="./ico/apple-icon-120x120.png">
+    <link rel="apple-touch-icon" sizes="144x144" href="./ico/apple-icon-144x144.png">
+    <link rel="apple-touch-icon" sizes="152x152" href="./ico/apple-icon-152x152.png">
+    <link rel="apple-touch-icon" sizes="180x180" href="./ico/apple-icon-180x180.png">
+    <link rel="icon" type="image/png" sizes="192x192" href="./ico/android-icon-192x192.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="./ico/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="96x96" href="./ico/favicon-96x96.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="./ico/favicon-16x16.png">
+
+    <!-- CSS style -->
+    <link rel="stylesheet" type="text/css" href="./css/vendor/swiper-bundle.min.css">
+    <link rel="stylesheet" type="text/css" href="./css/normalize.css">
+    <link rel="stylesheet" type="text/css" href="./css/global.css">
+    <link rel="stylesheet" type="text/css" href="./css/global_breakpoints.css">
+    <link rel="stylesheet" type="text/css" href="./css/main.css">
+    <link rel="stylesheet" type="text/css" href="./css/main_breakpoints.css">
+
+    <!-- Global site tag (gtag.js) - Google Analytics 4 -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=G-K09RKRGHC2"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  gtag('config', 'G-K09RKRGHC2');
+</script>
+    <!-- End Google Analytics 4-->
+    <script>(function (w, d, s, l, i) {
+            w[l] = w[l] || []; w[l].push({
+                'gtm.start':
+                    new Date().getTime(), event: 'gtm.js'
+            }); var f = d.getElementsByTagName(s)[0],
+                j = d.createElement(s), dl = l != 'dataLayer' ? '&l=' + l : ''; j.async = true; j.src = 'https://www.googletagmanager.com/gtm.js?id=' + i + dl; f.parentNode.insertBefore(j, f);
+        })(window, document, 'script', 'dataLayer', 'GTM-MG4JX7P');
+    </script>
+
+</head>
+
+<body>
+    <!-- Google Tag Manager (noscript) -->
+    <noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-MG4JX7P" height="0" width="0"
+            style="display:none;visibility:hidden"></iframe></noscript>
+    <!-- End Google Tag Manager (noscript) -->
+
+    <!-- Start of Floodlight Tag: Please do not remove. Creation Date: 05/12/2022 -->
+    <script type="text/javascript">
+        var axel = Math.random() + "";
+        var a = axel * 10000000000000;
+        document.write('<iframe src="https://10511252.fls.doubleclick.net/activityi;src=10511252;type=ghyed0;cat=q22020;dc_lat=;dc_rdid=;tag_for_child_directed_treatment=;tfua=;npa=;gdpr=${GDPR};gdpr_consent=${GDPR_CONSENT_755};ord=' + a + '?" width="1" height="1" frameborder="0" style="display:none"></iframe>');
+    </script>
+    <noscript>
+        <iframe
+            src="https://10511252.fls.doubleclick.net/activityi;src=10511252;type=ghyed0;cat=q22020;dc_lat=;dc_rdid=;tag_for_child_directed_treatment=;tfua=;npa=;gdpr=${GDPR};gdpr_consent=${GDPR_CONSENT_755};ord=1?"
+            width="1" height="1" frameborder="0" style="display:none"></iframe>
+    </noscript>
+    <!-- End of Floodlight Tag: Please do not remove -->
+
+
+
+    <!-- Section: Header  -->
+    <section class="header box">
+        <a class="logo" href="https://www.abfunds.com.tw/" title="聯博投信" target="_blank">
+            <img src="images/logo.png" class="img-fluid">
+        </a>
+        <!-- 加入手機版漢堡功能 -->
+        <nav class="naviga">
+            <!-- <a class="js-scroll-to" href="javascript:;" data-js-scroll-to="sectionOne"
+                onclick="gtag('event', 'click', {'event_category' : 'button','event_label' : '看影音長知識'});">看影音長知識</a>-->
+            <a class="js-scroll-to" href="javascript:;" data-js-scroll-to="sectionTwo"
+                onclick="gtag('event', 'click', {'event_category' : 'button','event_label' : '債券觀點'});">非投資等級債券觀點</a>
+            <a class="js-scroll-to" href="javascript:;" data-js-scroll-to="sectionThree"
+                onclick="gtag('event', 'click', {'event_category' : 'button','event_label' : '主題投資'});">主題投資</a>
+        </nav>
+
+        <div class="hamburger">
+            <span class="line"></span>
+            <span class="line"></span>
+            <span class="line"></span>
+        </div>
+    </section>
+
+
+
+    <!-- Section: 主視覺 -->
+    <div class="kv" data-gtm="主視覺">
+        <img src="./images/kv.jpg">
+    </div>
+
+    <!-- Section: Title -->
+    <div class="title">
+        <h1>非投資等級債券101</h1>
+        <p>非投資等級債券即過去俗稱的高收益債券，是債券市場重要的投資標的之一，亦是收益投資不可或缺的一環。<br>本單元將協助您掌握非投資等級債券的特性，以期挑選適合自己投資目標與風險承受度的債券，達成您的長期收益投資目標。
+        </p>
+    </div>
+
+
+
+    <!-- Section: 看影音長知識 -->
+    <!-- <section class="startVideo box" data-js-scroll-to-target="sectionOne" data-gtm="看影音長知識">
+        <div class="subTitle">
+            <h2>看影音長知識</h2>
+        </div>
+        <div class="ab-section__wrapper ab-section__wrapper-videolist">
+            <div class="ab-row ab-row-videolist">
+                <div class="ab-col ab-col-videolist-main" name="看影音長知識主影片">
+                    <div class="ab-videolist-main-relative">
+                        <div class="ab-videolist-main-fg-layer jsVideoMain" data-id='video1' style="display: block">
+                            <div class="ab-video-wrapper">
+                            <iframe width="560" height="315" src="https://www.youtube.com/embed/AC1j5kDr0go"
+                                allow="accelerometer; autoplay; " allowfullscreen></iframe>
+                            </div>
+                            <div class="txt-wrapper g-sec01">
+                                <h3>「高收益債」今年更名 「非投資等級債」<span class="video-main-title-br"><br></span>，還可以投資嗎？關鍵6問一次搞懂！</h3>
+                            <p class="section__desc section__desc_left">
+                                聯博正式推出全新影音單元【聯博財懂的事】，循著投資專家的腳步，學投資、找趨勢，輕鬆看透投資門道！
+                            </p>
+                            </div>
+                        </div>
+                        <div class="ab-videolist-main-fg-layer jsVideoMain" data-id='video2' style="display: none">
+                            <div class="ab-video-wrapper">
+                            <iframe width="560" height="315" src="https://www.youtube.com/embed/GLhSpbDgaPg"
+                                allow="accelerometer; autoplay; " allowfullscreen></iframe>
+                            </div>
+                            <div class="txt-wrapper g-sec01">
+                            <h3>通膨與升息雙重夾擊！投資該怎麼應對？(下)</h3>
+                            <p class="section__desc section__desc_left">
+                                高通膨+急升息來襲，投資「股市」跟投資「非投資等級債券」看的門道竟然大不同? 究竟非投資等級債券基金，也就是原本的高收益債券基金，跟哪些投資人比較速配呢？【聯博財懂的事】第二部曲(下)，邀請資深媒體人范琪斐與聯博投信固定收益資深投資策略師江常維，繼續為各位看清投資非投資等級債券的眉角。
+                            </p>
+                            </div>
+                        </div>
+                        <div class="ab-videolist-main-fg-layer jsVideoMain" data-id='video3' style="display: none">
+                            <div class="ab-video-wrapper">
+                            <iframe width="560" height="315" src="https://www.youtube.com/embed/zPQ5NakVxI8"
+                                allow="accelerometer; autoplay; " allowfullscreen></iframe>
+                            </div>
+                            <div class="txt-wrapper g-sec01">
+                            <h3>通膨與升息雙重夾擊！投資該怎麼應對？(上)</h3>
+                            <p class="section__desc section__desc_left">
+                                今年全球通膨高漲，聯準會急踩升息油門，投資人該何去何從? 這樣的環境下，非投資等級債券基金，也就是原本的高收益債券基金，還是不是一個適合的投資標的呢？【聯博財懂的事】第二部曲(上)，邀請資深媒體人范琪斐提問，由聯博投信固定收益資深投資策略師江常維為各位分析「通膨與升息雙重夾擊！投資該怎麼應對？」。
+                            </p>
+                            </div>
+                        </div>
+                        <div class="ab-videolist-main-bg-layer">
+                            <!--裝飾的色塊  -->
+                        </div>
+                    </div>
+                </div>
+                <!-- <div class="ab-col ab-col-videolist-thumb" name="看影音長知識影片列表">
+                    <div class="ab-videolist-thumb-relative">
+                    <div class="msg-carousell videolist-thumb-slider">
+                        <div class="swiper-btn">
+                        <div class="swiper-button-next idNext_VideoThumb">
+                            <svg class="btn_arrowRight" stroke="#1E9BD7" width="16" height="17" viewBox="0 0 16 17" fill="none"
+                            xmlns="http://www.w3.org/2000/svg">
+                            <path d="M2 8.50004L14 8.50004" stroke-width="1.5" stroke-linecap="round"></path>
+                            <path d="M10 4.5L14 8.5L10 12.5" stroke-width="1.5" stroke-linecap="round"></path>
+                            </svg>
+                        </div>
+                        <div class="swiper-button-prev idPrev_VideoThumb">
+                            <svg class="btn_arrowRight" stroke="#1E9BD7" width="16" height="17" viewBox="0 0 16 17" fill="none"
+                            xmlns="http://www.w3.org/2000/svg">
+                            <path d="M2 8.50004L14 8.50004" stroke-width="1.5" stroke-linecap="round"></path>
+                            <path d="M10 4.5L14 8.5L10 12.5" stroke-width="1.5" stroke-linecap="round"></path>
+                            </svg>
+                        </div>
+                        </div>
+                        <div class="ra-swiper-relative">
+                        <div class="swiper-mask" name="白漸層">
+                        </div>
+                        <!-- 輪播-->
+                        <!-- <div class="swiper-container" id="idSwiper_VideoThumb" name="影片輪播">
+                            <div class="swiper-wrapper">
+                            <div class="swiper-slide">
+                                <div class="ab-videolist-thumb-item active jsVideoThumb" data-target="video1" id="idVideo1">
+                                <div class="ab-videolist-thumb-deco">
+                                    <span class="decoline forleft"></span>
+                                    <span class="decoline fortop"></span>
+                                    <span class="decoline forright"></span>
+                                    <span class="decoline forbottom"></span>
+                                </div>
+                                <div class="ab-videolist-thumb-item-box">
+                                    <div class="ab-videolist-thumb-item-thumb"
+                                    style="background-image: url('https://img.youtube.com/vi/AC1j5kDr0go/mqdefault.jpg')">
+                                    <div class="ab-videolist-thumb-item-play">
+                                        <img class="img-fluid play-circle" src="images/video/play-circle.svg" alt="circle">
+                                        <img class="img-fluid play-triangle" src="images/video/triangle-shadow.svg" alt="">
+                                    </div>
+                                    </div>
+                                    <div class="ab-videolist-thumb-item-texts">
+                                    <p class="ab-videolist-thumb-item-title">「高收益債」今年更名 「非投資等級債」，還可以投資嗎？關鍵6問一次搞懂！</p>
+                                    </div>
+                                </div>
+                                </div>
+                            </div>
+                            <div class="swiper-slide">
+                                <div class="ab-videolist-thumb-item jsVideoThumb" data-target="video2" id="idVideo2">
+                                <div class="ab-videolist-thumb-deco">
+                                    <span class="decoline forleft"></span>
+                                    <span class="decoline fortop"></span>
+                                    <span class="decoline forright"></span>
+                                    <span class="decoline forbottom"></span>
+                                </div>
+                                <div class="ab-videolist-thumb-item-box new">
+                                    <div class="ab-videolist-thumb-item-thumb"
+                                    style="background-image: url('https://img.youtube.com/vi/GLhSpbDgaPg/mqdefault.jpg')">
+                                    <div class="ab-videolist-thumb-item-play">
+                                        <img class="img-fluid play-circle" src="images/video/play-circle.svg" alt="circle">
+                                        <img class="img-fluid play-triangle" src="images/video/triangle-shadow.svg" alt="">
+                                    </div>
+                                    </div>
+                                    <div class="ab-videolist-thumb-item-texts">
+                                    <p class="ab-videolist-thumb-item-title">通膨與升息雙重夾擊！投資該怎麼應對？(下)</p>
+                                    </div>
+                                </div>
+                                </div>
+                            </div>
+                            <div class="swiper-slide">
+                                <div class="ab-videolist-thumb-item jsVideoThumb" data-target="video3" id="idVideo3">
+                                <div class="ab-videolist-thumb-deco">
+                                    <span class="decoline forleft"></span>
+                                    <span class="decoline fortop"></span>
+                                    <span class="decoline forright"></span>
+                                    <span class="decoline forbottom"></span>
+                                </div>
+                                <div class="ab-videolist-thumb-item-box">
+                                    <div class="ab-videolist-thumb-item-thumb"
+                                    style="background-image: url('https://img.youtube.com/vi/zPQ5NakVxI8/mqdefault.jpg')">
+                                    <div class="ab-videolist-thumb-item-play">
+                                        <img class="img-fluid play-circle" src="images/video/play-circle.svg" alt="circle">
+                                        <img class="img-fluid play-triangle" src="images/video/triangle-shadow.svg" alt="">
+                                    </div>
+                                    </div>
+                                    <div class="ab-videolist-thumb-item-texts">
+                                    <p class="ab-videolist-thumb-item-title">通膨與升息雙重夾擊！投資該怎麼應對？(上)</p>
+                                    </div>
+                                </div>
+                                </div>
+                            </div>
+                            </div>
+                        </div>
+                        </div>
+                    </div>
+                    <div class="ab-videolist-thumb-bg-layer" name="藍方塊">
+                    </div>
+                    </div>
+        
+                </div>
+                </div>
+            </div>
+    </section> -->
+
+
+
+    <!-- Section: 認識非投資等級債券 -->
+    <section class="introduce box" data-js-scroll-to-target="sectionTwo" data-gtm="認識非投資等級債券" id="fltScroll50">
+        <div class="subTitle">
+            <h2>認識非投資等級債券</h2>
+        </div>
+
+        <div class="swiper-container swiperIntroduce">
+            <div class="swiper-wrapper">
+                <div class="swiper-slide"
+                    onclick="gtag('event', 'click', {'event_category' : 'button','event_label' : 'Article-1'});">
+                    <div class="swiper-inner">
+                        <a class="articleLink" href="https://www.abfunds.com.tw/campaign/apac/tw/educational/article/introduce-non-investment-grade-bond.html" id="fltUnit01">
+                            <img src="./images/introduce/article_1.jpg" alt="淺談非投資等級債券與投資等級債券">
+                            <h3>淺談非投資等級債券與投資等級債券</h3>
+                            <p>對於多數債券投資人來說，投資債券無非是追求較為穩定的固定收益，或是期待較低波動的報酬表現。</p>
+                        </a>
+                    </div>
+                </div>
+                <div class="swiper-slide"
+                    onclick="gtag('event', 'click', {'event_category' : 'button','event_label' : 'Article-2'});">
+                    <div class="swiper-inner">
+                        <a class="articleLink" href="https://www.abfunds.com.tw/campaign/apac/tw/educational/article/opportunities-and-risks-of-non-investment-grade-bond.html" id="fltUnit02">
+                            <img src="./images/introduce/article_2.jpg" alt="非投資等級債券的風險與機會">
+                            <h3>非投資等級債券的風險與機會</h3>
+                            <p>一般人對於非投資等級債券的擔憂不外乎是違約、利率與波動風險，但在風險背後是否蘊藏投資機會？本文將深入解析。</p>
+                        </a>
+                    </div>
+                </div>
+                <div class="swiper-slide"
+                    onclick="gtag('event', 'click', {'event_category' : 'button','event_label' : 'Article-3'});">
+                    <div class="swiper-inner">
+                        <a class="articleLink" href="https://www.abfunds.com.tw/campaign/apac/tw/educational/article/choosing-non-investment-grade-bond.html" id="fltUnit03">
+                            <img src="./images/introduce/article_3.jpg" alt="如何聰明挑選非投資等級債券基金？">
+                            <h3>如何聰明挑選非投資等級債券基金？</h3>
+                            <p>在台灣，可供選擇的非投資等級債券基金逾百檔，要如何挑選是許多人心中的疑問。實際上，掌握四大基本心法，便可望發掘出風險相對低又具長期報酬與收益潛力的基金。</p>
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="swiper-ctrl">
+            <div class="swiper-pagination swiper-pagination-introduce"></div>
+        </div>
+
+    </section>
+
+
+
+    <!-- Section: 聯博主題投資方案  -->
+    <section class="box" data-js-scroll-to-target="sectionThree" data-gtm="聯博主題投資方案">
+        <div class="subTitle">
+            <h2>聯博主題投資方案</h2>
+        </div>
+
+        <div class="ab-section__wrapper ab-section__wrapper__invest">
+            <div class="msg-carousell ghy-invest-plan-slider">
+                <div class="ra-swiper-relative">
+                    <div class='swiper-container' id='idSwiperInvest'>
+                        <div class='swiper-wrapper'>
+                            <div class='swiper-slide'
+                                onclick="gtag('event', 'click', {'event_category' : 'button','event_label' : 'income-theme'});">
+                                <div class="ab-invest-plan-box">
+                                    <div class="plan-offset-relative">
+                                        <div class="plan-img-offset-wrapper">
+                                            <div class="plan-bracket-container plan-bracket-right">
+                                                <img class="img-fluid" src="./images/data/invest_photo1.jpg" alt="收益策略">
+                                            </div>
+                                        </div>
+                                        <div class="plan-title-offset-card ">
+                                            <p class="ab_color_white ab_txt_bold">收益投資</p>
+                                            <h43 class="h3-plan-card-title ab_color_white">
+                                                收益策略<br>細水長流的核心投資
+                                                </h4>
+                                                <a href="https://www.abfunds.com.tw/campaign/apac/tw/Solutions/income/income-thematic-investing.html"
+                                                    target="_blank" class="ab-action-button btn-no-bg">
+                                                    <span class="ab-action-button-text ab_color_white">了解更多</span>
+                                                    <svg class="btn_arrowRight" width="16" height="17"
+                                                        viewBox="0 0 16 17" fill="none"
+                                                        xmlns="http://www.w3.org/2000/svg">
+                                                        <path d="M2 8.50004L14 8.50004" stroke="#1E9BD7"
+                                                            stroke-width="1.5" stroke-linecap="round"></path>
+                                                        <path d="M10 4.5L14 8.5L10 12.5" stroke="#1E9BD7"
+                                                            stroke-width="1.5" stroke-linecap="round"></path>
+                                                    </svg>
+                                                </a>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="swiper-ctrl">
+                        <div class="swiper-pagination us-swiper-pagination idSwiperInvestPagination">
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+
+    <!-- Section：成為聯博LINE好友 即時掌握全球投資資訊  -->
+    <section class="social box" data-gtm="成為聯博LINE好友">
+        <div id="idSecSocial" class="section section8 us-contact-us-tw__section">
+
+            <h2 class="section__title">成為聯博LINE好友<span class="br_for_pcsize_space"><br></span>即時掌握全球投資資訊</h2>
+
+            <div class="esg-investmentSelection__section-bg">
+                <p class="esg-investmentSelection__section-bg-title us_color_lightgray">
+                    FOLLOW US
+                </p>
+            </div>
+
+            <div data-aos="fade-up" class="o-contact-us-tw__list">
+                <a href="https://www.abfunds.com.tw/campaign/apac/tw/line/abtaiwan.html" target="_blank"
+                    class="o-contact-us-tw__list-item wow bodyFadeInUp jsWowRepeat" data-anim="bodyFadeInUp"
+                    data-wow-delay="0.5s" data-wow-duration="1s">
+                    <div class="o-contact-us-tw__list-item-icon">
+                        <svg id="idSocialQrcode" xmlns="http://www.w3.org/2000/svg" width="124" height="124"
+                            viewBox="0 0 124 124">
+                            <path fill="none" fill-rule="evenodd" stroke="#1e9bd7" stroke-linecap="round"
+                                stroke-linejoin="round" stroke-width="3" d="M122 2v120H15.714M2 122V2h98.571"
+                                class="border"></path>
+                        </svg>
+                        <img src="./images/qrcode.png">
+                    </div>
+                    <div class="o-contact-us-tw__list-item-text"><span data-icon="item-plus" class="icon"></span>
+                        <span>手機掃一下QR code</span>
+                    </div>
+                </a>
+                <a href="https://redirect-line.accunix.net/redirect.html?liffId=1657364206-yGL90Az3&lineId=26a709533fBEw&lineBasicId=@gpt0697p&linkId=1838da6d2acudB" target="_blank"
+                    class="o-contact-us-tw__list-item wow bodyFadeInUp jsWowRepeat" data-anim="bodyFadeInUp"
+                    data-wow-delay="0.5s" data-wow-duration="1s">
+                    <div class="o-contact-us-tw__list-item-icon">
+                        <svg id="idSocialLine" xmlns="http://www.w3.org/2000/svg" width="97" height="91"
+                            viewBox="0 0 97 91">
+                            <g fill="none" fill-rule="evenodd">
+                                <path stroke="#1e9bd7" stroke-linecap="round" stroke-linejoin="round" stroke-width="3"
+                                    d="M48.5 89.342c4.963-2.077 26.78-15.659 36.536-26.81h-.002C91.772 55.192 95 47.745 95 39.475M48.5 2C22.86 2 2 18.812 2 39.475c0 17.222 14.297 31.842 34.264 36.17"
+                                    class="border"></path>
+                            </g>
+                            <path fill="#67676E"
+                                d="M49 10.583c21.23 0 38.5 13.206 38.5 29.437 0 6.497-2.673 12.347-8.252 18.112C71.172 66.892 53.11 77.56 49 79.192c-4.109 1.63-3.503-1.04-3.335-1.956.098-.546.55-3.106.55-3.106.129-.925.263-2.362-.125-3.28-.431-1.01-2.138-1.533-3.392-1.787C24.196 66.759 10.5 54.572 10.5 40.02c0-16.231 17.272-29.437 38.5-29.437zM26.58 32.177h-2.7c-.414 0-.75.315-.75.706v15.805c0 .19.08.36.21.487l.01.012.01.009a.772.772 0 0 0 .518.197h10.79c.414 0 .749-.317.749-.707v-2.544c0-.39-.335-.707-.75-.707H27.33V32.883c0-.39-.336-.706-.75-.706zm48.099 0h-10.79a.769.769 0 0 0-.52.2l-.004.003a.68.68 0 0 0-.225.502v15.806c0 .189.08.36.21.487l.01.012.012.008a.765.765 0 0 0 .517.198h10.79c.414 0 .749-.317.749-.707v-2.544c0-.39-.335-.707-.75-.707h-7.336v-2.672h7.337c.414 0 .749-.315.749-.706v-2.544c0-.39-.335-.708-.75-.708h-7.336v-2.67h7.337c.414 0 .749-.317.749-.707v-2.545c0-.39-.335-.706-.75-.706zm-33.502 0h-2.7c-.414 0-.75.316-.75.705v15.806c0 .389.336.704.75.704h2.7c.414 0 .75-.315.75-.704V32.882c0-.389-.336-.705-.75-.705zm6.84 0h-2.715c-.413 0-.75.316-.75.705v15.806c0 .389.337.704.75.704h2.701c.414 0 .75-.315.75-.704V39.3l7.697 9.793a.74.74 0 0 0 .19.175l.009.006.046.026.021.011a.45.45 0 0 0 .036.017l.037.014.022.008.05.016.012.001c.06.016.125.024.192.024h2.7c.415 0 .75-.315.75-.704V32.882c0-.389-.335-.705-.75-.705h-2.7c-.415 0-.75.316-.75.705v9.39l-7.688-9.781a.781.781 0 0 0-.058-.072 1.093 1.093 0 0 0-.05-.048l-.014-.012c-.013-.01-.026-.022-.04-.031a1.486 1.486 0 0 0-.058-.04c-.007-.005-.015-.008-.023-.012l-.04-.022c-.008-.003-.016-.008-.024-.01-.014-.007-.028-.013-.043-.017a.287.287 0 0 0-.024-.009l-.044-.014-.027-.007a.657.657 0 0 0-.043-.008l-.032-.004-.039-.005-.038-.002h-.014z">
+                            </path>
+                        </svg>
+                    </div>
+                    <div class="o-contact-us-tw__list-item-text"><span data-icon="item-plus" class="icon"></span>
+                        <span>點選LINE傳送門</span>
+                    </div>
+                </a>
+            </div>
+        </div>
+
+
+        <div class="o-footer">
+            <ul class="esg-portal-footer-bottom__social">
+                <li class="esg-portal-footer-bottom__social-item  wow bodyFadeInLeft jsWowRepeat"
+                    data-anim="bodyFadeInLeft" data-wow-delay="0.5s" data-wow-duration="1s">
+                    <div class="m-social-links__label">
+                        <span>追蹤聯博</span>
+                        <svg id="idFooterLine" class="idFooterLine" xmlns="http://www.w3.org/2000/svg" width="90"
+                            height="4" viewBox="0 0 90 4">
+                            <path fill="none" fill-rule="evenodd" stroke="#1e9bd7" stroke-linecap="round"
+                                stroke-linejoin="round" stroke-width="2" d="M26.6,2h51" />
+                            <path fill="none" fill-rule="evenodd" stroke="#1e9bd7" stroke-linecap="round"
+                                stroke-linejoin="round" stroke-width="2" d="M1,2h14.2" />
+                        </svg>
+                    </div>
+                </li>
+                <li class="esg-portal-footer-bottom__social-item  wow bodyFadeInRight jsWowRepeat"
+                    data-anim="bodyFadeInRight" data-wow-delay="0.5s" data-wow-duration="1s">
+                    <a href="https://zh-tw.facebook.com/abfunds/" title="FACEBOOK" target="_block"
+                        class="esg-portal-footer-bottom__social-item-yt"><svg width="24" height="18" viewBox="0 0 24 18"
+                            fill="none" xmlns="http://www.w3.org/2000/svg"
+                            class="esg-portal-footer-bottom__social-item-yt-icon">
+                            <path
+                                d="M13.6,18V9.8h2.8l0.4-3.2h-3.2v-2c0-0.5,0.1-0.8,0.3-1.1C14.1,3.1,14.5,3,15.2,3h1.7V0.1c-0.4,0-0.8-0.1-1.2-0.1c-0.4,0-0.8,0-1.2,0c-1.2,0-2.2,0.4-3,1.1c-0.8,0.7-1.1,1.8-1.1,3.2v2.3H7.6v3.2h2.7V18H13.6z"
+                                fill="#676767"></path>
+                        </svg>
+                        <span>FACEBOOK</span>
+                    </a>
+                </li>
+                <li class="esg-portal-footer-bottom__social-item esg-portal-footer-bottom__social-item-en  wow bodyFadeInRight jsWowRepeat"
+                    data-anim="bodyFadeInRight" data-wow-delay="0.5s" data-wow-duration="1s">
+                    <a href="https://allncbrnstn.co/3yfWEOu" title="YOUTUBE" target="_block"
+                        class="esg-portal-footer-bottom__social-item-yt">
+                        <svg width="24" height="18" viewBox="0 0 24 18" fill="none" xmlns="http://www.w3.org/2000/svg"
+                            class="esg-portal-footer-bottom__social-item-yt-icon">
+                            <path fill-rule="evenodd" clip-rule="evenodd"
+                                d="M23.7605 3.88316C23.7605 3.88316 23.5259 2.11959 22.8061 1.34273C21.8939 0.323597 20.8707 0.318763 20.4016 0.259048C17.0432 0 12.0053 0 12.0053 0H11.9947C11.9947 0 6.95707 0 3.5984 0.259048C3.12933 0.318763 2.10667 0.323597 1.19387 1.34273C0.474133 2.11959 0.24 3.88316 0.24 3.88316C0.24 3.88316 0 5.95412 0 8.02509V9.96695C0 12.0376 0.24 14.1086 0.24 14.1086C0.24 14.1086 0.474133 15.8722 1.19387 16.649C2.10667 17.6684 3.30587 17.6357 3.84 17.7427C5.76027 17.9391 12 18 12 18C12 18 17.0432 17.9918 20.4016 17.733C20.8707 17.6733 21.8939 17.6684 22.8061 16.649C23.5259 15.8722 23.7605 14.1086 23.7605 14.1086C23.7605 14.1086 24 12.0376 24 9.96695V8.02509C24 5.95412 23.7605 3.88316 23.7605 3.88316ZM10.0011 12.791L10 6L16.4848 9.4072L10.0011 12.791Z"
+                                fill="#676767"></path>
+                        </svg> <span>YOUTUBE</span>
+                    </a>
+                </li>
+            </ul>
+        </div>
+    </section>
+
+
+
+    <!-- Section: Footer  -->
+    <section class="footer box">
+        <!-- Footer menu -->
+        <div class="footer_seo">
+            <ul>
+                <h5><a href="https://www.abfunds.com.tw/apac/tw/insights.htm?tab=Market%20Updates" target="_blank">投資透視</a></h5>
+                <li><a href="https://www.abfunds.com.tw/apac/tw/insights.htm?tab=Video%20Channel" target="_blank">影音頻道</a></li>
+                <li><a href="https://www.abfunds.com.tw/apac/tw/insights.htm?tab=Market%20Updates" target="_blank">市場新訊</a></li>
+                <li><a href="https://www.abfunds.com.tw/apac/tw/insights.htm?tab=Fixed%20Income%20Perspectives" target="_blank">債券觀點</a></li>
+                <li><a href="https://www.abfunds.com.tw/apac/tw/insights.htm?tab=Multi-Asset%20Perspectives" target="_blank">多元資產觀點</a></li>
+                <li><a href="https://www.abfunds.com.tw/apac/tw/insights.htm?tab=Global%20Economic%20Outlook" target="_blank">全球市場展望</a></li>
+            </ul>
+            <ul>
+                <h5><a href="https://www.abfunds.com.tw/apac/tw/funds/views/nav.htm" target="_blank">基金中心</a></h5>
+                <li><a href="https://www.abfunds.com.tw/apac/tw/funds/views/nav.htm" target="_blank">基金淨值</a></li>
+                <li><a href="https://www.abfunds.com.tw/apac/tw/funds/views/focus.htm" target="_blank">焦點基金</a></li>
+                <li><a href="https://www.abfunds.com.tw/apac/tw/funds/views/dividend.htm" target="_blank">最新配息</a></li>
+                <li><a href="https://www.abfunds.com.tw/apac/tw/funds/views/performance.htm" target="_blank">基金篩選</a></li>
+                <li><a href="https://www.abfunds.com.tw/apac/tw/microsites/solutions/portal/index.html" target="_blank">投資主題</a></li>
+            </ul>
+            <ul>
+                <h5><a href="https://www.abfunds.com.tw/apac/tw/service.htm" target="_blank">服務中心</a></h5>
+                <li><a href="https://www.abfunds.com.tw/apac/tw/service.htm" target="_blank">基金文件</a></li>
+                <li><a href="https://www.abfunds.com.tw/apac/tw/service.htm?tab=SalesDist" target="_blank">銷售通路</a></li>
+                <li><a href="https://www.abfunds.com.tw/apac/tw/service.htm?tab=FundCalendar" target="_blank">基金行事曆</a></li>
+                <li><a href="https://www.abfunds.com.tw/apac/tw/service.htm?tab=Announcement" target="_blank">最新消息</a></li>
+                <li><a href="https://www.abfunds.com.tw/apac/tw/resources/pdf/internal_control.pdf" target="_blank">內部控制聲明</a></li>
+            </ul>
+            <ul>
+                <h5><a href="https://www.abfunds.com.tw/apac/tw/about.htm" target="_blank">認識聯博</a></h5>
+                <li><a href="https://www.abfunds.com.tw/apac/tw/about.htm?t=0" target="_blank">集團簡介</a></li>
+                <li><a href="https://www.abfunds.com.tw/apac/tw/about.htm?t=1" target="_blank">聯博投信</a></li>
+                <li><a href="https://www.abfunds.com.tw/apac/tw/about.htm?t=2" target="_blank">得獎紀錄</a></li>
+                <li><a href="https://www.abfunds.com.tw/apac/tw/about.htm?t=3" target="_blank">盡職治理專區</a></li>
+            </ul>
+            <ul>
+                <h5><a href="https://www.abfunds.com.tw/apac/tw/advisor.htm" target="_blank">銷售夥伴專區</a></h5>
+            </ul>
+        </div>
+        <hr>
+        <!-- 警語區塊 -->
+        <p>聯博投信獨立經營管理。</p>
+        <p>聯博境外基金在台灣之總代理為聯博證券投資信託股份有限公司。</p>
+        <p>聯博證券投資信託股份有限公司<br>台北市110信義路五段7號81樓及81樓之1 02-8758-3888</p>
+        <hr>
+        <p><strong>本文提及之經濟走勢預測不必然代表本基金之績效，本基金投資風險請詳閱基金公開說明書。</strong></p>
+        <p>本文件反映聯博於編製日之觀點，其資料則來自於聯博認為可靠之來源。聯博對資料之正確性不為任何陳述或保證，亦不保證資料提及之任何估計、預測或意見將會實現。投資人不應以此作為投資決策依據或投資建議。本文件資料僅供說明參考之用。
+        </p>
+        <p><span>投資人投資以非投資等級債券為訴求之基金不宜占其投資組合過高之比重。<br>基金非投資等級債券之投資占顯著比重者，適合『能承受較高風險之非保守型』之投資人。</span></p>
+        <p class="copyright">[A|B] 是聯博集團之服務標誌，AllianceBernstein®為聯博集團所有且經允許使用之註冊商標。©2022 AllianceBernstein L.P.
+            ABITL22-0408-04</p>
+    </section>
+
+
+
+    <!-- Reference Javascript code -->
+    <script src="./js/vendor/ie_polyfill.js"></script>
+    <script src="./js/vendor/jquery-3.6.0.min.js"></script>
+    <script src="./js/vendor/scrollspy.js"></script>
+    <script src="./js/vendor/swiper-bundle.min.js"></script>
+    <script src="./js/script.js"></script>
+
+    <script>
+        // Initialize Swiper
+        // 看圖說故事
+        var swiper = new Swiper(".swiperImageStory", {
+            slidesPerView: 1,
+            spaceBetween: 10,
+            autoplay: {
+                delay: 3000,
+            },
+            pagination: {
+                el: ".swiper-pagination-imageStory",
+                clickable: true,
+            },
+            breakpoints: {
+                576: {
+                    slidesPerView: 2,
+                    spaceBetween: 8,
+                },
+                768: {
+                    slidesPerView: 3,
+                    spaceBetween: 8,
+                }
+            }
+        });
+
+        // Initialize Swiper
+        // 認識非投資等級債券
+        var swiper = new Swiper(".swiperIntroduce", {
+            slidesPerView: 1,
+            spaceBetween: 20,
+            autoplay: {
+                delay: 3000,
+            },
+            pagination: {
+                el: ".swiper-pagination-introduce",
+                clickable: true,
+            },
+            breakpoints: {
+                576: {
+                    slidesPerView: 2,
+                    spaceBetween: 20,
+                },
+                768: {
+                    slidesPerView: 3,
+                    spaceBetween: 12,
+                }
+            }
+        });
+
+        // Initialize Swiper
+        // 聯博主題投資方案
+        var swiper_idSwiperInvest = new Swiper('#idSwiperInvest', {
+            watchOverflow: true,
+            spaceBetween: 10,
+            centeredSlides: false,
+            loop: false,
+            autoplay: {
+                delay: 4000,
+                disableOnInteraction: true
+            },
+            pagination: {
+                clickable: true,
+                el: '.idSwiperInvestPagination',
+                type: 'bullets',
+            },
+            breakpoints: {
+                768: {
+                    slidesPerView: 1,
+                    spaceBetween: 0,
+                    centeredSlides: true,
+                },
+            }
+        });
+
+        // 載入 Google IFrame Player API
+        var scriptUrl = 'https:\/\/www.youtube.com\/s\/player\/d2ff46c3\/www-widgetapi.vflset\/www-widgetapi.js';
+        if (!window["YT"]) var YT = {
+            loading: 0,
+            loaded: 0
+        };
+        if (!window["YTConfig"]) var YTConfig = {
+            "host": "https://www.youtube.com"
+        };
+        if (!YT.loading) {
+            YT.loading = 1;
+            (function () {
+                var l = [];
+                YT.ready = function (f) {
+                    if (YT.loaded) f();
+                    else l.push(f)
+                };
+                window.onYTReady = function () {
+                    YT.loaded = 1;
+                    for (var i = 0; i < l.length; i++) try {
+                        l[i]()
+                    } catch (e) { }
+                };
+                YT.setConfig = function (c) {
+                    for (var k in c)
+                        if (c.hasOwnProperty(k)) YTConfig[k] = c[k]
+                };
+                var a = document.createElement("script");
+                a.type = "text/javascript";
+                a.id = "www-widgetapi-script";
+                a.src = scriptUrl;
+                a.async = true;
+                var c = document.currentScript;
+                if (c) {
+                    var n = c.nonce || c.getAttribute("nonce");
+                    if (n) a.setAttribute("nonce", n)
+                }
+                var b =
+                    document.getElementsByTagName("script")[0];
+                b.parentNode.insertBefore(a, b)
+            })()
+        };
+    </script>
+
+    <script>
+        /*!
+        Waypoints - 4.0.1
+        Copyright © 2011-2016 Caleb Troughton
+        Licensed under the MIT license.
+        https://github.com/imakewebthings/waypoints/blob/master/licenses.txt
+        */
+        !function () { "use strict"; function t(o) { if (!o) throw new Error("No options passed to Waypoint constructor"); if (!o.element) throw new Error("No element option passed to Waypoint constructor"); if (!o.handler) throw new Error("No handler option passed to Waypoint constructor"); this.key = "waypoint-" + e, this.options = t.Adapter.extend({}, t.defaults, o), this.element = this.options.element, this.adapter = new t.Adapter(this.element), this.callback = o.handler, this.axis = this.options.horizontal ? "horizontal" : "vertical", this.enabled = this.options.enabled, this.triggerPoint = null, this.group = t.Group.findOrCreate({ name: this.options.group, axis: this.axis }), this.context = t.Context.findOrCreateByElement(this.options.context), t.offsetAliases[this.options.offset] && (this.options.offset = t.offsetAliases[this.options.offset]), this.group.add(this), this.context.add(this), i[this.key] = this, e += 1 } var e = 0, i = {}; t.prototype.queueTrigger = function (t) { this.group.queueTrigger(this, t) }, t.prototype.trigger = function (t) { this.enabled && this.callback && this.callback.apply(this, t) }, t.prototype.destroy = function () { this.context.remove(this), this.group.remove(this), delete i[this.key] }, t.prototype.disable = function () { return this.enabled = !1, this }, t.prototype.enable = function () { return this.context.refresh(), this.enabled = !0, this }, t.prototype.next = function () { return this.group.next(this) }, t.prototype.previous = function () { return this.group.previous(this) }, t.invokeAll = function (t) { var e = []; for (var o in i) e.push(i[o]); for (var n = 0, r = e.length; r > n; n++)e[n][t]() }, t.destroyAll = function () { t.invokeAll("destroy") }, t.disableAll = function () { t.invokeAll("disable") }, t.enableAll = function () { t.Context.refreshAll(); for (var e in i) i[e].enabled = !0; return this }, t.refreshAll = function () { t.Context.refreshAll() }, t.viewportHeight = function () { return window.innerHeight || document.documentElement.clientHeight }, t.viewportWidth = function () { return document.documentElement.clientWidth }, t.adapters = [], t.defaults = { context: window, continuous: !0, enabled: !0, group: "default", horizontal: !1, offset: 0 }, t.offsetAliases = { "bottom-in-view": function () { return this.context.innerHeight() - this.adapter.outerHeight() }, "right-in-view": function () { return this.context.innerWidth() - this.adapter.outerWidth() } }, window.Waypoint = t }(), function () { "use strict"; function t(t) { window.setTimeout(t, 1e3 / 60) } function e(t) { this.element = t, this.Adapter = n.Adapter, this.adapter = new this.Adapter(t), this.key = "waypoint-context-" + i, this.didScroll = !1, this.didResize = !1, this.oldScroll = { x: this.adapter.scrollLeft(), y: this.adapter.scrollTop() }, this.waypoints = { vertical: {}, horizontal: {} }, t.waypointContextKey = this.key, o[t.waypointContextKey] = this, i += 1, n.windowContext || (n.windowContext = !0, n.windowContext = new e(window)), this.createThrottledScrollHandler(), this.createThrottledResizeHandler() } var i = 0, o = {}, n = window.Waypoint, r = window.onload; e.prototype.add = function (t) { var e = t.options.horizontal ? "horizontal" : "vertical"; this.waypoints[e][t.key] = t, this.refresh() }, e.prototype.checkEmpty = function () { var t = this.Adapter.isEmptyObject(this.waypoints.horizontal), e = this.Adapter.isEmptyObject(this.waypoints.vertical), i = this.element == this.element.window; t && e && !i && (this.adapter.off(".waypoints"), delete o[this.key]) }, e.prototype.createThrottledResizeHandler = function () { function t() { e.handleResize(), e.didResize = !1 } var e = this; this.adapter.on("resize.waypoints", function () { e.didResize || (e.didResize = !0, n.requestAnimationFrame(t)) }) }, e.prototype.createThrottledScrollHandler = function () { function t() { e.handleScroll(), e.didScroll = !1 } var e = this; this.adapter.on("scroll.waypoints", function () { (!e.didScroll || n.isTouch) && (e.didScroll = !0, n.requestAnimationFrame(t)) }) }, e.prototype.handleResize = function () { n.Context.refreshAll() }, e.prototype.handleScroll = function () { var t = {}, e = { horizontal: { newScroll: this.adapter.scrollLeft(), oldScroll: this.oldScroll.x, forward: "right", backward: "left" }, vertical: { newScroll: this.adapter.scrollTop(), oldScroll: this.oldScroll.y, forward: "down", backward: "up" } }; for (var i in e) { var o = e[i], n = o.newScroll > o.oldScroll, r = n ? o.forward : o.backward; for (var s in this.waypoints[i]) { var a = this.waypoints[i][s]; if (null !== a.triggerPoint) { var l = o.oldScroll < a.triggerPoint, h = o.newScroll >= a.triggerPoint, p = l && h, u = !l && !h; (p || u) && (a.queueTrigger(r), t[a.group.id] = a.group) } } } for (var c in t) t[c].flushTriggers(); this.oldScroll = { x: e.horizontal.newScroll, y: e.vertical.newScroll } }, e.prototype.innerHeight = function () { return this.element == this.element.window ? n.viewportHeight() : this.adapter.innerHeight() }, e.prototype.remove = function (t) { delete this.waypoints[t.axis][t.key], this.checkEmpty() }, e.prototype.innerWidth = function () { return this.element == this.element.window ? n.viewportWidth() : this.adapter.innerWidth() }, e.prototype.destroy = function () { var t = []; for (var e in this.waypoints) for (var i in this.waypoints[e]) t.push(this.waypoints[e][i]); for (var o = 0, n = t.length; n > o; o++)t[o].destroy() }, e.prototype.refresh = function () { var t, e = this.element == this.element.window, i = e ? void 0 : this.adapter.offset(), o = {}; this.handleScroll(), t = { horizontal: { contextOffset: e ? 0 : i.left, contextScroll: e ? 0 : this.oldScroll.x, contextDimension: this.innerWidth(), oldScroll: this.oldScroll.x, forward: "right", backward: "left", offsetProp: "left" }, vertical: { contextOffset: e ? 0 : i.top, contextScroll: e ? 0 : this.oldScroll.y, contextDimension: this.innerHeight(), oldScroll: this.oldScroll.y, forward: "down", backward: "up", offsetProp: "top" } }; for (var r in t) { var s = t[r]; for (var a in this.waypoints[r]) { var l, h, p, u, c, d = this.waypoints[r][a], f = d.options.offset, w = d.triggerPoint, y = 0, g = null == w; d.element !== d.element.window && (y = d.adapter.offset()[s.offsetProp]), "function" == typeof f ? f = f.apply(d) : "string" == typeof f && (f = parseFloat(f), d.options.offset.indexOf("%") > -1 && (f = Math.ceil(s.contextDimension * f / 100))), l = s.contextScroll - s.contextOffset, d.triggerPoint = Math.floor(y + l - f), h = w < s.oldScroll, p = d.triggerPoint >= s.oldScroll, u = h && p, c = !h && !p, !g && u ? (d.queueTrigger(s.backward), o[d.group.id] = d.group) : !g && c ? (d.queueTrigger(s.forward), o[d.group.id] = d.group) : g && s.oldScroll >= d.triggerPoint && (d.queueTrigger(s.forward), o[d.group.id] = d.group) } } return n.requestAnimationFrame(function () { for (var t in o) o[t].flushTriggers() }), this }, e.findOrCreateByElement = function (t) { return e.findByElement(t) || new e(t) }, e.refreshAll = function () { for (var t in o) o[t].refresh() }, e.findByElement = function (t) { return o[t.waypointContextKey] }, window.onload = function () { r && r(), e.refreshAll() }, n.requestAnimationFrame = function (e) { var i = window.requestAnimationFrame || window.mozRequestAnimationFrame || window.webkitRequestAnimationFrame || t; i.call(window, e) }, n.Context = e }(), function () { "use strict"; function t(t, e) { return t.triggerPoint - e.triggerPoint } function e(t, e) { return e.triggerPoint - t.triggerPoint } function i(t) { this.name = t.name, this.axis = t.axis, this.id = this.name + "-" + this.axis, this.waypoints = [], this.clearTriggerQueues(), o[this.axis][this.name] = this } var o = { vertical: {}, horizontal: {} }, n = window.Waypoint; i.prototype.add = function (t) { this.waypoints.push(t) }, i.prototype.clearTriggerQueues = function () { this.triggerQueues = { up: [], down: [], left: [], right: [] } }, i.prototype.flushTriggers = function () { for (var i in this.triggerQueues) { var o = this.triggerQueues[i], n = "up" === i || "left" === i; o.sort(n ? e : t); for (var r = 0, s = o.length; s > r; r += 1) { var a = o[r]; (a.options.continuous || r === o.length - 1) && a.trigger([i]) } } this.clearTriggerQueues() }, i.prototype.next = function (e) { this.waypoints.sort(t); var i = n.Adapter.inArray(e, this.waypoints), o = i === this.waypoints.length - 1; return o ? null : this.waypoints[i + 1] }, i.prototype.previous = function (e) { this.waypoints.sort(t); var i = n.Adapter.inArray(e, this.waypoints); return i ? this.waypoints[i - 1] : null }, i.prototype.queueTrigger = function (t, e) { this.triggerQueues[e].push(t) }, i.prototype.remove = function (t) { var e = n.Adapter.inArray(t, this.waypoints); e > -1 && this.waypoints.splice(e, 1) }, i.prototype.first = function () { return this.waypoints[0] }, i.prototype.last = function () { return this.waypoints[this.waypoints.length - 1] }, i.findOrCreate = function (t) { return o[t.axis][t.name] || new i(t) }, n.Group = i }(), function () { "use strict"; function t(t) { this.$element = e(t) } var e = window.jQuery, i = window.Waypoint; e.each(["innerHeight", "innerWidth", "off", "offset", "on", "outerHeight", "outerWidth", "scrollLeft", "scrollTop"], function (e, i) { t.prototype[i] = function () { var t = Array.prototype.slice.call(arguments); return this.$element[i].apply(this.$element, t) } }), e.each(["extend", "inArray", "isEmptyObject"], function (i, o) { t[o] = e[o] }), i.adapters.push({ name: "jquery", Adapter: t }), i.Adapter = t }(), function () { "use strict"; function t(t) { return function () { var i = [], o = arguments[0]; return t.isFunction(arguments[0]) && (o = t.extend({}, arguments[1]), o.handler = arguments[0]), this.each(function () { var n = t.extend({}, o, { element: this }); "string" == typeof n.context && (n.context = t(this).closest(n.context)[0]), i.push(new e(n)) }), i } } var e = window.Waypoint; window.jQuery && (window.jQuery.fn.waypoint = t(window.jQuery)), window.Zepto && (window.Zepto.fn.waypoint = t(window.Zepto)) }();
+    </script>
+
+    <script>
+        // 設定 Floodlight Tag Code: click
+        $('#fltUnit01').click(function () {
+            var axel = Math.random() + '';
+            var a = axel * 10000000000000;
+            $(this).append('<iframe src="https://10511252.fls.doubleclick.net/activityi;src=10511252;type=ghyed0;cat=q2202000;dc_lat=;dc_rdid=;tag_for_child_directed_treatment=;tfua=;npa=;gdpr=${GDPR};gdpr_consent=${GDPR_CONSENT_755};ord=' + a + '?" width="1" height="1" frameborder="0" style="display:none"></iframe>');
+        });
+
+        // 設定 Floodlight Tag Code: click
+        $('#fltUnit02').click(function () {
+            var axel = Math.random() + '';
+            var a = axel * 10000000000000;
+            $(this).append('<iframe src="https://10511252.fls.doubleclick.net/activityi;src=10511252;type=ghyed0;cat=q2202001;dc_lat=;dc_rdid=;tag_for_child_directed_treatment=;tfua=;npa=;gdpr=${GDPR};gdpr_consent=${GDPR_CONSENT_755};ord=' + a + '?" width="1" height="1" frameborder="0" style="display:none"></iframe>');
+        });
+
+        // 設定 Floodlight Tag Code: click
+        $('#fltUnit03').click(function () {
+            var axel = Math.random() + '';
+            var a = axel * 10000000000000;
+            $(this).append('<iframe src="https://10511252.fls.doubleclick.net/activityi;src=10511252;type=ghyed0;cat=q2202002;dc_lat=;dc_rdid=;tag_for_child_directed_treatment=;tfua=;npa=;gdpr=${GDPR};gdpr_consent=${GDPR_CONSENT_755};ord=' + a + '?" width="1" height="1" frameborder="0" style="display:none"></iframe>');
+        });
+
+
+        // 設定 Floodlight Tag Code: scroll
+        var waypoints = $('#fltScroll50').waypoint({
+            element: this,
+            handler: function (direction) {
+                var axel = Math.random() + '';
+                var a = axel * 10000000000000;
+                $('#fltScroll50').append('<iframe src="https://10511252.fls.doubleclick.net/activityi;src=10511252;type=ghyed0;cat=q220200;dc_lat=;dc_rdid=;tag_for_child_directed_treatment=;tfua=;npa=;gdpr=${GDPR};gdpr_consent=${GDPR_CONSENT_755};ord=' + a + '?" width="1" height="1" frameborder="0" style="display:none"></iframe>');
+                this.destroy();
+            }
+        });
+
+
+        $(window).ready(function () {
+            // 取得網址字串，假設網址為「index.html#anchorQandA01」
+            var url = location.href;
+            // console.log("ary = " + location.href);
+            // 尋找網址列中是否有#
+            if (url.indexOf('#') != -1) {
+                // 分割字串，把分割後的字串放進陣列中
+                var ary1 = url.split('#');
+                var param = ary1[1];
+                if (param == "video") {
+                    var back = $(".header").outerHeight();
+                    var target = $('.startVideo');
+                    var offset = target.offset().top - back + 0;
+
+                    // 頁面滑動至指定區塊
+                    setTimeout(function () {
+                        $("html, body").animate(
+                            {
+                                scrollTop: offset,
+                            },
+                            600,
+                            function () { }
+                        );
+                    }, 1500);
+                }
+            }
+
+        });
+
+        //202209-start 關鍵問答集
+        var swiper_idSwiper_VideoThumb = new Swiper("#idSwiper_VideoThumb", {
+            speed: 500,
+            slidesPerView: 3,
+            spaceBetween: 0,
+            direction: "vertical",
+            navigation: {
+                nextEl: ".idPrev_VideoThumb",
+                prevEl: ".idNext_VideoThumb",
+            },
+            watchOverflow: true,
+            loop: false,
+            autoplay: false,
+            mousewheel: {
+                invert: false,
+            },
+        });
+        //切換主要影片
+        $(".jsVideoThumb").on("click", function () {
+            var target = $(this).attr("data-target");
+
+            $(".jsVideoThumb").removeClass("active");
+            $(this).addClass("active");
+            $(".jsVideoMain").hide();
+            $('[data-id="' + target + '"]').fadeIn(300);
+        });
+
+        // 關鍵問答集-外部錨點
+        // 尋找網址列中是否有#
+        if (url.indexOf("#") != -1) {
+            // 分割字串，把分割後的字串放進陣列中
+            var ary1 = url.split("#");
+            var param = ary1[1];
+            if (param == "qa_1") {
+                //外部錨點的值 index.html#qa_1
+                jsGoAnchor(); //下滑到video section
+                $("#idVideo1").trigger("click"); //切換為video 1
+            } else if (param == "qa_2") {
+                //外部錨點的值 index.html#qa_2
+                jsGoAnchor(); //下滑到video section
+                $("#idVideo2").trigger("click"); //切換為video 2
+            } else if (param == "qa_3") {
+                //外部錨點的值 index.html#qa_3
+                jsGoAnchor(); //下滑到video section
+                $("#idVideo3").trigger("click"); //切換為video 3
+            }
+        }
+        //202209-end 關鍵問答集
+
+        //202209-start 新增 new tag 動態
+        var isAnimReplay = true;
+        //replay animation each time
+        if (isAnimReplay) {
+            $(".new")
+                .on("scrollSpy:enter", function () {
+                    console.log(this);
+                    $(this).addClass("new-tag");
+                })
+                .scrollSpy();
+            $(".new")
+                .on("scrollSpy:exit", function () {
+                    console.log(this);
+                    $(this).removeClass("new-tag");
+                })
+                .scrollSpy();
+        }
+        //202209-end 新增 new tag 動態
+
+    </script>
+
+</body>
+
+</html>

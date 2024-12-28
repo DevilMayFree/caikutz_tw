@@ -1,0 +1,43 @@
+/********************************************************************************
+Footer SEO ↓↓↓↓↓
+********************************************************************************/
+
+.footer_seo {
+    width: 100%;
+    display: table;
+    margin-top: 120px;
+}
+.footer_seo ul {
+    width: 19%;
+    padding-right: 1%;
+    display: table-cell;
+}
+.footer_seo ul h5 {
+    color: #fff;
+    font-weight: 600;
+    padding-bottom: 2.5em;
+}
+.footer_seo ul li {
+    padding: 0 0 1.2em;
+    color: #d4d4d4;
+}
+.footer_seo ul li a:hover {
+    color: #fff;
+}
+@media (max-width: 767px) {
+    .footer_seo {
+        margin-top: 40px;
+    }
+    .footer_seo ul {
+        display: contents;
+        text-align: center;
+    }
+    .footer_seo ul li {
+        display: none;
+    }
+    .ab-diversify-box.ab-diversify-box-A,
+    .ab-diversify-box.ab-diversify-box-B,
+    .ab-diversify-box.ab-diversify-box-C {
+        margin-top: 0px;
+    }
+}

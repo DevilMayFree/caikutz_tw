@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Generator: Adobe Illustrator 17.0.0, SVG Export Plug-In . SVG Version: 6.00 Build 0)  -->
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN" "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
+<svg version="1.1" id="圖層_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
+	 width="185px" height="185px" viewBox="0 0 185 185" enable-background="new 0 0 185 185" xml:space="preserve">
+<g id="bg">
+	<g>
+		<path fill="#FFFFFF" stroke="#50BEAF" stroke-linecap="round" stroke-linejoin="round" stroke-miterlimit="10" d="M120.2,178.6
+			h51.1c5.7,0,10.3-4.6,10.3-10.3V49.5c0-5.7-4.6-10.3-10.3-10.3H27.6c-5.7,0-10.3,4.6-10.3,10.3V137v16.7v14.6
+			c0,5.7,4.6,10.3,10.3,10.3h74.7"/>
+	</g>
+</g>
+<g id="index">
+	<g>
+		<path fill="#FFFFFF" stroke="#50BEAF" stroke-linecap="round" stroke-linejoin="round" stroke-miterlimit="10" d="M2.8,136.4V151
+			c0,5.7,4.6,10.3,10.3,10.3h143.6c5.7,0,10.3-4.6,10.3-10.3V32.3c0-5.7-4.6-10.3-10.3-10.3H13.1C7.4,22,2.8,26.6,2.8,32.3v89.5"/>
+	</g>
+</g>
+<g id="star">
+	<polygon fill="#FFFFFF" stroke="#50BEAF" stroke-linecap="round" stroke-linejoin="round" stroke-miterlimit="10" points="
+		85.8,85.9 93.9,102.5 112.2,105.2 99,118.1 102.1,136.3 85.8,127.7 69.4,136.3 72.5,118.1 59.3,105.2 77.6,102.5 	"/>
+</g>
+<g id="line">
+	
+		<line fill="#FFFFFF" stroke="#50BEAF" stroke-linecap="round" stroke-linejoin="round" stroke-miterlimit="10" x1="3.5" y1="71.8" x2="167" y2="71.8"/>
+</g>
+<g id="C">
+	<path fill="#FFFFFF" stroke="#50BEAF" stroke-linecap="round" stroke-linejoin="round" stroke-miterlimit="10" d="M39,30
+		c0,4.8-3.9,8.7-8.8,8.7l0,0c-4.8,0-8.8-3.9-8.8-8.7V15c0-4.8,3.9-8.8,8.8-8.8l0,0C35,6.2,39,10.1,39,15V30z"/>
+</g>
+<g id="B">
+	<path fill="#FFFFFF" stroke="#50BEAF" stroke-linecap="round" stroke-linejoin="round" stroke-miterlimit="10" d="M148,29.5
+		c0,4.8-3.9,8.7-8.8,8.7l0,0c-4.8,0-8.8-3.9-8.8-8.7v-15c0-4.8,3.9-8.8,8.8-8.8l0,0c4.8,0,8.8,3.9,8.8,8.8V29.5z"/>
+</g>
+<g id="A">
+	<path fill="#FFFFFF" stroke="#50BEAF" stroke-linecap="round" stroke-linejoin="round" stroke-miterlimit="10" d="M93.5,29.8
+		c0,4.8-3.9,8.7-8.8,8.7l0,0c-4.8,0-8.8-3.9-8.8-8.7v-15C76,9.9,79.9,6,84.8,6l0,0c4.8,0,8.8,3.9,8.8,8.8v15H93.5z"/>
+</g>
+</svg>

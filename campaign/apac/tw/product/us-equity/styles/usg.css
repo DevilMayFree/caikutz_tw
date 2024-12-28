@@ -1,0 +1,1366 @@
+/*.h4,
+.h4,
+h4 {
+    font-size: 1.4rem;
+    color: #6987b9;
+    margin-top: 40px;
+    margin-bottom: 25px;
+}*/
+
+.title-padding {
+    padding: 5rem 0 !important;
+}
+
+.content {
+    font-size: 1.1rem;
+    font-weight: bold;
+    letter-spacing: 1.5px;
+    line-height: 1.75;
+}
+
+.content-img img {
+    max-width: 100%;
+}
+
+.text-center {
+    text-align: center;
+}
+
+.tab-title {
+    margin-top: 50px;
+}
+
+/*.bg-green {
+    background-color: #b1c425;
+    position: relative;
+    top: 0;
+    left: 0;
+    z-index: 0;
+    -webkit-transition: .3s;
+    transition: .3s;
+}
+
+.bg-green .row {
+    max-width: 960px;
+    margin: 30px auto;
+    position: relative;
+}*/
+.bg-purple {
+    background: #55469b;
+}
+
+.bg-white {
+    background-color: #fff;
+}
+
+.bg-gray {
+    background-color: #F0F0F0;
+}
+
+.bg-gray02 {
+    background-color: #C5C5C5;
+}
+
+.bg-yellow {
+    background-color: #FCBA17;
+}
+
+.point-align {
+    text-align: right;
+}
+
+.point-img {
+    margin-bottom: -24px;
+    display: inline-block;
+    font-size: 1.4rem;
+}
+
+.divi-content {
+    padding: 20px 12px;
+    min-height: 88px;
+}
+
+.content-small span {
+    font-size: 10px;
+    vertical-align: top;
+}
+
+.dyna-box {
+    width: 100px;
+    padding: 8px 0;
+    margin: 0 auto;
+    margin-bottom: 10px;
+}
+
+.divi-title {
+    line-height: 1.5;
+    margin-bottom: 0;
+}
+
+.divi-title01 {
+    line-height: 101px;/130px/
+}
+
+.btnMore {
+    display: inline-block;
+    padding: .8rem 4rem;
+    background-color: #50beaf;
+    border-radius: 100px;
+    color: white;
+    margin: 40px auto 20px;
+    cursor: pointer;
+}
+
+.btnMore:hover {
+    background-color: #6987B9;
+    color: white;
+}
+
+ul.itemStyle1 li {
+    color: #6987B9;
+    font-size: 1.1rem;
+    margin-top: 40px;
+    list-style-image: url(../images/add_icon4_sm.png);
+}
+
+.videoBox {
+    position: fixed;
+    z-index: 9999;
+    width: 100%;
+    height: 100%;
+    display: none;
+}
+
+.videoBox.active {
+    display: block;
+}
+
+.videoBox::before {
+    content: "";
+    background-color: rgba(0, 0, 0, .8);
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    z-index: -1;
+}
+
+.btnClose {
+    position: absolute;
+    top: 20px;
+    right: 20px;
+    width: 60px;
+    height: 60px;
+    display: block;
+    z-index: 1;
+    cursor: pointer;
+}
+
+.videoContain {
+    position: relative;
+    max-width: 1000px;
+    margin: auto;
+}
+
+.video {
+    position: relative;
+    padding-bottom: 56.25%;
+    padding-top: 30px;
+    height: 0;
+    overflow: hidden;
+}
+
+.video iframe,
+.video object,
+.video embed {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+}
+
+@media only screen and (max-width: 1040px) {
+    .divi-title01 {
+        line-height: 120px;
+    }
+
+    .divi-title02 {
+        /*min-height: 160px*/
+    }
+
+    .ft-tab {
+        font-size: 1.1rem !important;
+    }
+}
+
+@media only screen and (max-width: 1030px) {
+    .divi-none01 {
+        padding: 0 14px 0 9px;
+    }
+}
+
+.divi-border {
+    border-left: 1px solid #DCDCDC;
+}
+
+.divi-pad {
+    padding: 0;
+}
+
+.divi-height {
+    min-height: 88px;
+}
+
+.divi-box {
+    width: 80px;
+    text-align: center;
+    padding: 6px 12px;
+    margin-bottom: 10px;
+}
+
+.fund-padding {
+    padding: 1.5rem;
+}
+
+@media only screen and (max-width: 419px) {
+    .fund-padding .h4 {
+        display: inline;
+    }
+}
+
+.fund-margin {
+    margin-bottom: 1rem;
+}
+
+
+
+.fund-img img {
+    max-width: 80px;
+}
+
+.fund-table {
+    margin: 0.6rem 0;
+}
+
+.fund-table::before {
+    content: "";
+    position: absolute;
+    top: -10px;
+    left: -10px;
+    max-width: 450px;
+    width: 100%;
+    height: 228px;
+    /*background-image: url(../images/table_line_TL.svg);*/
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position-x: left;
+    background-position-y: top;
+    z-index: 1;
+    pointer-events: none;
+}
+
+.fund-table::after {
+    content: "";
+    position: absolute;
+    bottom: -10px;
+    right: -10px;
+    max-width: 450px;
+    width: 100%;
+    height: 228px;
+    /*background-image: url(../images/table_line_BR.svg);*/
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position-x: right;
+    background-position-y: bottom;
+    z-index: 1;
+    pointer-events: none;
+}
+
+.fund-content {
+    padding: 6px;
+}
+
+.fund-link {
+    text-align: center;
+    margin-top: 1.3rem;
+}
+
+.fund-link a {
+    color: #000;
+}
+
+.fund-link a:hover {
+    color: #fff !important;
+}
+
+.fund-link-margin {
+    padding: 0;
+}
+
+.fund-link-margin p {
+    margin-top: 5px;
+    line-height: 22px;
+}
+
+.img-68 {
+    margin: auto;
+    text-align: center;
+}
+
+.img-68 img {
+    width: 100%;
+    max-width: 480px;
+}
+
+.secondAdvantage {
+    height: 95px;
+}
+
+br.breakEnable_768 {
+    display: none;
+}
+
+br.breakEnable_576 {
+    display: none;
+}
+
+@media only screen and (max-width: 991px) {
+    .point-align {
+        text-align: center;
+    }
+
+    .divi-none01 {
+        display: none;
+    }
+
+    .divi-border {
+        border-left: 0;
+    }
+
+    .divi-title02 {
+        min-height: auto;
+    }
+
+    .divi-mb {
+        max-width: 30%;
+    }
+}
+
+@media only screen and (max-width: 768px) {
+    .ft-175 {
+        font-size: 1.75rem;
+    }
+
+    .fund-link-margin img {
+        max-width: 56px;
+    }
+}
+
+@media only screen and (max-width: 1199.98px) {
+    .kv_slogan .h2 {
+        font-size: 2.2rem;
+    }
+}
+
+@media only screen and (max-width: 576px) {
+    .kv_slogan .h2 {
+        font-size: 1.45rem;
+        margin-top: 10px;
+        margin-bottom: 10px;
+    }
+}
+
+
+/********************************************************************************
+您可能感興趣的其他主題 ↓↓↓↓↓
+********************************************************************************/
+.bannerInfo {
+    text-align: center;
+    margin-bottom: 120px;
+}
+
+.bannerInfo img {
+    max-width: 750px;
+    width: 100%;
+    cursor: pointer;
+    margin: 0 auto;
+}
+
+/********************************************************************************
+次要視覺 ↓↓↓↓↓
+********************************************************************************/
+
+.kv_border_sub {
+    position: relative;
+    background-color: rgba(177, 196, 37, 0.75);
+}
+
+.border-left-sub,
+.border-right-sub {
+    position: absolute;
+    width: 79px;
+    height: 58px;
+    -webkit-transform: scale(0.6);
+    transform: scale(0.6);
+}
+
+.border-left-sub {
+    top: -25px;
+    left: 0;
+    left: -15px;
+}
+
+.border-right-sub {
+    bottom: -25px;
+    right: 0;
+}
+
+.animate {
+    position: absolute;
+    bottom: 0;
+    width: 410px;
+    height: 279px;
+    left: 12%;
+    -webkit-transform: scale(0.9);
+    transform: scale(0.9);
+    -webkit-transform-origin: bottom;
+    transform-origin: bottom;
+    overflow: hidden;
+}
+
+.animate img,
+.animate div {
+    position: absolute;
+    top: 0;
+    left: 0;
+}
+
+.animate .ball-box {
+    top: 290px;
+    left: 110px;
+    -webkit-animation-duration: 3s;
+    animation-duration: 3s;
+    -webkit-animation-fill-mode: both;
+    animation-fill-mode: both;
+    transition-timing-function: linear;
+    animation-iteration-count: infinite;
+    transition-delay: 13s;
+    -webkit-animation-name: lost;
+    animation-name: lost;
+}
+
+@keyframes lost {
+    0% {
+        -webkit-transform: translate(250px, -30px);
+        transform: translate(250px, -30px);
+    }
+
+    100% {
+        -webkit-transform: translate(0, 0);
+        transform: translate(0, 0);
+    }
+}
+
+.animate .ball {
+    -webkit-animation-duration: 3s;
+    animation-duration: 3s;
+    -webkit-animation-fill-mode: both;
+    animation-fill-mode: both;
+    transition-timing-function: linear;
+    animation-iteration-count: infinite;
+    transition-delay: 13s;
+    -webkit-animation-name: lostInner;
+    animation-name: lostInner;
+}
+
+@keyframes lostInner {
+    0% {
+        -webkit-transform: translateY(0) scale(.1) rotate(0deg);
+        transform: translateY(0) scale(.1) rotate(0deg);
+    }
+
+    25% {
+        -webkit-transform: translateY(-250px) scale(.8) rotate(680deg);
+        transform: translateY(-250px) scale(.8) rotate(680deg);
+    }
+
+    100% {
+        -webkit-transform: translateY(0) scale(1.1)rotate(1080deg);
+        transform: translateY(0) scale(1.1)rotate(1080deg);
+    }
+}
+
+
+/********************************************************************************
+Table with RWD ↓↓↓↓↓
+********************************************************************************/
+.table-scroll {
+    position: relative;
+    max-width: 866px;
+    margin: auto;
+    overflow: hidden;
+}
+
+.table-wrap {
+    width: 100%;
+    overflow: auto;
+}
+
+.table-scroll table {
+    width: 100%;
+    margin: auto;
+    border-spacing: 0;
+}
+
+.table-scroll th,
+.table-scroll td {
+    border-bottom: 1px solid #dcdcdc;
+    border-left: 1px solid #dcdcdc;
+    white-space: nowrap;
+    vertical-align: middle;
+    text-align: center;
+    padding: 15px 8px;
+}
+
+.table-scroll .fixed-side {
+    border-left-width: 0px;
+}
+
+.table-scroll thead th {
+    background: #b1c425;
+    color: white;
+    font-size: 1.2em;
+}
+
+.table-scroll thead th:nth-child(1) {
+    background: white;
+    border-bottom-color: transparent;
+}
+
+.table-scroll tbody tr:nth-child(odd) th,
+.table-scroll tbody tr:nth-child(even) th {
+    border-bottom-color: transparent;
+}
+
+.table-scroll tbody tr:nth-child(odd) td {
+    background-color: white;
+}
+
+.table-scroll tbody tr:nth-child(even) td {
+    background-color: #f0f0f0;
+}
+
+.table-scroll tbody th {
+    color: transparent;
+}
+
+.clone {
+    position: absolute;
+    top: 0;
+    left: 0;
+    pointer-events: none;
+}
+
+.clone th,
+.clone td {
+    visibility: hidden;
+    border-color: transparent
+}
+.clone thead th:nth-child(1) {
+    background: #b1c425;
+    border-bottom-color: #dcdcdc;
+}
+.clone .fixed-side {
+    border-bottom: 1px solid #dcdcdc;
+    border-right: 1px solid #dcdcdc;
+    visibility: visible;
+    color: #55469b;
+}
+
+.clone tbody tr:nth-child(odd) th {
+    background-color: white;
+}
+
+.clone tbody tr:nth-child(odd) th {
+    background-color: white;
+    border-bottom-color: #dcdcdc;
+}
+
+.clone tbody tr:nth-child(even) th {
+    background-color: #f0f0f0;
+    border-bottom-color: #dcdcdc;
+}
+
+
+
+
+/********************************************************************************
+Animation with Chart ↓↓↓↓↓
+********************************************************************************/
+.tab01Ani {
+    position: relative;
+    width: 290px;
+    margin: 0 auto;
+    padding: 0;
+}
+
+.tab01Ani div {
+    position: absolute;
+    top: -25px;
+    width: 190px;
+    height: 190px;
+    -webkit-transform: scale(.4);
+    transform: scale(.4);
+
+}
+
+.tab01Ani div:nth-child(1) {
+    left: calc(50% - 192px);
+}
+
+.tab01Ani div:nth-child(2) {
+    left: calc(50% - 95px);
+}
+
+.tab01Ani div:nth-child(3) {
+    left: calc(50% + 3px);
+}
+
+.tab01Ani div object {
+    position: absolute;
+    top: 0;
+}
+
+.tab02Ani div {
+    position: relative;
+    height: 180px;
+}
+
+.tab02Ani div img {
+    position: absolute;
+    width: 270px;
+    left: calc(50% - 135px);
+}
+
+.tab02Ani div object {
+    position: absolute;
+    width: 48px;
+    top: 28px;
+}
+
+.tab02Ani div object.tab2ani1 {
+    left: calc(50% - 95px);
+}
+
+.tab02Ani div object.tab2ani2 {
+    left: calc(50% + 41px);
+}
+
+.tab03Ani {
+    position: relative;
+    height: 160px;
+}
+
+.tab03Ani img {
+    position: absolute;
+    top: 0;
+    width: 300px;
+    left: calc(50% - 150px);
+}
+
+.tab03Ani img:nth-child(2),
+.tab03Ani img:nth-child(3) {
+    opacity: 0;
+}
+
+.aniFadeIn {
+    -webkit-animation-duration: 1s;
+    animation-duration: 1s;
+    -webkit-animation-fill-mode: both;
+    animation-fill-mode: both;
+}
+
+.aniFadeIn.top {
+    -webkit-animation-name: top;
+    animation-name: top;
+}
+
+.aniFadeIn.left {
+    -webkit-animation-name: left;
+    animation-name: left;
+}
+
+.aniFadeIn.right {
+    -webkit-animation-name: right;
+    animation-name: right;
+}
+
+.aniFadeIn.center {
+    -webkit-animation-delay: 1s;
+    animation-delay: 1s;
+    -webkit-animation-name: center;
+    animation-name: center;
+}
+
+@-webkit-keyframes top {
+    from {
+        opacity: 0;
+        -webkit-transform: translate3d(0, -100%, 0);
+        transform: translate3d(0, -100%, 0);
+    }
+
+    to {
+        opacity: 1;
+        -webkit-transform: translate3d(0, 0, 0);
+        transform: translate3d(0, 0, 0);
+    }
+}
+
+@keyframes top {
+    from {
+        opacity: 0;
+        -webkit-transform: translate3d(0, -30%, 0);
+        transform: translate3d(0, -30%, 0);
+    }
+
+    to {
+        opacity: 1;
+        -webkit-transform: translate3d(0, 0, 0);
+        transform: translate3d(0, 0, 0);
+    }
+}
+
+@-webkit-keyframes left {
+    from {
+        opacity: 0;
+        -webkit-transform: translate3d(-30%, 30%, 0);
+        transform: translate3d(-30%, 30%, 0);
+    }
+
+    to {
+        opacity: 1;
+        -webkit-transform: translate3d(0, 0, 0);
+        transform: translate3d(0, 0, 0);
+    }
+}
+
+@keyframes left {
+    from {
+        opacity: 0;
+        -webkit-transform: translate3d(-30%, 30%, 0);
+        transform: translate3d(-30%, 30%, 0);
+    }
+
+    to {
+        opacity: 1;
+        -webkit-transform: translate3d(0, 0, 0);
+        transform: translate3d(0, 0, 0);
+    }
+}
+
+@-webkit-keyframes right {
+    from {
+        opacity: 0;
+        -webkit-transform: translate3d(30%, 30%, 0);
+        transform: translate3d(30%, 30%, 0);
+    }
+
+    to {
+        opacity: 1;
+        -webkit-transform: translate3d(0, 0, 0);
+        transform: translate3d(0, 0, 0);
+    }
+}
+
+@keyframes right {
+    from {
+        opacity: 0;
+        -webkit-transform: translate3d(30%, 30%, 0);
+        transform: translate3d(30%, 30%, 0);
+    }
+
+    to {
+        opacity: 1;
+        -webkit-transform: translate3d(0, 0, 0);
+        transform: translate3d(0, 0, 0);
+    }
+}
+
+@-webkit-keyframes center {
+    0% {
+        opacity: 0;
+    }
+
+    33% {
+        opacity: 1;
+    }
+
+    66% {
+        opacity: 0;
+    }
+
+    100% {
+        opacity: 1;
+    }
+}
+
+@keyframes center {
+    0% {
+        opacity: 0;
+    }
+
+    33% {
+        opacity: 1;
+    }
+
+    66% {
+        opacity: 0;
+    }
+
+    100% {
+        opacity: 1;
+    }
+}
+
+
+
+/********************************************************************************
+media min-width:375x ↓↓↓↓↓
+********************************************************************************/
+
+@media (min-width:375px) {
+    .kv_wrap .st02 .kv_slogan .title_2nd {
+        font-size: 1rem;
+    }
+
+    svg.point {
+        bottom: 30px;
+        width: 47px;
+    }
+
+    .point-img {
+        font-size: 1.6rem;
+    }
+
+    .tab01Ani {
+        width: 340px;
+    }
+
+    .tab01Ani div {
+        top: -10px;
+        -webkit-transform: scale(.5);
+        transform: scale(.5);
+    }
+
+    .tab01Ani div:nth-child(1) {
+        left: calc(50% - 208px);
+    }
+
+    .tab01Ani div:nth-child(2) {
+        left: calc(50% - 90px);
+    }
+
+    .tab01Ani div:nth-child(3) {
+        left: calc(50% + 20px);
+    }
+
+    .tab02Ani div {
+        height: 200px;
+    }
+
+    .tab02Ani div img {
+        width: 300px;
+        left: calc(50% - 150px);
+    }
+
+    .tab02Ani div object {
+        width: 55px;
+        top: 32px;
+    }
+
+    .tab02Ani div object.tab2ani1 {
+        left: calc(50% - 107px);
+    }
+
+    .tab02Ani div object.tab2ani2 {
+        left: calc(50% + 46px);
+    }
+
+    .tab03Ani {
+        height: 200px;
+    }
+
+    .tab03Ani img {
+        width: 360px;
+        left: calc(50% - 180px);
+    }
+}
+
+/********************************************************************************
+media min-width:576px ↓↓↓↓↓
+********************************************************************************/
+
+@media (min-width:576px) {
+    .kv_wrap .runnerWrap .rightaniBlk img {
+        width: 80%;
+    }
+
+    .kv_wrap .st02 .kv_slogan .title_2nd {
+        font-size: 1.2rem;
+    }
+
+    .fund-content {
+        padding: 12px;
+    }
+
+    .fund-link-margin br {
+        display: none;
+    }
+
+    .gloabMap {
+        -webkit-transform: scale(0.9);
+        transform: scale(0.9);
+    }
+
+    svg.point {
+        bottom: 35px;
+        width: 57px;
+    }
+
+    .point-img {
+        font-size: 1.8rem;
+    }
+
+    .p-3 {
+        padding: 1rem !important
+    }
+
+    .p-3 br {
+        display: none;
+    }
+
+    br.breakDisable_576 {
+        display: none;
+    }
+
+    br.breakEnable_576 {
+        display: block;
+    }
+
+    .use-three {
+        width: 90%;
+        margin: 0 auto;
+    }
+
+    .tab01Ani {
+        width: 500px;
+    }
+
+    .tab01Ani div {
+        top: 24px;
+        -webkit-transform: scale(.7);
+        transform: scale(.7);
+    }
+
+    .tab01Ani div:nth-child(1) {
+        left: calc(50% - 262px);
+    }
+
+    .tab01Ani div:nth-child(2) {
+        left: calc(50% - 90px);
+    }
+
+    .tab01Ani div:nth-child(3) {
+        left: calc(50% + 77px);
+    }
+
+    .tab02Ani div {
+        height: 270px;
+    }
+
+    .tab02Ani div img {
+        width: 400px;
+        left: calc(50% - 200px);
+    }
+
+    .tab02Ani div object {
+        width: 72px;
+        top: 41px;
+    }
+
+    .tab02Ani div object.tab2ani1 {
+        left: calc(50% - 142px);
+    }
+
+    .tab02Ani div object.tab2ani2 {
+        left: calc(50% + 61px);
+    }
+
+    .tab03Ani {
+        height: 270px;
+    }
+
+    .tab03Ani img {
+        width: 480px;
+        left: calc(50% - 240px);
+    }
+}
+
+/********************************************************************************
+media min-width:768px ↓↓↓↓↓
+********************************************************************************/
+
+@media (min-width:768px) {
+    .kv_wrap .runnerWrap .rightaniBlk img {
+        width: 70%;
+    }
+
+    .kv_wrap .st02 .kv_slogan .title_2nd div {
+        display: block;
+    }
+
+    svg.point {
+        bottom: 40px;
+        width: 67px;
+    }
+
+    br.breakDisable_768 {
+        display: none;
+    }
+
+    br.breakEnable_768 {
+        display: block;
+    }
+
+    .kv_wrap .st02 .kv_slogan {
+        padding: 1.8em 0;
+        width: 790px;
+    }
+
+    .fund-content {
+        padding: 12px 30px;
+    }
+
+    .fund-table::before {
+        top: -20px;
+        left: 20px;
+    }
+
+    .fund-table::after {
+        right: 20px;
+        bottom: -20px;
+    }
+
+    .cardAD {
+        max-width: 640px;
+        margin: auto;
+    }
+
+    .cardAD .cardBody .cardImage {
+        height: 400px;
+    }
+
+    .cardAD .cardBody .cardContain {
+        position: relative;
+        top: -100px;
+        color: white;
+        padding: 2rem 4rem;
+        margin: auto 40px;
+    }
+
+    .cardAD .cardBody .cardContain .cardTag {
+        position: static;
+        font-size: 16px;
+    }
+
+    .cardAD .cardBody .cardContain .cardTitle {
+        font-size: 30px;
+    }
+
+    .cardAD .cardBody .cardContain .cardText {
+        font-size: 14px;
+        overflow: hidden;
+    }
+
+    .kv_border_sub {
+        background-color: rgba(105, 135, 185, 0);
+    }
+
+    .border-left-sub {
+        top: 0px;
+        left: 0;
+        left:-15px;
+    }
+
+    .border-right-sub {
+        bottom: -8px;
+        right: 0;
+    }
+
+    .tab01Ani {
+        width: 480px;
+    }
+}
+
+/********************************************************************************
+media min-width:992px ↓↓↓↓↓
+********************************************************************************/
+
+@media (min-width:992px) {
+    .area {
+        position: relative;
+    }
+
+    .area .areaRight {
+        position: absolute;
+        top: 50px;
+        right: 6%;
+        width: 40%;
+    }
+
+    .divi-none02 {
+        display: none;
+    }
+
+    .fund-padding {
+        padding: 2.1rem 4rem;
+    }
+
+    .secondAdvantage {
+        text-align: center;
+        justify-content: center
+    }
+
+    .kv_wrap .runnerWrap .rightaniBlk img {
+        width: 67%;
+    }
+
+    .kv_wrap .st02 .kv_slogan .title_2nd div {
+        font-size: 1.3rem;
+        display: inline;
+    }
+
+    .nav-tabs .col-lg-3 {
+        flex: 0 0 30%;
+        max-width: 30%;
+    }
+
+    .gloabMap {
+        -webkit-transform: scale(1);
+        transform: scale(1);
+        left: 8%;
+    }
+
+    .advantage .advBtnblk .itemTitle div {
+        display: inline-block;
+    }
+
+    .advantage .advBtnblk .itemTitle br {
+        display: block;
+    }
+
+    .tableTitle {
+        max-width: 770px;
+    }
+
+    br.breakDisable_992 {
+        display: none;
+    }
+
+    .kv_wrap .st02 {
+        overflow: visible;
+    }
+
+    ul.itemStyle1 li {
+        font-size: 1.4rem;
+        list-style-image: url(../images/add_icon4.png);
+    }
+
+    .border-left-sub,
+    .border-right-sub {
+        -webkit-transform: scale(0.7);
+        transform: scale(0.7);
+    }
+
+    .border-left-sub {
+        top: 0px;
+        left: 0px;
+        left: -15px;
+    }
+
+    .border-right-sub {
+        bottom: -15px;
+        right: 0px;
+    }
+
+    .cardAD {
+        max-width: 780px;
+        margin: auto;
+    }
+
+    .cardAD .cardBody .cardContain {
+        position: relative;
+        color: white;
+        padding: 2rem 4rem;
+        margin: auto 40px;
+    }
+
+    .cardAD .cardBody .cardContain .cardTitle {
+        font-size: 34px;
+    }
+
+    .bannerInfo img {
+        max-width: 920px;
+    }
+
+    .tab01Ani {
+        width: 735px;
+    }
+
+    .tab01Ani div {
+        top: 47px;
+        -webkit-transform: scale(.9);
+        transform: scale(.9);
+    }
+
+    .tab01Ani div:nth-child(1) {
+        left: calc(50% - 383px);
+    }
+
+    .tab01Ani div:nth-child(2) {
+        left: calc(50% - 88px);
+    }
+
+    .tab01Ani div:nth-child(3) {
+        left: calc(50% + 193px);
+    }
+
+    .tab02Ani div {
+        height: 350px;
+    }
+
+    .tab02Ani div img {
+        width: 780px;
+        left: calc(50% - 390px);
+    }
+
+    .tab02Ani div object {
+        width: 106px;
+        top: 88px;
+    }
+
+    .tab02Ani div object.tab2ani1 {
+        left: calc(50% - 215px);
+    }
+
+    .tab02Ani div object.tab2ani2 {
+        left: calc(50% + 103px);
+    }
+
+    .tab03Ani {
+        height: 300px;
+    }
+
+    .tab03Ani img {
+        width: 700px;
+        left: calc(50% - 350px);
+    }
+}
+
+/********************************************************************************
+media min-width:1200px ↓↓↓↓↓
+********************************************************************************/
+
+@media (min-width:1200px) {
+    .kv_wrap .runnerWrap .rightaniBlk img {
+        width: auto;
+    }
+
+    .nav-tabs .col-lg-3 {
+        flex: 0 0 25%;
+        max-width: 25%;
+    }
+
+    .pointTwoSubTitle {
+        width: 100%;
+        text-align: center;
+    }
+
+    .tableTitle {
+        max-width: 100%;
+    }
+
+    .kv_wrap .st02 .kv_slogan .title_2nd div {
+        font-size: 1.7rem;
+    }
+
+    .cardAD {
+        max-width: 960px;
+        margin: auto;
+    }
+
+    .tab01Ani {
+        width: 800px;
+    }
+
+    .tab01Ani div {
+        top: 60px;
+        -webkit-transform: scale(1);
+        transform: scale(1);
+    }
+
+    .tab01Ani div:nth-child(1) {
+        left: calc(50% - 408px);
+    }
+
+    .tab01Ani div:nth-child(2) {
+        left: calc(50% - 88px);
+    }
+
+    .tab01Ani div:nth-child(3) {
+        left: calc(50% + 216px);
+    }
+
+    .tab02Ani div {
+        height: 400px;
+    }
+
+    .tab02Ani div img {
+        width: 920px;
+        left: calc(50% - 460px);
+    }
+
+    .tab02Ani div object {
+        width: 123px;
+        top: 107px;
+    }
+
+    .tab02Ani div object.tab2ani1 {
+        left: calc(50% - 251px);
+    }
+
+    .tab02Ani div object.tab2ani2 {
+        left: calc(50% + 120px);
+    }
+
+    .tab03Ani {
+        height: 360px;
+    }
+
+    .tab03Ani img {
+        width: 840px;
+        left: calc(50% - 410px);
+    }
+}
+
+/********************************************************************************
+media min-width:1440px ↓↓↓↓↓
+********************************************************************************/
+
+@media only screen and (min-width: 1440px) {
+    .fund-padding {
+        padding: 2.1rem 8rem;
+    }
+}

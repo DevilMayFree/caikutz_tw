@@ -1,0 +1,154 @@
+/********************************************************************************
+  section - kv 主視覺 - 為了鯨魚放大破格 做客製化調整
+********************************************************************************/
+.kv-img {
+  width: auto;
+  overflow: visible;
+}
+
+.kv-row {
+  max-width: 1380px;
+}
+.kv-footer-row > p {
+  /* text-align: left; */
+}
+.kv-col-img {
+  position: relative;
+}
+.kv-col-img {
+  width: 582px;
+}
+.kv-img {
+  position: absolute;
+  z-index: 2;
+  top: -30px;
+  left: -50px;
+  height: 600px;
+}
+.kv-img .img-fluid {
+  width: auto;
+  height: 100%;
+}
+
+@media (max-width: 1380px) {
+  .section__kv,
+  .kv-row {
+    min-height: 470px;
+  }
+  .kv-col-title {
+    min-width: 680px;
+  }
+  .kv-col-img {
+    width: 525px;
+  }
+  .kv-img {
+    top: -40px;
+    left: -40px;
+    height: 560px;
+    left: -100px;
+    top: -40px;
+    height: 580px;
+  }
+}
+@media (max-width: 1240px) {
+  .kv-col-img {
+    width: 508px;
+  }
+  .kv-img {
+    top: -2vw;
+    left: -5vw;
+    height: 45vw;
+  }
+}
+@media (max-width: 1199.98px) {
+  .kv-col-title {
+    width: 50%;
+    min-width: 560px;
+  }
+  .kv-col-img {
+    width: 40vw;
+    width: 50%;
+  }
+  .kv-img {
+    top: -0vw;
+    left: -5vw;
+    width: 50vw;
+    height: auto;
+  }
+  .kv-img .img-fluid {
+    width: 100%;
+    height: auto;
+  }
+  .section__kv,
+  .kv-row {
+    /* min-height: 450px; */
+  }
+  .kv-footer-row {
+    width: 95%;
+  }
+}
+@media (max-width: 1050px) {
+  .kv-footer-row > p {
+    text-align: center;
+  }
+}
+@media (max-width: 1023px) {
+  /* .txt_h2.kv_h2 {
+    font-size: 30px;
+  } */
+  .kv-col-title,
+  .kv-col-img {
+    border: 0px solid red;
+  }
+  .kv-row,
+  .kv-footer-row {
+    max-width: none;
+  }
+  .kv-title-box,
+  .kv-btn-wrapper {
+    padding-left: 24px;
+  }
+  .kv-img {
+    top: 5vw;
+    left: -6vw;
+    width: 45vw;
+    height: auto;
+  }
+}
+/* kv 直式 */
+@media (max-width: 920px) {
+  .kv-col-img {
+    position: static;
+  }
+  .kv-img {
+    position: static;
+  }
+  .kv-col-title,
+  .kv-col-img,
+  .kv-img {
+    width: 100%;
+    min-width: auto;
+  }
+  .kv-img {
+    width: 85vw;
+    margin: 8px auto;
+    max-width: 480px;
+  }
+  .kv-title-box,
+  .kv-btn-wrapper {
+    padding-left: 0px;
+  }
+  .kv-footer-row {
+    width: 100%;
+    padding: 1.5rem;
+  }
+  .kv-footer-row > p {
+    text-align: justify;
+  }
+}
+@media (max-width: 699.98px) {
+  .kv-footer-row {
+    width: 100%;
+    padding: 16px;
+  }
+}

@@ -1,0 +1,860 @@
+<!--[if IE ]><![endif]-->
+<!doctype html>
+<!--[if IE 8 ]> <html class="no-js lt-ie9 ie8" lang="zh-TW"> <![endif]-->
+<!--[if IE 9 ]> <html class="no-js lt-ie10 ie9" lang="zh-TW"> <![endif]-->
+<!--[if (gte IE 10)|!(IE)]><!-->
+<html class="no-js" lang="zh-TW">
+<!--<![endif]-->
+
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="x-ua-compatible" content="ie=edge" />
+    <meta http-equiv="X-UA-Compatible" content="IE=10; IE=9; IE=8; IE=7; IE=EDGE" />
+    <meta http-equiv="content-language" content="zh-tw">
+    <meta name="viewport" content="width=device-width,minimum-scale=1.0,maximum-scale=1.0,user-scalable=no" />
+    <meta name="title" content="聯博投信AB｜聯博永續主題基金">
+    <meta name="description" content="ESG選股，讓世界更美好">
+    <meta name="Keywords" content="聯博投信,基金,投資,責任投資,ESG,永續發展">
+    <meta name="og:description" content=" ESG選股，讓世界更美好">
+    <!-- Schema.org markup for Google+ -->
+    <meta itemprop="name" content="聯博投信AB｜聯博永續主題基金">
+    <meta itemprop="url" content="/campaign/apac/tw/product/sustainable-global-thematic/sustainable-global-thematic-fund.html">
+    <!-- Open Graph data -->
+    <meta property="og:type" content="website">
+    <meta property="og:title" content="聯博投信AB｜聯博永續主題基金">
+    <meta property="og:url" content="https://www.abfunds.com.tw/campaign/apac/tw/product/sustainable-global-thematic/sustainable-global-thematic-fund.html">
+    <meta property="og:image" content="https://www.abfunds.com.tw/campaign/apac/tw/product/sustainable-global-thematic/images/share.jpg">
+
+    <title>聯博投信AB｜聯博永續主題基金</title>
+
+    <link href="favicon.ico" rel="shortcut icon">
+
+    <link rel="stylesheet" href="styles/all.css">
+    <link rel="stylesheet" href="styles/sgt.css">
+
+<!-- Google tag (gtag.js) -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=G-FER9MPC5E4"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  gtag('config', 'G-FER9MPC5E4');
+</script>
+
+    <!-- Google Tag Manager -->
+    <script>
+        (function (w, d, s, l, i) {
+            w[l] = w[l] || [];
+            w[l].push({
+                'gtm.start': new Date().getTime(),
+                event: 'gtm.js'
+            });
+            var f = d.getElementsByTagName(s)[0],
+                j = d.createElement(s),
+                dl = l != 'dataLayer' ? '&l=' + l : '';
+            j.async = true;
+            j.src = 'https://www.googletagmanager.com/gtm.js?id=' + i + dl;
+            f.parentNode.insertBefore(j, f);
+        })(window, document, 'script', 'dataLayer', 'GTM-MG4JX7P');
+    </script>
+
+
+    <!-- GA Bounce Rate 設定碼 -->
+    <script>
+        function bindAnimeIcon() {
+            var anime1, anime2_road_top, anime2_road_bottom, anime2_center, anime3_ground, anime3_trees
+
+            function clearAnime() {
+                if (anime1) {
+                    anime1.seek(anime1.duration)
+                }
+                if (anime2_center) {
+                    anime2_center.seek(anime2_center.duration)
+                    anime2_road_top.seek(anime2_road_top.duration)
+                    anime2_road_bottom.seek(anime2_road_bottom.duration)
+                }
+                if (anime3_ground) {
+                    anime3_ground.seek(anime3_ground.duration)
+                    anime3_trees.seek(anime3_trees.duration)
+                }
+            }
+
+            function bindAnimeIconFirst() {
+                document.addEventListener('aos:in:multi-asset-advantage-anime-1', function (data) {
+                    var detail = data.detail
+
+                    clearAnime()
+
+                    anime.remove(
+                        '#sandwitch #toast-bottom path, #sandwitch #vegetable, #sandwitch #meat, #sandwitch #cheese, #sandwitch #toast-top'
+                    )
+
+                    if (classFunc.hasClass(detail, '-aos-active')) {
+                        anime1 = anime.timeline({
+                            easing: 'easeInOutSine',
+                        })
+
+                        anime1.add({
+                                targets: ['#sandwitch #toast-bottom path'],
+                                strokeDashoffset: [anime.setDashoffset, 0],
+                                duration: 380,
+                            })
+                            .add({
+                                targets: ['#sandwitch #vegetable'],
+                                opacity: [0, 1],
+                                translateY: [-20, 0],
+                                duration: 380,
+                            })
+                            .add({
+                                targets: ['#sandwitch #meat'],
+                                opacity: [0, 1],
+                                translateY: [-20, 0],
+                                duration: 380,
+                            })
+                            .add({
+                                targets: ['#sandwitch #cheese'],
+                                opacity: [0, 1],
+                                translateY: [-20, 0],
+                                duration: 380,
+                            })
+                            .add({
+                                targets: ['#sandwitch #toast-top'],
+                                opacity: [0, 1],
+                                translateY: [-20, 0],
+                                duration: 380,
+                                endDelay: 200,
+                            })
+                    }
+                })
+            }
+
+            function bindAnimeIconSecond() {
+                document.addEventListener('aos:in:multi-asset-advantage-anime-2', function (data) {
+                    var detail = data.detail
+
+                    clearAnime()
+
+                    if (classFunc.hasClass(detail, '-aos-active')) {
+                        anime2_road_top = anime({
+                            targets: ['#advantage_q2 #line-ground-top path'],
+                            strokeDashoffset: [anime.setDashoffset, '0px'],
+                            duration: 300,
+                            delay: 600,
+                            easing: 'linear',
+                        })
+
+                        anime2_road_bottom = anime({
+                            targets: ['#advantage_q2 #line-ground-bottom path'],
+                            strokeDashoffset: [anime.setDashoffset, '0px'],
+                            duration: 600,
+                            easing: 'linear',
+                        })
+
+                        anime2_center = anime({
+                            targets: ['#advantage_q2 #pole', '#advantage_q2 #directional-sign-all'],
+                            opacity: [0, 1],
+                            translateX: [40, 0],
+                            translateY: [40, 0],
+                            easing: 'easeInOutSine',
+                            duration: 600,
+                            delay: 900,
+                        })
+                    }
+                })
+            }
+
+            var bindAnimeIconThird = function () {
+                document.addEventListener('aos:in:multi-asset-advantage-anime-3', function (data) {
+                    var detail = data.detail
+
+                    clearAnime()
+
+                    if (classFunc.hasClass(detail, '-aos-active')) {
+                        anime3_ground = anime.timeline({
+                            easing: 'easeInOutSine',
+                        })
+
+                        anime3_ground.add({
+                            targets: ['#advantage_q3 #ground .ground__line'],
+                            strokeDashoffset: [anime.setDashoffset, 0],
+                            duration: 600,
+                        })
+
+
+                        function addTreesTimeline(number) {
+                            return anime3_trees.add({
+                                    targets: ['#advantage_q3 #tree-' + number + ' .tree-base'],
+                                    strokeDashoffset: [anime.setDashoffset, 0],
+                                    duration: 700,
+                                }, number === 1 ? '+=600' : '-=400')
+                                .add({
+                                    targets: ['#advantage_q3 #tree-' + number +
+                                        ' path:not(.tree-base)'
+                                    ],
+                                    strokeDashoffset: [anime.setDashoffset, 0],
+                                    duration: 600,
+                                }, '-=200')
+                                .add({
+                                    targets: ['#advantage_q3 #tree-' + number + ' .white-fill'],
+                                    fill: ['rgba(255,255,255,0)', '#fff'],
+                                    duration: 300,
+                                }, '-=600')
+                        }
+
+                        function jump_anime(number) {
+                            return anime3_trees.add({
+                                targets: ['#advantage_q3 #tree-' + number],
+                                opacity: [0, 1],
+                                translateY: [50, 0],
+                                duration: 600,
+                                easing: 'cubicBezier(.75,-1.27,.3,2.33)',
+                            })
+                        }
+
+                        anime3_trees = anime.timeline({
+                            easing: 'linear',
+                        })
+                        addTreesTimeline(1)
+                        addTreesTimeline(2)
+                        addTreesTimeline(3)
+
+                    }
+                })
+            }
+
+            bindAnimeIconFirst()
+            bindAnimeIconSecond()
+            bindAnimeIconThird()
+        };
+    </script>
+    <script>
+        var otherFunction = function () {
+            sectionObservation()
+            initRellax()
+            youtubePlay()
+            bindAnimeIcon()
+        };
+    </script>
+</head>
+
+<body>
+    <!-- Google Tag Manager (noscript) -->
+    <noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-MG4JX7P" height="0" width="0"
+            style="display:none;visibility:hidden"></iframe></noscript>
+    <!-- End Google Tag Manager (noscript) -->
+
+
+
+
+    <!--========== Loading Animat ==========-->
+    <div class="overlayMask open">
+        <div class="loader">
+            <!-- 如果要顯示無進度條的豆豆，把這段取消註解 -->
+            <div class="dot"></div>
+            <div class="dot"></div>
+            <div class="dot"></div>
+            <div class="dot"></div>
+            <div class="dot"></div>
+            <!-- 如果要顯示無進度條的豆豆，把這段取消註解 -->
+            <!-- 如果要顯示有進度條的圖片，把這段取消註解 -->
+            <!--         <p class="ft-white ft12 text-center"><span id="loadingText">0</span> %</p>
+                <div class="loading">
+                    <div class="loading_mask" id="loadingPic" style="width:100%; height: 100%;">
+                        <img on-image-load src="images/loading.png" class="img-responsive">
+                    </div>
+                    <img on-image-load src="images/loading_mask.png" class="img-responsive">
+                </div> -->
+            <!-- 如果要顯示有進度條的圖片，把這段取消註解 -->
+        </div>
+    </div>
+    <!--========== END Loading Animat ==========-->
+
+
+    <!--========== Header ==========-->
+    <header class="header js-auto-show-top-bar fixed-top bg01" include-html="template_header.html"></header>
+    <!--========== END Header ==========-->
+
+
+    <!--========== Content ==========-->
+    <div class="mainWrap">
+
+        <!-- 主要視覺 -->
+        <section id="section1" class="kv_wrap st01" data-js-scroll-to-target="keyVisual" data-gtm="主視覺">
+            <a href="javascript:;" class="scrolldownbtn js-scroll-to wow fadeInDown" data-wow-duration="1.5s"
+                data-wow-delay="1.5s">
+                <span class="chevron"></span>
+                <span class="chevron"></span>
+                <span class="chevron"></span>
+            </a>
+            <div class="container fixed-1240 kv_cont">
+                <div class="row">
+                    <div class="col-12 col-lg-7 wrap_txt">
+                        <div class="d-flex kv_border">
+                            <div class="brd border-right-0 mr-2"></div>
+                            <div class="kv_title text-center">
+                                <div class="h2 ft-green bold-500 title_1th">聯博-永續主題基金</div>
+                                <div class="h2 ft-gray title_2nd bold-500">(基金之配息來源可能為本金)</div>
+                            </div>
+                            <div class="brd border-left-0 ml-2"></div>
+                        </div>
+
+                        <div class="text-center">
+                            <div class="title_3rd pt-3">
+                                <span class="impMark bold">ESG</span>選股，讓世界更美好
+                            </div>
+                        </div>
+
+                        <div class="col-12">
+                            <div class="text-center">
+                                <a href="javascript:;" class="btn btn-primary01 px-5 py-2 js-scroll-to"
+                                    data-js-scroll-to="advanPrd"
+                                    onclick="gtag('event', 'click', {'event_category' : 'button','event_label' : '了解更多'});">了解更多</a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-12 col-lg-6"></div>
+                </div>
+            </div>
+            <div class="kvAnimate">
+                <div class="container-fluid runnerWrap px-0">
+                    <div class="row">
+                        <div class="col-12 col-lg-6"></div>
+                        <div class="col-12 col-lg-6">
+                            <div class="rightaniBlk">
+                                <img src="images/sgt_kv_01.png">
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="emp"><img src="images/kv_empty.png" class="img-fluid"></div>
+            </div>
+        </section>
+
+        <!-- 次要視覺 -->
+        <section id="section2" class="kv_wrap" style="background-color: #b1c425;" data-js-scroll-to-target="advanPrd">
+            <div class="container fixed-1366 kv_cont">
+                <div class="row st02">
+                    <div class="col-12 offset-0 col-sm-9 offset-sm-1 col-md-7 offset-md-4 col-lg-6 offset-lg-4 align-self-center text-center text-lg-left wrap_txt"
+                        style="z-index: 2;">
+                        <div class="d-flex kv_border_sub blueBrd kv-width">
+                            <div class="brd border-right-sub mr-2"><img src="./images/icon_quote_2.svg"></div>
+                            <div class="kv_slogan">
+                                <div class="h2 title_2nd text-center ft-white mb-0">
+                                    <div>當永續發展成為世界各地的集體共識，<br>投資，也可改變未來的樣貌。<br>主動挖掘全球對環境及社會有益的企業，<br>追求長期投資報酬，利人利己，共創雙贏。
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="brd border-left-sub ml-2"><img src="./images/icon_quote.svg"></div>
+                        </div>
+                    </div>
+                    <div class="animate">
+                        <img src="./images/sgt_kv_02_3.png" class="windmill_1" />
+                        <img src="./images/sgt_kv_02_1.png" />
+                        <img src="./images/sgt_kv_02_4.png" class="windmill_2" />
+                        <img src="./images/sgt_kv_02_2.png" />
+                    </div>
+                </div>
+            </div>
+        </section>
+
+
+        <!--================================================-->
+        <!-- 百年好合 -->
+        <div class="container fixed-1240 kv_cont title-padding">
+            <div class="h2 ft-green bold-500 text-center mb-3 titlebar ft-175 point-padding"
+                data-js-scroll-to-target="hundredYears" data-gtm="百年好合">百年好合</div>
+        </div>
+
+        <div class="advantage" data-wow-duration="1s" id="advantageTabs">
+
+            <!-- 百年好合：分頁功能選單 -->
+            <div id="nav-tab-box">
+                <div id="nav-tab" class="row nav nav-tabs no-gutters" data-reset-tabs-pos>
+                    <div class="col-6 col-sm-3 col-lg-2 active" id="menu1_trigger" data-target="#menu1">
+                        <div class="advBtnblk"
+                            onclick="gtag('event', 'click', {'event_category' : 'button','event_label' : '百兆商機'});">
+                            <div class="itemTitle bold-500">
+                                <div><span>百</span>兆商機</div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-6 col-sm-3 col-lg-2" id="menu2_trigger" data-target="#menu2">
+                        <div class="advBtnblk"
+                            onclick="gtag('event', 'click', {'event_category' : 'button','event_label' : '年化表現較佳'});">
+                            <div class="itemTitle bold-500">
+                                <div><span>年</span>化表現較佳</div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-6 col-sm-3 col-lg-2" id="menu3_trigger" data-target="#menu3">
+                        <div class="advBtnblk"
+                            onclick="gtag('event', 'click', {'event_category' : 'button','event_label' : '好用心'});">
+                            <div class="itemTitle bold-500">
+                                <div><span>好</span>用心</div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-6 col-sm-3 col-lg-2" id="menu4_trigger" data-target="#menu4">
+                        <div class="advBtnblk"
+                            onclick="gtag('event', 'click', {'event_category' : 'button','event_label' : '合趨勢'});">
+                            <div class="itemTitle bold-500">
+                                <div><span>合</span>趨勢</div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- 百年好合：分頁功能內容 -->
+            <div class="tab-content pt-2 pt-lg-4">
+                <!-- 百兆商機 -->
+                <div id="menu1" class="panal_01 tab-pane fade active show">
+                    <div class="row fixed-1100 justify-content-center">
+                        <div class="col-12 col-lg-9">
+
+                            <div class="row d-block d-lg-none">
+                                <div class="col-12 px-0">
+                                    <div class="row m-0 justify-content-center growth">
+                                        <div class="col-12 mb-5">
+                                            <div class="h1 boxTitle bold-500 ft-purple">永續商機全面掌握</div>
+                                            <p class="bold-500 text-center">環境、氣候與社會問題，是全球面臨的共同風險。<br
+                                                    class="breakEnable_768">
+                                                超過190個國家承諾「<span
+                                                    class="ft-green">聯合國永續發展目標</span>」，齊力守護地球，改善各地人們的生活與前景。<br
+                                                    class="breakEnable_768">
+                                                帶動相關商機規模估計可達近百兆美元*，成長潛能不容錯過。</p>
+                                        </div>
+
+                                        <div class="embed-responsive embed-responsive-16by9 mb-5">
+                                            <div id="videoMobile"></div>
+                                        </div>
+
+                                        <div class="col-12 img-68">
+                                            <div class="h1 boxTitle bold-500 ft-purple">聯合國永續發展目標</div>
+                                            <img src="./images/tab_sgt01_mb.png" class="img-fluid">
+                                        </div>
+                                    </div>
+                                    <p class="small pt-2 pb-lg-0 px-2 ft-gray02">
+                                        <span class="bold-500 ft-black">僅提供說明參考使用。</span><br>
+                                        *聯合國預估為在 2030 年達成 17 項永續發展目標，必須耗資近 100 兆美元。資料來源：聯合國與聯博，截至2021年01月31日。
+                                    </p>
+                                </div>
+                            </div>
+
+                            <div class="row d-none d-lg-block">
+                                <div class="row">
+                                    <div class="col-12 mb-5">
+                                        <div class="h1 boxTitle bold-500 ft-purple">永續商機全面掌握</div>
+                                        <p class="bold-500 text-center">環境、氣候與社會問題，是全球面臨的共同風險。<br
+                                                class="breakEnable_768">
+                                            超過190個國家承諾「<span class="ft-green">聯合國永續發展目標</span>」，齊力守護地球，改善各地人們的生活與前景。<br
+                                                class="breakEnable_768">
+                                            帶動相關商機規模估計可達近百兆美元*，成長潛能不容錯過。</p>
+                                    </div>
+
+                                    <div class="container growth">
+
+                                        <div class="embed-responsive embed-responsive-16by9 mb-3">
+                                            <div id="videoPC"></div>
+                                        </div>
+
+                                        <div class="row">
+                                            <div class="col">
+                                                <img src="./images/tab_sgt01.png" alt="">
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <p class="small pt-2 pb-lg-0 px-2 ft-gray02">
+                                        <span class="bold-500 ft-black">僅提供說明參考使用。</span><br>
+                                        *聯合國預估為在 2030 年達成 17 項永續發展目標，必須耗資近 100 兆美元。資料來源：聯合國與聯博，截至2021年01月31日。
+                                    </p>
+                                </div>
+                            </div>
+
+                        </div>
+                    </div>
+                </div>
+
+                <!-- 年化表現較佳 -->
+                <div id="menu2" class="panal_02 tab-pane fixed-1100 fade">
+                    <div class="row m-0 justify-content-center">
+                        <div class="col-12 col-lg-10">
+                            <div class="h1 boxTitle bold-500 ft-purple">突顯長期投資價值</div>
+                            <p class="bold-500 text-center mb-5">採用ESG選股策略，挖掘全球企業品質較高、企業管理團隊體質較好的公司。<br
+                                    class="breakEnable_768">
+                                這些企業較有實力因應不同市況的挑戰，有機會在短、中、長期交出優異的報酬表現。<br class="breakEnable_768">
+                                而本基金投資範圍擴及全球，不僅更全面的掌握永續投資機會，也較不受單一國家或事件的影響。</p>
+                        </div>
+
+                        <div class="col-12 text-center h4">受惠永續題材，ESG股票策略年化報酬相對更佳
+                            <div class="col-12 text-center h5">年化報酬率，全球大型股票型基金<sup>*</sup></div>
+                        </div>
+
+
+                        <div class="col-12">
+                            <div class="text-center d-none d-lg-block mb-5">
+                                <img src="images/tab_sgt02_1.png" class="img-fluid sgt02_1 wow fadeInUp">
+                                <img src="images/tab_sgt02_2.png" class="img-fluid sgt02_2 wow fadeInUp"
+                                    data-wow-delay="0.25s">
+                                <img src="images/tab_sgt02_3.png" class="img-fluid sgt02_3 wow fadeInUp"
+                                    data-wow-delay="0.5s">
+                                <img src="images/tab_sgt02_4.png" class="img-fluid sgt02_4 wow fadeInUp"
+                                    data-wow-delay="0.75s">
+                            </div>
+                            <p class="text-center d-block d-lg-none img-68"><img src="images/tab_sgt02_mb.png"
+                                    class="img-fluid wow fadeInUp"></p>
+                            <p class="small pt-2 pb-5 pb-lg-0 px-2 ft-gray02">
+                                <span class="bold-500 ft-black">過去績效不代表未來報酬。</span><br>
+                                美元計價。此處ESG基金係指依據晨星定義之永續投資基金，晨星定義以基金之公開說明書或銷售文件明確指出此基金投資策略包含永續、變革或其他ESG等題材者。*包含晨星分類之全球大型混合型、價值型與成長型股票型基金。截至2020年12月31日。資料來源：晨星與聯博。
+                            </p>
+                        </div>
+                        <div class="col-12"></div>
+                    </div>
+                </div>
+
+                <!-- 好用心 -->
+                <div id="menu3" class="panal_03 tab-pane fixed-1100 fade">
+
+                    <div class="row m-0 justify-content-center">
+                        <div class="col-12 col-md-11">
+                            <div class="h1 boxTitle bold-500 ft-purple">100%ESG選股</div>
+                            <p class="bold-500 text-center mb-5">聯博透過草根性研究完整整合ESG分析，實地探訪全球各地，<br
+                                    class="breakEnable_768">
+                                挖掘產品或服務符合聯合國永續發展目標的企業，<br class="breakEnable_768">
+                                建構100%符合ESG選股條件的投資組合。</p>
+                        </div>
+                    </div>
+
+                    <div class="col-12 text-center h4">聯博投資流程</div>
+
+                    <div class="row text-center d-none d-lg-block sgt03">
+                        <div>
+                            <object data="./images/tab_sgt03_1.svg" type="image/svg+xml" class="sgt03_1"
+                                id="diveOne"></object>
+                            <img src="images/tab_sgt03_5.png" class="img-fluid">
+                        </div>
+                        <div>
+                            <object data="./images/tab_sgt03_2.svg" type="image/svg+xml" class="sgt03_2"
+                                id="diveTwo"></object>
+                            <img src="images/tab_sgt03_6.png" class="img-fluid">
+                        </div>
+                        <div>
+                            <object data="./images/tab_sgt03_3.svg" type="image/svg+xml" class="sgt03_3"
+                                id="diveThree"></object>
+                            <img src="images/tab_sgt03_7.png" class="img-fluid">
+                        </div>
+                        <div>
+                            <object data="./images/tab_sgt03_4.svg" type="image/svg+xml" class="sgt03_4"
+                                id="diveFour"></object>
+                            <img src="images/tab_sgt03_8.png" class="img-fluid">
+                        </div>
+                    </div>
+
+                    <div class="row m-0 justify-content-center">
+                        <div class="col-12 col-md-11 mb-5">
+                            <p class="text-center d-block d-lg-none img-68">
+                                <img src="images/tab_sgt03_mb.png" class="img-fluid wow fadeInUp">
+                            </p>
+                        </div>
+                    </div>
+
+
+                    <div class="row m-0 justify-content-center">
+                        <div class="col-12 col-lg-11">
+                            <p class="small pt-2 pb-5 pb-lg-0 px-2 ft-gray02">
+                                <span class="bold-500 ft-black">投資組合隨時間改變。僅供說明參考使用。</span><br>
+                                資料來源: 聯合國與聯博。
+                            </p>
+                        </div>
+                    </div>
+
+                </div>
+
+                <!-- 合趨勢 -->
+                <div id="menu4" class="panal_04 tab-pane fixed-1100 fade">
+                    <div class="row m-0 justify-content-center">
+
+                        <div class="col-12 col-lg-10">
+
+                            <div class="h1 boxTitle bold-500 ft-purple">聚焦3大永續投資題材</div>
+                            <p class="bold-500 text-center mb-5">永續投資需要與時俱進。投資範圍邁入ESG投資3.0，投資題材「<span
+                                    class="ft-green">永保安康</span>」，<br class="breakEnable_768">
+                                永續主軸聚焦於環保優先、改善生活與健康醫療等投資趨勢，<br class="breakEnable_768">
+                                讓投資不僅是追求獲利，更能對世界產生正向力量。</p>
+
+                            <div class="esgTrend">
+                                <div class="esg_3_container" style="display: none;">
+                                    <div class="esg_3_box" style="display: none;">
+                                        <h6 class="boxTitle bold-500 ft-purple">氣候變遷 環保優先</h6>
+                                        <p>全球暖化使得環境、動植物、人們生活遭屢受極端氣候的挑戰。<br>
+                                            選擇企業服務或是產品致力於實踐能源轉型、節能減碳等環保精神，用實際行動呵護地球。</p>
+                                        <p>
+                                            舉例：<br>
+                                            以能源轉型為例，風力發電屬於再生能源的一種，可降低碳排放量，更減低空氣污染，可作為因應氣候變遷的解決方案之一。</p>
+                                    </div>
+                                    <div class="esg_3_box" style="display: none;">
+                                        <h6 class="boxTitle bold-500 ft-purple">改善生活 安居樂業</h6>
+                                        <p>促進人類福祉是邁向永續發展的精隨。<br>
+                                            然而，全球各區域經濟發展不一、城鄉差距、貧富差距持續受到矚目。<br>
+                                            而科技進步使得生活逐漸獲得改善，例如增加行動網路效率、開發支付解決方案等。
+                                        </p>
+                                        <p>
+                                            舉例：<br>
+                                            以線上支付為例，多元化支付可跨越地區的藩籬，協助商家解決跨國支付的問題，也能幫助地方性商家接觸更大的市場。</p>
+                                    </div>
+                                    <div class="esg_3_box" style="display: none;">
+                                        <h6 class="boxTitle bold-500 ft-purple">健康醫療 時代課題</h6>
+                                        <p>健康是永續發展的時代課題。<br>
+                                            但偏鄕醫療不便、重大疾病、慢性疾病等健康問題皆為人類生存帶來挑戰。<br>
+                                            選擇遠距醫療及基因定序等新醫療方式，為健康福祉帶來新曙光。
+                                        </p>
+                                        <p>
+                                            舉例：<br>
+                                            以精準醫療器材為例，傳統檢查癌症或其他疾病，可能採取切片手術，但可見的未來中，可透過抽血，透過基因定序提高準確率並擬定治療計畫。</p>
+                                    </div>
+                                    <button class="btnClose">
+                                        <object data="./images/icon_close.svg" type="image/svg+xml"></object>
+                                    </button>
+                                </div>
+
+                                <div class="esg_1">
+                                    <img src="./images/tab_sgt04_1.png" class="d-none d-lg-block">
+                                    <img src="./images/tab_sgt04_1_m.png" class="d-block d-lg-none">
+                                    <img src="./images/tab_sgt04_7.svg" class="sgt04_7 sgt04_7_1">
+                                </div>
+
+                                <div class="esg_2">
+                                    <img src="./images/tab_sgt04_2.png" class="d-none d-lg-block">
+                                    <img src="./images/tab_sgt04_2_m.png" class="d-block d-lg-none">
+                                    <img src="./images/tab_sgt04_7.svg" class="sgt04_7 sgt04_7_2">
+                                </div>
+
+                                <div class="esg_3">
+                                    <img src="./images/tab_sgt04_3.png" class="sgt04_3 d-none d-lg-block">
+                                    <img src="./images/tab_sgt04_3_m.png" class="sgt04_3 d-block d-lg-none">
+                                    <img src="./images/tab_sgt04_4.png" data-tagname="sgt04_4" class="sgt04 sgt04_4"
+                                        onclick="gtag('event', 'click', {'event_category' : 'button','event_label' : '環保優先'});">
+                                    <img src="./images/tab_sgt04_5.png" data-tagname="sgt04_5" class="sgt04 sgt04_5"
+                                        onclick="gtag('event', 'click', {'event_category' : 'button','event_label' : '安居樂業'});">
+                                    <img src="./images/tab_sgt04_6.png" data-tagname="sgt04_6" class="sgt04 sgt04_6"
+                                        onclick="gtag('event', 'click', {'event_category' : 'button','event_label' : '健康醫療'});">
+                                </div>
+                            </div>
+
+                        </div>
+                    </div>
+
+                    <div class="row mt-1 justify-content-center">
+                        <div class="col-12 col-lg-10 text-center">
+                            <p class="small pt-2 pb-5 pb-lg-0 px-2 ft-gray02 text-left">資料來源: 聯博。
+                            </p>
+                        </div>
+                    </div>
+
+                </div>
+            </div>
+
+        </div>
+
+        <!-- 百年好合：手機版 -->
+        <section class="mobile_advantage d-none" id="mobile_advantageTabs">
+            <div class="fixed-1240 fixed-bottom mobileNav">
+                <ul class="nav nav-pills nav-justified">
+                    <li class="nav-item">
+                        <a class="nav-link active" href="#" data-toggle="tab" data-target="#menu5"><span
+                                class="icon icon-arrow-top-01"
+                                onclick="gtag('event', 'click', {'event_category' : 'button','event_label' : '百兆商機'});"></span>百兆商機</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#" data-toggle="tab" data-target="#menu6"><span
+                                class="icon icon-arrow-top-01"
+                                onclick="gtag('event', 'click', {'event_category' : 'button','event_label' : '年化表現較佳'});"></span>年化表現較佳</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#" data-toggle="tab" data-target="#menu7"><span
+                                class="icon icon-arrow-top-01"
+                                onclick="gtag('event', 'click', {'event_category' : 'button','event_label' : '好用心'});"></span>好用心</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#" data-toggle="tab" data-target="#menu8"><span
+                                class="icon icon-arrow-top-01"
+                                onclick="gtag('event', 'click', {'event_category' : 'button','event_label' : '合趨勢'});"></span>合趨勢</a>
+                    </li>
+                </ul>
+            </div>
+            <div class="popCont">
+                <div class="goback p-3">
+                    <a href="javascript:;" id="closePopup_trigger"><span
+                            class="icon-chevron-thin-left ft-base ml-4"></span></a>
+                </div>
+                <div class="container advantage" id="mobileAdvantageContent">
+                    <!-- Tab panes -->
+                    <div class="tab-content">
+                        <div id="menu5" class="panal_01 tab-pane active"></div>
+                        <div id="menu6" class="panal_02 tab-pane fixed-1100 fade"></div>
+                        <div id="menu7" class="panal_03 tab-pane fixed-1100 fade"></div>
+                        <div id="menu8" class="panal_04 tab-pane fixed-1100 fade"></div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+
+        <!--================================================-->
+        <!-- 基金檔案(標題) -->
+        <div id="fund_profile" class="container fixed-1240 kv_cont title-padding"
+            data-js-scroll-to-target="fund_profile">
+            <div class="h2 ft-green bold-500 text-center mb-3 titlebar ft-175 point-padding" data-gtm="基金檔案">基金檔案</div>
+        </div>
+
+        <!-- 基金檔案(內容) -->
+        <section>
+            <div class="container-fill">
+                <div class="row m-0">
+                    <div class="col-lg bg-blue fund-padding">
+                        <div class="row bg-white fund-table">
+                            <div class="col-3 ft-green bg-gray fund-content">註冊地</div>
+                            <div class="col-9 bg-gray fund-content">盧森堡</div>
+                            <div class="col-3 ft-green fund-content">基金<br class="breakDisable_768">成立日</div>
+                            <div class="col-9 fund-content">1998-8-1(A級別)</div>
+                            <div class="col-3 ft-green bg-gray fund-content">幣別</div>
+                            <div class="col-9 bg-gray fund-content">美元、歐元</div>
+                            <div class="col-3 ft-green fund-content content-small">管理費</div>
+                            <div class="col-9 fund-content">1.70%、1.50%(A級別)</div>
+                            <div class="col-3 ft-green bg-gray fund-content">風險報酬<br class="breakDisable_768">等級<sup>a</sup></div>
+                            <div class="col-9 bg-gray fund-content">RR4</div>
+                            <div class="col-3 ft-green fund-content">基金淨值</div>
+                            <div class="col-9 fund-content"><a
+                                    href="/zh-tw/funds/offshore/equities/sustainable-global-thematic.a.lu0069063385.html"
+                                    target="_blank"
+                                    onclick="gtag('event', 'click', {'event_category' : 'button','event_label' : '基金淨值'});">查詢基金最新淨值(點我查詢)</a>
+                            </div>
+                        </div>
+                        <div class="row justify-content-center">
+                            <div class="col-4 col-md-3 col-lg-2 fund-link fund-link-margin"><a
+                                    href="https://www.abfunds.com.tw/content/dam/alliancebernstein/literature/abii-tw/product/fact-sheet/SGTP.pdf"
+                                    target="_blank"
+                                    onclick="gtag('event', 'click', {'event_category' : 'button','event_label' : '基金簡介'});"><img
+                                        src="images/link_02.png"><br>
+                                    <p>基金<br>月報</p>
+                                </a></div>
+                            <div class="col-4 col-md-3 col-lg-2 fund-link fund-link-margin"><a
+                                    href="https://www.abfunds.com.tw/content/dam/alliancebernstein/literature/abii-tw/product/manager-commentary/SGT.pdf"
+                                    target="_blank"
+                                    onclick="gtag('event', 'click', {'event_category' : 'button','event_label' : '經理人評論'});"><img
+                                        src="images/link_03.png"><br>
+                                    <p>經理人<br>評論</p>
+                                </a></div>
+                            <div class="col-4 col-md-3 col-lg-2 fund-link fund-link-margin"><a
+                                    href="/zh-tw/service-centre/sales-distributor.html" target="_blank"
+                                    onclick="gtag('event', 'click', {'event_category' : 'button','event_label' : '申購通路'});"><img
+                                        src="images/link_04.png"><br>
+                                    <p>申購<br>通路</p>
+                                </a></div>
+                        </div>
+                    </div>
+                </div>
+                
+            </div>
+        </section>
+
+        <!--================================================-->
+        <!-- 您可能感興趣的投資主題 -->
+        <section class="wow fadeInUp" data-wow-duration="1s" data-js-scroll-to-target="theme">
+            <div class="container fixed-1240 kv_cont title-padding">
+                <div class="h2 ft-green bold-500 text-center mb-3 titlebar ft-175 point-padding" data-gtm="聯博責任投資">
+                    聯博永續投資</div>
+            </div>
+            <div class="container-fluid cardInfo">
+                <div class="cardAD">
+                    <div class="cardBody"
+                        onclick="gtag('event', 'click', {'event_category' : 'button','event_label' : '收益策略'});">
+                        <div class="cardImage" style="background-image: url(./images/ad_income_lg.jpg);"></div>
+                        <div class="cardContain"
+                            onclick="window.open('https://www.abfunds.com.tw/campaign/apac/tw/Solutions/esg/esg-thematic-investing.html', '_blank')">
+                            <div class="cardTag">[ S ] USTAINABLE INVESTING</div>
+                            <div class="cardTitle">用投資改變世界<br>創造報酬與社會福祉雙贏</div>
+                            <div class="cardText">
+                                在過去，投資往往只是單純為了獲利，但隨著極端氣候與人口老化等議題日漸發酵，現在投資還能成為推動企業改善環境與落實社會公益的利器。當越來越多國家與企業積極投入環境、社會、公司治理(ESG)時，我們都能透過投資，與企業攜手為下一代創造更美好的未來。
+                            </div>
+                            <a class="btnAd" data-icon="next" href="javascript: void(0)"
+                                onclick="gtag('event', 'click', {'event_category' : 'button','event_label' : '了解更多-2'});">
+                                <span>了解更多</span>
+                                <span class="icon"><img src="./images/icon_arrow.svg" alt=""></span>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+
+        <!--================================================-->
+        <!-- 成為聯博LINE好友 即時掌握全球投資資訊 -->
+        <section class="fundFiles mt-5 py-lg-5 wow fadeInUp" data-wow-duration="1s" data-gtm="成為LINE好友"
+            data-js-scroll-to-target="linefriend">
+            <section class="addline my-0">
+                <div class="container">
+                    <div class="row justify-content-center">
+                        <div class="col-auto">
+                            <div class="d-flex kv_border blueBrd mx-3">
+                                <div class="brd border-right-0 mr-3"></div>
+                                <div class="h2 titlebar py-4 bold text-center text-black flex-grow-1">成為聯博LINE好友
+                                    即時掌握全球投資資訊</div>
+                                <div class="brd border-left-0 ml-3"></div>
+                            </div>
+
+                            <div class="d-flex justify-content-around text-center">
+                                <div class="p-3">
+                                    <p><img src="images/add_icon.png" alt="" class="mr-1"> 手機掃一下<br>QR code</p>
+                                    <img src="images/icon_qrcode.png" alt="" class="img-fluid">
+                                </div>
+                                <div class="p-3"
+                                    onclick="gtag('event', 'click', {'event_category' : 'button','event_label' : 'LINE傳送門'});">
+                                    <p>
+                                        <a href="https://redirect-line.accunix.net/redirect.html?liffId=1657364206-yGL90Az3&lineId=26a709533fBEw&lineBasicId=@gpt0697p&linkId=1838da6d2acudB"
+                                            target="_blank">
+                                            <img src="images/add_icon.png" alt="" class="mr-1"> 點選LINE<br>傳送門
+                                        </a>
+                                    </p>
+                                    <a href="https://www.abfunds.com.tw/campaign/apac/tw/line/abtaiwan.html" target="_blank" class="btn-line">
+                                        <img src="images/icon_line.png" alt="" class="img-fluid">
+                                    </a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+        </section>
+
+    </div>
+    <!--========== END Content ==========-->
+
+
+    <!--========== Footer ==========-->
+    <section>
+        <footer class="footer" include-html="template_footer.html"></footer>
+    </section>
+    <!--========== END Footer ==========-->
+
+
+
+    <script src="/campaign/apac/tw/product/sustainable-global-thematic/js/jquery.min.js"></script>
+    <script src="/campaign/apac/tw/product/sustainable-global-thematic/js/jquery.transit.min.js"></script>
+    <script src="/campaign/apac/tw/product/sustainable-global-thematic/js/bootstrap.bundle.min.js"></script>
+    <script src="/campaign/apac/tw/product/sustainable-global-thematic/js/bootstrap-toolkit.min.js"></script>
+    <script src="/campaign/apac/tw/product/sustainable-global-thematic/js/loadingProgress.js"></script>
+    <script src="/campaign/apac/tw/product/sustainable-global-thematic/js/includeExternalHtml.js"></script>
+    <script src="/campaign/apac/tw/product/sustainable-global-thematic/js/animate.js"></script>
+    <script type="text/javascript" src="/campaign/apac/tw/product/sustainable-global-thematic/js/vivus.min.js"> </script>
+    <script type="text/javascript">!function(){"use strict";function t(o){if(!o)throw new Error("No options passed to Waypoint constructor");if(!o.element)throw new Error("No element option passed to Waypoint constructor");if(!o.handler)throw new Error("No handler option passed to Waypoint constructor");this.key="waypoint-"+e,this.options=t.Adapter.extend({},t.defaults,o),this.element=this.options.element,this.adapter=new t.Adapter(this.element),this.callback=o.handler,this.axis=this.options.horizontal?"horizontal":"vertical",this.enabled=this.options.enabled,this.triggerPoint=null,this.group=t.Group.findOrCreate({name:this.options.group,axis:this.axis}),this.context=t.Context.findOrCreateByElement(this.options.context),t.offsetAliases[this.options.offset]&&(this.options.offset=t.offsetAliases[this.options.offset]),this.group.add(this),this.context.add(this),i[this.key]=this,e+=1}var e=0,i={};t.prototype.queueTrigger=function(t){this.group.queueTrigger(this,t)},t.prototype.trigger=function(t){this.enabled&&this.callback&&this.callback.apply(this,t)},t.prototype.destroy=function(){this.context.remove(this),this.group.remove(this),delete i[this.key]},t.prototype.disable=function(){return this.enabled=!1,this},t.prototype.enable=function(){return this.context.refresh(),this.enabled=!0,this},t.prototype.next=function(){return this.group.next(this)},t.prototype.previous=function(){return this.group.previous(this)},t.invokeAll=function(t){var e=[];for(var o in i)e.push(i[o]);for(var n=0,r=e.length;r>n;n++)e[n][t]()},t.destroyAll=function(){t.invokeAll("destroy")},t.disableAll=function(){t.invokeAll("disable")},t.enableAll=function(){t.Context.refreshAll();for(var e in i)i[e].enabled=!0;return this},t.refreshAll=function(){t.Context.refreshAll()},t.viewportHeight=function(){return window.innerHeight||document.documentElement.clientHeight},t.viewportWidth=function(){return document.documentElement.clientWidth},t.adapters=[],t.defaults={context:window,continuous:!0,enabled:!0,group:"default",horizontal:!1,offset:0},t.offsetAliases={"bottom-in-view":function(){return this.context.innerHeight()-this.adapter.outerHeight()},"right-in-view":function(){return this.context.innerWidth()-this.adapter.outerWidth()}},window.Waypoint=t}(),function(){"use strict";function t(t){window.setTimeout(t,1e3/60)}function e(t){this.element=t,this.Adapter=n.Adapter,this.adapter=new this.Adapter(t),this.key="waypoint-context-"+i,this.didScroll=!1,this.didResize=!1,this.oldScroll={x:this.adapter.scrollLeft(),y:this.adapter.scrollTop()},this.waypoints={vertical:{},horizontal:{}},t.waypointContextKey=this.key,o[t.waypointContextKey]=this,i+=1,n.windowContext||(n.windowContext=!0,n.windowContext=new e(window)),this.createThrottledScrollHandler(),this.createThrottledResizeHandler()}var i=0,o={},n=window.Waypoint,r=window.onload;e.prototype.add=function(t){var e=t.options.horizontal?"horizontal":"vertical";this.waypoints[e][t.key]=t,this.refresh()},e.prototype.checkEmpty=function(){var t=this.Adapter.isEmptyObject(this.waypoints.horizontal),e=this.Adapter.isEmptyObject(this.waypoints.vertical),i=this.element==this.element.window;t&&e&&!i&&(this.adapter.off(".waypoints"),delete o[this.key])},e.prototype.createThrottledResizeHandler=function(){function t(){e.handleResize(),e.didResize=!1}var e=this;this.adapter.on("resize.waypoints",function(){e.didResize||(e.didResize=!0,n.requestAnimationFrame(t))})},e.prototype.createThrottledScrollHandler=function(){function t(){e.handleScroll(),e.didScroll=!1}var e=this;this.adapter.on("scroll.waypoints",function(){(!e.didScroll||n.isTouch)&&(e.didScroll=!0,n.requestAnimationFrame(t))})},e.prototype.handleResize=function(){n.Context.refreshAll()},e.prototype.handleScroll=function(){var t={},e={horizontal:{newScroll:this.adapter.scrollLeft(),oldScroll:this.oldScroll.x,forward:"right",backward:"left"},vertical:{newScroll:this.adapter.scrollTop(),oldScroll:this.oldScroll.y,forward:"down",backward:"up"}};for(var i in e){var o=e[i],n=o.newScroll>o.oldScroll,r=n?o.forward:o.backward;for(var s in this.waypoints[i]){var a=this.waypoints[i][s];if(null!==a.triggerPoint){var l=o.oldScroll<a.triggerPoint,h=o.newScroll>=a.triggerPoint,p=l&&h,u=!l&&!h;(p||u)&&(a.queueTrigger(r),t[a.group.id]=a.group)}}}for(var c in t)t[c].flushTriggers();this.oldScroll={x:e.horizontal.newScroll,y:e.vertical.newScroll}},e.prototype.innerHeight=function(){return this.element==this.element.window?n.viewportHeight():this.adapter.innerHeight()},e.prototype.remove=function(t){delete this.waypoints[t.axis][t.key],this.checkEmpty()},e.prototype.innerWidth=function(){return this.element==this.element.window?n.viewportWidth():this.adapter.innerWidth()},e.prototype.destroy=function(){var t=[];for(var e in this.waypoints)for(var i in this.waypoints[e])t.push(this.waypoints[e][i]);for(var o=0,n=t.length;n>o;o++)t[o].destroy()},e.prototype.refresh=function(){var t,e=this.element==this.element.window,i=e?void 0:this.adapter.offset(),o={};this.handleScroll(),t={horizontal:{contextOffset:e?0:i.left,contextScroll:e?0:this.oldScroll.x,contextDimension:this.innerWidth(),oldScroll:this.oldScroll.x,forward:"right",backward:"left",offsetProp:"left"},vertical:{contextOffset:e?0:i.top,contextScroll:e?0:this.oldScroll.y,contextDimension:this.innerHeight(),oldScroll:this.oldScroll.y,forward:"down",backward:"up",offsetProp:"top"}};for(var r in t){var s=t[r];for(var a in this.waypoints[r]){var l,h,p,u,c,d=this.waypoints[r][a],f=d.options.offset,w=d.triggerPoint,y=0,g=null==w;d.element!==d.element.window&&(y=d.adapter.offset()[s.offsetProp]),"function"==typeof f?f=f.apply(d):"string"==typeof f&&(f=parseFloat(f),d.options.offset.indexOf("%")>-1&&(f=Math.ceil(s.contextDimension*f/100))),l=s.contextScroll-s.contextOffset,d.triggerPoint=Math.floor(y+l-f),h=w<s.oldScroll,p=d.triggerPoint>=s.oldScroll,u=h&&p,c=!h&&!p,!g&&u?(d.queueTrigger(s.backward),o[d.group.id]=d.group):!g&&c?(d.queueTrigger(s.forward),o[d.group.id]=d.group):g&&s.oldScroll>=d.triggerPoint&&(d.queueTrigger(s.forward),o[d.group.id]=d.group)}}return n.requestAnimationFrame(function(){for(var t in o)o[t].flushTriggers()}),this},e.findOrCreateByElement=function(t){return e.findByElement(t)||new e(t)},e.refreshAll=function(){for(var t in o)o[t].refresh()},e.findByElement=function(t){return o[t.waypointContextKey]},window.onload=function(){r&&r(),e.refreshAll()},n.requestAnimationFrame=function(e){var i=window.requestAnimationFrame||window.mozRequestAnimationFrame||window.webkitRequestAnimationFrame||t;i.call(window,e)},n.Context=e}(),function(){"use strict";function t(t,e){return t.triggerPoint-e.triggerPoint}function e(t,e){return e.triggerPoint-t.triggerPoint}function i(t){this.name=t.name,this.axis=t.axis,this.id=this.name+"-"+this.axis,this.waypoints=[],this.clearTriggerQueues(),o[this.axis][this.name]=this}var o={vertical:{},horizontal:{}},n=window.Waypoint;i.prototype.add=function(t){this.waypoints.push(t)},i.prototype.clearTriggerQueues=function(){this.triggerQueues={up:[],down:[],left:[],right:[]}},i.prototype.flushTriggers=function(){for(var i in this.triggerQueues){var o=this.triggerQueues[i],n="up"===i||"left"===i;o.sort(n?e:t);for(var r=0,s=o.length;s>r;r+=1){var a=o[r];(a.options.continuous||r===o.length-1)&&a.trigger([i])}}this.clearTriggerQueues()},i.prototype.next=function(e){this.waypoints.sort(t);var i=n.Adapter.inArray(e,this.waypoints),o=i===this.waypoints.length-1;return o?null:this.waypoints[i+1]},i.prototype.previous=function(e){this.waypoints.sort(t);var i=n.Adapter.inArray(e,this.waypoints);return i?this.waypoints[i-1]:null},i.prototype.queueTrigger=function(t,e){this.triggerQueues[e].push(t)},i.prototype.remove=function(t){var e=n.Adapter.inArray(t,this.waypoints);e>-1&&this.waypoints.splice(e,1)},i.prototype.first=function(){return this.waypoints[0]},i.prototype.last=function(){return this.waypoints[this.waypoints.length-1]},i.findOrCreate=function(t){return o[t.axis][t.name]||new i(t)},n.Group=i}(),function(){"use strict";function t(t){this.$element=e(t)}var e=window.jQuery,i=window.Waypoint;e.each(["innerHeight","innerWidth","off","offset","on","outerHeight","outerWidth","scrollLeft","scrollTop"],function(e,i){t.prototype[i]=function(){var t=Array.prototype.slice.call(arguments);return this.$element[i].apply(this.$element,t)}}),e.each(["extend","inArray","isEmptyObject"],function(i,o){t[o]=e[o]}),i.adapters.push({name:"jquery",Adapter:t}),i.Adapter=t}(),function(){"use strict";function t(t){return function(){var i=[],o=arguments[0];return t.isFunction(arguments[0])&&(o=t.extend({},arguments[1]),o.handler=arguments[0]),this.each(function(){var n=t.extend({},o,{element:this});"string"==typeof n.context&&(n.context=t(this).closest(n.context)[0]),i.push(new e(n))}),i}}var e=window.Waypoint;window.jQuery&&(window.jQuery.fn.waypoint=t(window.jQuery)),window.Zepto&&(window.Zepto.fn.waypoint=t(window.Zepto))}();</script>
+    <script type="text/javascript">!function(){"use strict";var t=window.jQuery,e=window.Waypoint;function i(s){this.options=t.extend({},e.defaults,i.defaults,s),this.element=this.options.element,this.$element=t(this.element),this.createWrapper(),this.createWaypoint()}i.prototype.createWaypoint=function(){var i=this.options.handler;this.waypoint=new e(t.extend({},this.options,{element:this.wrapper,handler:t.proxy(function(t){var e=this.options.direction.indexOf(t)>-1,s=e?this.$element.outerHeight(!0):"";this.$wrapper.height(s),this.$element.toggleClass(this.options.stuckClass,e),i&&i.call(this,t)},this)}))},i.prototype.createWrapper=function(){this.options.wrapper&&this.$element.wrap(this.options.wrapper),this.$wrapper=this.$element.parent(),this.wrapper=this.$wrapper[0]},i.prototype.destroy=function(){this.$element.parent()[0]===this.wrapper&&(this.waypoint.destroy(),this.$element.removeClass(this.options.stuckClass),this.options.wrapper&&this.$element.unwrap())},i.defaults={wrapper:'<div class="sticky-wrapper" />',stuckClass:"stuck",direction:"down right"},e.Sticky=i}();</script>
+
+    <!-- Todo 打包時，崁入自定義 javascript 程式碼 -->
+    <script type="text/javascript">var isMobile,isMenuTrigger=!1;!function(e,t){t.breakpoints={xs:e('<div class="d-xs-block d-sm-none d-md-none d-lg-none d-xl-none"></div>'),sm:e('<div class="d-none d-sm-block d-md-none d-lg-none d-xl-none"></div>'),md:e('<div class="d-none d-md-block d-sm-none d-lg-none d-xl-none"></div>'),lg:e('<div class="d-none d-lg-block d-sm-none d-md-none d-xl-none"></div>'),xl:e('<div class="d-none d-xl-block d-sm-none d-md-none d-lg-none"></div>')},e(document).ready(function(){window.isMobile="xs"==t.current();e(window).resize(t.changed(function(){}))})}(jQuery,ResponsiveBootstrapToolkit);var resetTabsPos=function(){window.isMenuTrigger||$("html, body").animate({scrollTop:$("div[data-reset-tabs-pos]").offset().top-$(".header").outerHeight()-40},600,function(){})},animaeTab4=function(){$(".esg_3_container").css("display","none"),$(".esg_3_box").css("display","none"),$(".esg_1").animate({opacity:0},0),$(".esg_2").animate({opacity:0},0),$(".esg_3").animate({opacity:0},0),$(".sgt04_7_1").animate({opacity:0},0),$(".sgt04_7_2").animate({opacity:0},0),$(".esg_1").animate({opacity:1},1e3),$(".esg_2").delay(500).animate({opacity:1},1e3),$(".sgt04_7_1").delay(500).animate({opacity:1},1e3),$(".esg_3").delay(1e3).animate({opacity:1},1e3),$(".sgt04_7_2").delay(1e3).animate({opacity:1},1e3)};const diveOne=new Vivus("diveOne",{duration:100,reverseStack:!0}),diveTwo=new Vivus("diveTwo",{duration:100,reverseStack:!0}),diveThree=new Vivus("diveThree",{duration:100,reverseStack:!0}),diveFour=new Vivus("diveFour",{duration:100,reverseStack:!0});var _ctlMobiliePop=function(){var e=$("#mobile_advantageTabs");e.hasClass("open")?(e.removeClass("open"),setTimeout(function(){e.removeClass("d-trans").addClass("d-none")},400)):(e.removeClass("d-none"),e.addClass("d-trans"),setTimeout(function(){e.addClass("open")},100))};$(function(){$(document).on("click",".js-scroll-to",function(){var e=$(".header").outerHeight(),t=$(this).attr("data-js-scroll-to"),o=$('*[data-js-scroll-to-target="'+t+'"]').offset().top-e,n=0;window.isMenuTrigger=!0,"hundredYears"!=t||c.hasClass("scrollUp")||(c.addClass("scrollUp"),a(),$("#menu1_trigger").trigger("click"),r=!0,n=500),setTimeout(function(){$("html, body").animate({scrollTop:o},600,function(){v(t),window.isMenuTrigger=!1})},n)});var e,t,o=0,n="down";$(window).on("scroll",function(){window.clearTimeout(e),e=window.setTimeout(function(){n=$(window).scrollTop()>=o?"down":"up",o=$(window).scrollTop(),"function"==typeof t&&t()},100)}),t=function(){window.clearTimeout(e)};var a,s,i,r=!1,l=2*$(window).innerHeight()/5,d=2*$(window).innerHeight()/5,c=$("#advantageTabs"),g=$('#advantageTabs [data-target^="#"]');a=function(){g.removeClass("active").filter(":first-child").addClass("active"),$(".tab-pane#menu1",c).removeClass("fade").addClass("active"),w()},closeFundTabs=function(){g.removeClass("active"),$(".tab-pane",c).removeClass("active").addClass("fade"),w()},$(window).on("scroll",function(){window.isMenuTrigger||(window.isMobile?c.removeClass("scrollUp"):(window.clearTimeout(s),s=window.setTimeout(function(){$(window).scrollTop()>c.offset().top-l&&"down"==n&&!r?c.hasClass("scrollUp")||(c.addClass("scrollUp"),a(),$("#menu1_trigger").trigger("click"),r=!0):$(window).scrollTop()<=c.offset().top-d&&"up"==n&&r&&c.hasClass("scrollUp")&&(c.removeClass("scrollUp"),closeFundTabs(),$("#menu1_trigger").removeClass("active"),$("#menu1").removeClass("active"),r=!1)},60)))});var u=$(".header"),v=function(e){switch(e){case"keyVisual":u.addClass("bg01").removeClass("bg02").removeClass("bg03").removeClass("bg04").removeClass("bg05");break;case"theme":u.removeClass("bg01").addClass("bg02").removeClass("bg03").removeClass("bg04").removeClass("bg05");break;case"fund_profile":u.removeClass("bg01").removeClass("bg02").addClass("bg03").removeClass("bg04").removeClass("bg05");break;case"linefriend":u.removeClass("bg01").removeClass("bg02").removeClass("bg03").addClass("bg04").removeClass("bg05");break;case"hundredYears":u.removeClass("bg01").removeClass("bg02").removeClass("bg03").removeClass("bg04").addClass("bg05")}},m={},w=function(){$("*[data-js-scroll-to-target]").each(function(e){m[$(this).data("jsScrollToTarget")]=[Math.floor($(this).offset().top+$(".header").innerHeight())-1,Math.floor($(this).offset().top+$(this).innerHeight()+$(".header").innerHeight())+1]})};window.onload=function(){w()},$(window).on("scroll",function(e){window.clearTimeout(i),i=window.setTimeout(function(){$.each(m,function(e,t){$(window).scrollTop()+$(".header").outerHeight()>=t[0]&&$(window).scrollTop()+$(".header").outerHeight()<t[1]?v(e):window.clearTimeout(i)})},60)}),$(function(){var e,t,o=function(){e=Number($(document).outerHeight(!0)-2*$(window).height()/3)};$(window).on("scroll",function(n){window.clearTimeout(t),t=window.setTimeout(function(){o();var t=Number($(document).scrollTop()+$(window).height()/3);Math.round(t/e*100)},30)}),o()})}),$(".cardBody").hover(function(){$(this).addClass("active")},function(){$(this).removeClass("active")});var sgt04=document.querySelectorAll(".sgt04"),esg_3_container=document.querySelector(".esg_3_container"),esg_3_box=document.querySelectorAll(".esg_3_box");function openInfor(e){switch(e.preventDefault(),e.target.dataset.tagname){case"sgt04_4":esg_3_box[0].style.display="block";break;case"sgt04_5":esg_3_box[1].style.display="block";break;case"sgt04_6":esg_3_box[2].style.display="block"}esg_3_container.style.display="block"}for(let e=0;e<sgt04.length;e++){sgt04[e].addEventListener("click",openInfor)}var btnClose=document.querySelector(".btnClose");function closeInfor(){esg_3_container.style.display="none";for(let e=0;e<esg_3_box.length;e++){esg_3_box[e].style.display="none"}}btnClose.addEventListener("click",closeInfor),window.isMobile?$("#menu1_trigger, #menu2_trigger, #menu3_trigger, #menu4_trigger, #closePopup_trigger").on("click",function(e){var t=$(e.currentTarget).attr("id");if("closePopup_trigger"!=t)switch(t){case"menu1_trigger":$('a[data-target="#menu5"]').tab("show");break;case"menu2_trigger":$('a[data-target="#menu6"]').tab("show");break;case"menu3_trigger":$('a[data-target="#menu7"]').tab("show");break;case"menu4_trigger":$('a[data-target="#menu8"]').tab("show")}}):($("#menu1_trigger").on("click",function(){$("#advantageTabs").addClass("scrollUp"),$(this).tab("show"),resetTabsPos()}),$("#menu2_trigger").on("click",function(){$("#advantageTabs").addClass("scrollUp"),$(this).tab("show"),resetTabsPos()}),$("#menu3_trigger").on("click",function(){$("#advantageTabs").addClass("scrollUp"),$(this).tab("show"),resetTabsPos(),diveOne.reset(),diveOne.play(2),diveTwo.reset(),diveTwo.play(2),diveThree.reset(),diveThree.play(2),diveFour.reset(),diveFour.play(2)}),$("#menu4_trigger").on("click",function(){$("#advantageTabs").addClass("scrollUp"),$(this).tab("show"),resetTabsPos(),animaeTab4()}));var playerVideoPC,playerVideoMobile,scriptUrl="https://www.youtube.com/s/player/d2ff46c3/www-widgetapi.vflset/www-widgetapi.js";if(!window.YT)var YT={loading:0,loaded:0};if(!window.YTConfig)var YTConfig={host:"https://www.youtube.com"};function onYouTubeIframeAPIReady(){playerVideoPC=new YT.Player("videoPC",{height:"390",width:"640",videoId:"9l1XWFnf8vM",events:{onStateChange:onPlayerStateChange}}),playerVideoMobile=new YT.Player("videoMobile",{height:"390",width:"640",videoId:"9l1XWFnf8vM",events:{onStateChange:onPlayerStateChange}})}function onPlayerStateChange(e){"-1"==e.data&&gtag("event","click",{event_category:"button",event_label:"SGT-VIDEO"})}YT.loading||(YT.loading=1,function(){var e=[];YT.ready=function(t){YT.loaded?t():e.push(t)},window.onYTReady=function(){YT.loaded=1;for(var t=0;t<e.length;t++)try{e[t]()}catch(e){}},YT.setConfig=function(e){for(var t in e)e.hasOwnProperty(t)&&(YTConfig[t]=e[t])};var t=document.createElement("script");t.type="text/javascript",t.id="www-widgetapi-script",t.src=scriptUrl,t.async=!0;var o=document.currentScript;if(o){var n=o.nonce||o.getAttribute("nonce");n&&t.setAttribute("nonce",n)}var a=document.getElementsByTagName("script")[0];a.parentNode.insertBefore(t,a)}());var waypoint1,waypoint2,customGtag=function(e,t){"scrollDepth"===e?gtag("event","scroll",{event_category:e,event_label:t}):gtag("event","click",{event_category:"button",event_label:t})},observerArray=[],sectionObservation=function(){var e=document.querySelectorAll("[data-gtm]"),t=new IntersectionObserver(function(e){for(var t=0;t<e.length;t++){var o=e[t].target.getAttribute("data-gtm");if(e[t].intersectionRatio>0)-1===observerArray.indexOf(o)&&(observerArray.push(o),customGtag("scrollDepth",o));else{var n=observerArray.indexOf(o);observerArray.splice(n,1)}}},{threshold:[0],root:null});if(e.length&&e)for(var o=0;o<e.length;o++)t.observe(e[o])};sectionObservation(),$(function(){waypoint1=new Waypoint({element:document.getElementById("nav-tab"),offset:53,handler:function(e){var t=document.getElementById("nav-tab").offsetHeight;document.getElementById("nav-tab-box").style.height=t+"px","down"===e?$("#nav-tab").addClass("stuck"):$("#nav-tab").removeClass("stuck")}}),waypoint2=new Waypoint({element:document.getElementById("fund_profile"),offset:153,handler:function(e){$("#nav-tab").removeClass("stuck")}})}),$("#menu1_trigger, #menu2_trigger, #menu3_trigger, #menu4_trigger").on("click",function(){setTimeout(function(){Waypoint.refreshAll()},500)});</script>
+
+</body>
+
+</html>

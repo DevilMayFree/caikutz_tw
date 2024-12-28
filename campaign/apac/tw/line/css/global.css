@@ -1,0 +1,172 @@
+@charset "utf-8";
+@import url(https://fonts.googleapis.com/css?family=Noto+Sans+TC:400,500,700,900&display=swap&subset=chinese-traditional);
+/* set default */
+input,textarea,button,select,a {  -webkit-tap-highlight-color: rgba(255,255,255,0);}
+*,body {margin:0 auto;padding:0;}
+body, table, p, div, span, form, input, textarea, select, pre, button,h1,h2,h3,h4 ,a,ul li,ol li,table th,table td{font-family: 'Klavika','Noto Sans TC',"Noto Sans CJK TC", "Noto Sans CJK TC Medium", "Helvetica Neue", "Helvetica", "微軟正黑體","Microsoft JhengHei","PMingLiU", AppleGothic, Dotum, Lucida Grande, Verdana Sans-serif!important;}
+div, p, span, ul, ol, li, h1, h2, h3, h4, h5, h6, input, table, td, th, img { margin: 0; padding: 0;border: none; }
+a{color:inherit;	text-decoration:none;	outline: none;}
+a:hover{text-decoration:none;}
+html, body, p, h1, h2, h3, h4, h5, h6, ul, ol, dl, br, span,a {margin:0;padding:0;}
+img {border:none;vertical-align:top;}
+body,div,dl,dt,dd,ul,ol,li,h1,h2,h3,h4,h5,h6,pre,form,fieldset,input,textarea,p,blockquote,th,td {margin:0;	padding:0;}
+table {border-collapse:collapse;border-spacing:0;}
+fieldset,img,iframe {border:0;}
+address,caption,cite,code,dfn,em,th,var {font-style:normal;font-weight:normal;}
+caption,th {text-align:left;}
+q:before,q:after {content:'';}
+abbr,acronym {border:0;}
+select:focus,textarea:focus,input[type="text"]:focus,input[type="password"]:focus,button:focus{
+    outline: 0;
+}
+a:active, a:hover {outline: 0 none;}
+
+
+/*
+
+body {
+  word-wrap: break-word;
+  font-size: 15px;
+  line-height: 1.6;
+  color: #727171;
+  font-family: "Microsoft JhengHei",微軟正黑體,Verdana,sans-serif;
+}
+/* placement */
+.hideme{display:none;}
+.noshow{visibility:hidden;}
+/*測試用 */
+.tester{
+	border:1px solid #000;
+}
+.vbottom:before {    content: "";    display: inline-block;    vertical-align: bottom;    height: 100%;}
+/* mover 會需要移動, fixer 不移動 */
+.clr {	clear: both;}	/*清理者*/
+.tcenter {text-align: center!important;}	/*文字置中 */
+.tright {text-align:right!important;}
+.tleft {text-align:left!important;}
+.fL {float:left!important;}
+.fR {float:right!important;}
+.btn{cursor:pointer;}
+/* color */
+.red{ color:f00;}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, footer, header, hgroup, menu, nav, section {display: block;}
+ol, ul {list-style: none;}
+blockquote, q {	quotes: none;}
+blockquote:before, blockquote:after, q:before, q:after {content: '';content: none;}
+table {	border-collapse: collapse;border-spacing: 0;}
+/*共用物件 */
+.fader{	display:none!important;}
+.fixer{	position:absolute!important;}
+.mover{	position:absolute!important;}
+.stay{position:fixed!important;}
+.rely{position:relative!important;}
+.shadow{
+    -moz-box-shadow: 1px 1px 16px #000;
+	-webkit-box-shadow: 1px 1px 16px #000;
+	box-shadow: 1px 1px 10px #600;
+}
+.shadow2{
+    -moz-box-shadow: 1px 1px 10px #000;
+	-webkit-box-shadow: 1px 1px 10px #000;
+	box-shadow: 1px 1px 10px #000;
+}
+.shadow3{
+    -moz-box-shadow: 1px 1px 6px #666;
+	-webkit-box-shadow: 1px 1px 6px #666;
+	box-shadow: 1px 1px 6px #666;
+}
+.cover{
+	position:absolute;
+	top:0;
+	left:0;
+	width:100%;
+	height:100%;
+}
+/* 全寬 */
+.fullw{	width:100%!important;}
+.full90{	width:90%!important;}
+.full50{	width:50%!important;}
+.fullh{height:100%;}
+/* margin */
+.marginv5{ margin-top:5px;margin-bottom:5px;}
+.marginv10{ margin-top:10px;margin-bottom:10px;}
+
+/*padding */
+.p10{padding-top:10px;padding-bottom:10px;}
+.p15{padding-top:15px;padding-bottom:15px;}
+.p20{padding-top:20px;padding-bottom:20px;}
+.wp10{padding-left:10px;padding-right:10px;}
+.wp15{padding-left:15px;padding-right:15px;}
+.wp20{padding-left:20px;padding-right:20px;}
+.wp25{padding-left:25px;padding-right:25px;}
+.wp30{padding-left:30px;padding-right:30px;}
+/* inline=block */
+.inblock{ display:inline-block !important;}
+/* preload 框架  */
+#preloadpage{
+	position:fixed;
+	top:0;
+	left:0;
+	width:100%;
+	height:100%;
+	z-index:999999999999999999999;
+}
+.border5{-webkit-border-radius: 5px!important;-moz-border-radius: 5px!important;border-radius: 5px!important;}
+.border10{-webkit-border-radius: 10px!important;-moz-border-radius: 10px!important;border-radius: 10px!important;}
+.border15{-webkit-border-radius: 15px!important;-moz-border-radius: 15px!important;border-radius: 15px!important;}
+.border20{-webkit-border-radius: 20px!important;-moz-border-radius: 20px!important;border-radius: 20px!important;}
+.bold{font-weight:bold!important;}
+/*驗證碼使用 */
+#codepage{
+	position:relative;
+	height:20px;
+	width:100px;
+	background:#222;
+	margin:1px 10px;
+	float:left;
+	background:url(../caps/bg.jpg);
+}#codepage img {
+	position:relative;
+    float:left;
+	padding:0 3px 0 2px;
+}#codepagew{
+	position:relative;
+	height:30px;
+	width:150px;
+	background:#fff;
+	margin:1px 10px;
+	float:left;
+	background:url(../capw/bg.jpg);
+}#codepagew img {
+	position:relative;
+    float:left;
+	padding:0 5px 0 5px;
+}#error{
+	font:14px Verdana, Geneva, sans-serif;
+	color:#c00!important;
+	font-weight:bold;
+	width:200px;
+}.error{
+	font:13px Verdana, Geneva, sans-serif;
+	color:#c00!important;
+	font-weight:bold;
+	padding-left:5px!important;
+}
+.forminput{
+	background:#446bb3 !important;
+}
+.ajaxloader{text-align:center;padding:2vw;}
+.ajaxloader img{margin:0 auto;}
+/* 這是處理 android 表格的問題 */
+input:-webkit-autofill,input:-webkit-autofill:hover,input:-webkit-autofill:focus {-webkit-text-fill-color: #fff;}
+/*select{-webkit-appearance:none;}*/
+.fixfont{font-size:100%!important;}
+input:-webkit-autofill {    -webkit-box-shadow: 0 0 0px 1000px white inset;	-webkit-text-fill-color: #444 !important;}
+img {
+-webkit-user-select: none;
+-khtml-user-select: none;
+-moz-user-select: none;
+-o-user-select: none;
+user-select: none;
+}

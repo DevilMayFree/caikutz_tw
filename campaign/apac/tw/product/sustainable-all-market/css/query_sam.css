@@ -1,0 +1,1160 @@
+@media (max-width: 960px) {
+  body::-webkit-scrollbar {
+    display: none; /* Chrome, Safari and Opera */
+  }
+  body {
+    -ms-overflow-style: none; /* IE and Edge */
+    scrollbar-width: none; /* Firefox */
+  }
+}
+.sam2023 .ab-header__anchor-list-item:lang(zh) {
+  font-family: inherit;
+}
+@media (max-width: 1199.98px) {
+  .sam2023 .ab-header__anchor-list-item:lang(zh) {
+    font-family: inherit;
+  }
+}
+
+@media (max-width: 1199.98px) {
+  .section__title:lang(zh) {
+    font-size: 32px;
+  }
+  .txt_h3 {
+    font-size: 24px;
+  }
+  .txt_h4 {
+    font-size: 20px;
+  }
+
+  .section__context:lang(zh) {
+    font-size: 14px;
+  }
+  .ab-action-button .btn_arrowRight {
+    margin-top: 1px;
+  }
+}
+
+@media (max-width: 767.98px) {
+  .section__title:lang(zh) {
+    font-size: 24px;
+  }
+  .ab-section-engbg-title {
+    font-size: 60px;
+  }
+  .txt_h3 {
+    font-size: 20px;
+  }
+  .txt_h4 {
+    font-size: 16px;
+  }
+  .section__desc:lang(zh) {
+    margin-bottom: 2rem;
+    font-size: 16px;
+    line-height: 1.5;
+  }
+  .file-title {
+    margin-bottom: 0.25rem;
+  }
+  .h3-plan-card-title {
+    font-size: 22px;
+    line-height: 1.2;
+  }
+}
+@media (max-width: 480px) {
+  .h3-plan-card-title {
+    font-size: 20px;
+  }
+}
+
+@media (max-width: 480px) {
+  .txt_h2 span {
+    display: inline;
+  }
+}
+/* section layout */
+.section__title .br_for_mobile {
+  display: inline-block;
+  width: 2rem;
+}
+.section__title .br_for_mobile_nospace {
+  display: none;
+}
+@media (max-width: 1199.98px) {
+  .sam2023 .section1,
+  .sam2023 .section2,
+  .sam2023 .section3,
+  .sam2023 .section4,
+  .sam2023 .section5,
+  .sam2023 .section6,
+  .sam2023 .section7,
+  .sam2023 .section8,
+  .sam2023 .section9 {
+    padding-top: 80px;
+    padding-bottom: 80px;
+  }
+}
+@media (max-width: 920px) {
+  .sam2023 .section1,
+  .sam2023 .section2,
+  .sam2023 .section3,
+  .sam2023 .section4,
+  .sam2023 .section5,
+  .sam2023 .section6,
+  .sam2023 .section7,
+  .sam2023 .section8,
+  .sam2023 .section9 {
+    padding-bottom: 60px;
+    padding-top: 60px;
+  }
+}
+@media (max-width: 767.98px) {
+  .section__title .br_for_mobile {
+    display: block;
+    height: 0;
+  }
+  .ab-section__wrapper:last-child {
+    margin-bottom: 0;
+  }
+}
+@media (max-width: 480px) {
+  .ab-note-wrapper {
+    margin-top: 2rem;
+  }
+  /* .container{  padding-right: 1rem; padding-left: 1rem; } */
+}
+
+/* header */
+.jsMobMenuToggle {
+  display: none;
+}
+@media (max-width: 1199.98px) {
+  .sam2023 h1 {
+    margin-left: 20px;
+    margin-right: 20px;
+  }
+  .sam2023 .ab-header__desktop-logo-zh {
+    margin-top: 18px;
+    margin-bottom: 22px;
+  }
+  .sam2023 .ab-header__anchor-list {
+    right: 40px;
+  }
+}
+/* 切換為 mobile 選單 */
+@media (max-width: 960px) {
+  /* @media (max-width: 767.98px) { */
+  .sam2023 .ab-header {
+    height: 60px;
+  }
+  .stickyed {
+    z-index: 100;
+  }
+  .stickyed.open {
+    filter: none;
+    -webkit-filter: none;
+  }
+  .sam2023 h1 {
+    margin: 0;
+  }
+  .sam2023 .ab-header__logo-link {
+    height: 40px;
+    width: auto;
+  }
+  .sam2023 .ab-header__anchor-list {
+    /* display: block; */
+  }
+  .sam2023 .jsPcMenu {
+    display: none;
+  }
+  .jsMobMenuToggle {
+    display: block;
+  }
+  .mobilemenu {
+    display: block;
+  }
+  .navbar-toggler {
+    height: 30px;
+    width: 30px;
+    line-height: 0;
+    padding: 0;
+    font-size: 12px;
+    position: absolute;
+    top: 18px;
+    right: 20px;
+    -webkit-transform: translate(0);
+    transform: translate(0);
+    transition: 0.4s;
+  }
+  .navbar-toggler.open {
+    transform: translateY(0px);
+  }
+  .navbar-toggler .icon-bar {
+    width: 100%;
+    height: 2px;
+    background: #333;
+    /* position: relative; */
+    display: inline-block;
+    transform: rotate(0);
+    opacity: 1;
+    transition: 0.4s;
+  }
+  .navbar-toggler .icon-bar:nth-of-type(2) {
+    margin: 8px 0 6px 0;
+  }
+  .navbar-toggler.open .icon-bar:nth-of-type(1) {
+    transform: rotate(-45deg) translate(-6px, 7px);
+  }
+  .navbar-toggler.open .icon-bar:nth-of-type(2) {
+    opacity: 0;
+  }
+  .navbar-toggler.open .icon-bar:nth-of-type(3) {
+    transform: rotate(45deg) translate(-7px, -7px);
+  }
+  .navbar-collapse {
+    border-top: 2px solid #efefef;
+    display: block;
+    width: 100%;
+    background: #fff;
+    position: fixed;
+    top: 60px;
+    left: 0;
+    z-index: 99;
+  }
+  .stickyed + .navbar-collapse {
+    -webkit-filter: drop-shadow(1px 4px 20px rgba(0, 0, 0, 0.1));
+    filter: drop-shadow(1px 4px 20px rgba(0, 0, 0, 0.1));
+  }
+  .sam2023 .ab-header__anchor-list.mobilemenu {
+    position: static;
+    padding: 0;
+    margin: 0;
+    transform: none;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+  }
+  .sam2023 .ab-header__anchor-list.mobilemenu .ab-header__anchor-list-item {
+    display: block;
+    padding: 20px 0;
+    font-size: 18px;
+  }
+}
+/********************************************************************************
+  section - kv 主視覺
+********************************************************************************/
+
+.kv-footer-row .br_for_pad {
+  display: none;
+}
+.kv-footer-row .br_for_pc {
+  display: block;
+  height: 0;
+}
+@media (max-width: 1380px) {
+  .kv-img .img-fluid {
+    width: 100%;
+    height: auto;
+  }
+
+  .kv-col-title {
+    width: 55%;
+  }
+  .kv-col-img {
+    width: 55%;
+  }
+  /* .kv-img .img-fluid {
+    width: 780px;
+  } */
+}
+
+@media (max-width: 1199.98px) {
+  .kv-row,
+  .kv-footer-row {
+    width: 100%;
+    max-width: none;
+  }
+  .txt_h2.kv_h2 {
+    font-size: 34px;
+  }
+  .txt_h4.kv_h4 {
+    font-size: 30px;
+  }
+  .kv-col-title {
+    width: 50%;
+  }
+  .kv-col-img {
+    width: 40%;
+    align-items: center;
+  }
+  .kv-img .img-fluid {
+    /* width: 700px; */
+  }
+}
+
+@media (max-width: 1023px) {
+  /* .txt_h2.kv_h2 {
+    font-size: 30px;
+  } */
+  .kv-col-title {
+    width: 62%;
+    min-width: 62%;
+  }
+  .kv-col-img {
+    width: 38%;
+    min-width: 38%;
+  }
+  .kv-row,
+  .kv-footer-row {
+    max-width: none;
+  }
+}
+
+@media (max-width: 920px) {
+  .kv-footer-row .br_for_pad {
+    display: block;
+    height: 0;
+  }
+  .kv-footer-row .br_for_pc {
+    display: none;
+  }
+  .section__kv {
+    height: auto;
+    /* padding-top: 4rem;  */
+    background: linear-gradient(to bottom, #ffffff 0%, #ffffff 60%, rgba(226, 226, 228, 1) 100%);
+  }
+  .kv-row {
+    flex-direction: column;
+  }
+  .kv-col-title,
+  .kv-col-img {
+    width: 100%;
+    justify-content: center;
+    padding-right: 0;
+  }
+  .kv-col-title {
+    align-items: center;
+    min-height: auto;
+    margin: 2rem auto 1rem auto;
+  }
+  .kv-col-title-in {
+    width: 90%;
+    align-items: center;
+  }
+  .kv-title-box,
+  .kv-btn-wrapper {
+    justify-content: center;
+    padding-left: 0%;
+    margin-bottom: 0rem;
+  }
+
+  .kv-title {
+    margin-right: 1.5rem;
+  }
+  .kv-btn-wrapper > .ab-action-button {
+    margin-left: 0;
+  }
+  .kv-img .img-fluid {
+    width: 60%;
+  }
+  .txt_h4.kv_h4_footer {
+    font-size: 16px;
+  }
+}
+
+@media (max-width: 699.98px) {
+  .kv-col-title {
+    margin: 1rem auto 0 auto;
+  }
+  .kv-title-box {
+    margin-bottom: 0rem;
+  }
+  .kv-bracket {
+    height: 180px;
+    width: 32px;
+    border-top-width: 16px;
+    border-left-width: 16px;
+    border-bottom-width: 16px;
+  }
+  .txt_h2.kv_h2 {
+    font-size: 22px;
+    text-align: justify;
+  }
+  .txt_h4.kv_h4 {
+    font-size: 22px;
+  }
+  .kv-footer-row .br_for_pad {
+    display: none;
+  }
+  .kv-footer-row > p {
+    text-align: justify;
+  }
+  .kv-footer-row {
+    padding: 1rem;
+  }
+  .txt_h4.kv_h4_footer {
+    font-size: 15px;
+  }
+
+  .kv-title {
+    margin: 0 0.75rem;
+  }
+  .kv-btn-wrapper {
+    transform: scale(0.9);
+    transform-origin: top;
+  }
+}
+/* 小手機 */
+@media (max-width: 374px) {
+  .txt_h2.kv_h2 {
+    font-size: 18px;
+    text-align: justify;
+  }
+  .txt_h4.kv_h4 {
+    font-size: 18px;
+  }
+  .kv-bracket {
+    height: 160px;
+  }
+  .kv-col-title-in {
+    width: 100%;
+  }
+  .section__kv {
+    min-height: auto;
+  }
+  .txt_h4.kv_h4_footer {
+    font-size: 12px;
+  }
+  .txt_h3 {
+    font-size: 17px;
+  }
+}
+/********************************************************************************
+  section -  投資新動力
+********************************************************************************/
+
+.h4title .br_for_mobi {
+  display: none;
+}
+@media (max-width: 960px) {
+  .ab-col.txt-wrapper {
+    padding: 0 1rem;
+  }
+}
+@media (max-width: 767.98px) {
+  p.ab-navtxt {
+    font-size: 18px;
+  }
+  .h4title .br_for_mobi {
+    display: block;
+    height: 1px;
+  }
+  .ab-navlist {
+    margin-top: 0px;
+  }
+  .ab-navitem {
+    width: 33%;
+  }
+  .tab-slider {
+    width: 130px;
+    width: 100px;
+  }
+  .ab-navitem:nth-of-type(1).active ~ .tab-slider {
+    left: calc(16.6% - 50px);
+    transition: left 0.5s;
+  }
+  .ab-navitem:nth-of-type(2).active ~ .tab-slider {
+    left: calc(33% + 16.6% - 50px);
+    transition: left 0.5s;
+  }
+  .ab-navitem:nth-of-type(3).active ~ .tab-slider {
+    left: calc(66% + 16.6% - 50px);
+    transition: left 0.5s;
+  }
+
+  .ab-navlist.sticky {
+    top: 60px;
+  }
+  .ab-section__navlist .container {
+    padding: 0;
+  }
+  .ab-section__navlist .bodylist {
+    padding-right: 24px;
+    padding-left: 24px;
+  }
+  .ab-col.txt-wrapper,
+  .ab-col.ab-note-wrapper {
+    padding: 0;
+  }
+}
+.h3title .br_for_mobi {
+  display: none;
+}
+/* @media (max-width: 767.98px) { */
+/* 換成直式圖片 */
+@media (max-width: 699.98px) {
+  p.txt_align_left {
+    text-align: justify !important;
+  }
+  .ab-section__navlist .bodylist {
+    padding-right: 16px;
+    padding-left: 16px;
+  }
+  .sec-img-wrapper.forPC {
+    display: none;
+  }
+  .sec-img-wrapper.-img1 {
+    margin: 1rem auto;
+  }
+  .sec-img-wrapper.forMobi {
+    display: block;
+    max-width: 340px;
+    width: 100%;
+  }
+  .h3title .br_for_mobi {
+    display: block;
+    height: 1px;
+  }
+}
+/* sec21 334 多元永續新配方 圓餅圖 */
+@media (max-width: 960px) {
+  .sec21-img {
+    width: 35%;
+    bottom: 18%;
+  }
+}
+@media (max-width: 699.98px) {
+  .sec21-chart-title1 {
+    /* line-height: 1;
+    height: 50px;
+    display: flex;
+    align-items: center;
+    justify-content: center; */
+  }
+  .sec21-relative {
+    /* border: 0px solid yellow;
+    width: 100%;
+    max-width: 800px; */
+    height: 400px;
+    margin-top: 0;
+    /* position: relative; */
+  }
+  .pieTxt {
+    max-width: 120px;
+  }
+  /* position */
+  .pieTxt.pieYellow {
+    top: 5%;
+    left: 20%;
+  }
+  .pieTxt.piePurple {
+    bottom: 0%;
+    left: 0%;
+    max-width: 116px;
+  }
+  .pieTxt.pieBlue {
+    bottom: 0%;
+    right: 0%;
+    max-width: 100px;
+  }
+  .sec21-img {
+    width: 60%;
+    max-width: 340px;
+  }
+  .sec21-img {
+    bottom: auto;
+    top: 35%;
+  }
+
+  .pie-number {
+    font-size: 50px;
+    line-height: 50px;
+  }
+  .pie-colortxt {
+    font-size: 16px;
+  }
+
+  .pie-txt2 {
+    margin-top: 4px;
+    font-size: 14px;
+  }
+
+  /* .pieTitle {
+    font-size: 30px;
+    margin: 0 4px;
+  } */
+}
+/* 小手機 */
+@media (max-width: 374px) {
+}
+/********************************************************************************
+  section -  基金檔案
+********************************************************************************/
+
+.file-detail-table .br_for_mobi {
+  display: none;
+}
+@media (max-width: 1199.98px) {
+  .file-icon-wrapper {
+    margin: 1.5rem 0;
+    width: 100%;
+    /* sam */
+    width: 80%;
+    margin-left: auto;
+    margin-right: auto;
+  }
+  .fd-tr {
+    margin-bottom: 0.5rem;
+  }
+  .file-detail-body .ab-note-wrapper {
+    margin: 1rem 0;
+  }
+  .ab-action-button .btn_iconToggle:before {
+    margin-top: 3px;
+  }
+  .td-col-C {
+    /* width: 90%;
+    margin-left: -0%; */
+  }
+}
+@media (max-width: 820px) {
+  .file-detail-table .value {
+    font-size: 14px;
+  }
+  .file-detail-table .label {
+    font-size: 12px;
+  }
+}
+@media (max-width: 767.98px) {
+  .ab-row.ab-row-fundfile {
+    flex-direction: column;
+    margin-top: -1rem;
+  }
+  .ab-row.ab-row-fundfile > .ab-col {
+    width: 100%;
+  }
+  .ab-row.ab-row-fundfile > .ab-col:not(:first-child) {
+    margin-top: 1rem;
+  }
+  /* #idFile2Note{ display: none; } */
+  .file-box {
+    width: 100%;
+  }
+  .file-detail-table .br_for_mobi {
+    display: block;
+    height: 0px;
+  }
+  .file-icon-wrapper {
+    width: 100%;
+  }
+  .td-col-A {
+    width: 40%;
+    margin-right: 10%;
+  }
+
+  .td-col-C {
+    width: 90%;
+  }
+}
+@media (max-width: 340px) {
+  .file-icon-svg {
+    width: 60px;
+    height: 60px;
+    left: 5px;
+  }
+  .txt_icon_desc {
+    font-size: 13px;
+    margin-top: 70px;
+  }
+}
+/* sec04 全方位收益 */
+@media (max-width: 767.98px) {
+  .msg-carousell.ghy-invest-plan-slider {
+    margin-bottom: 40px;
+  }
+  .ab-invest-plan-box {
+    min-height: auto;
+  }
+  .plan-offset-relative {
+    display: flex;
+    flex-direction: column;
+  }
+  .plan-img-offset-wrapper {
+    position: static;
+    top: auto;
+    right: auto;
+    max-width: none;
+    justify-content: flex-end;
+    border: 0px solid red;
+  }
+  .plan-bracket-container {
+    min-height: 0;
+    max-width: none;
+    width: 100%;
+  }
+  .plan-title-offset-card {
+    width: 100%;
+    padding: 20px 20px;
+  }
+  .plan-title-offset-card p {
+    font-size: 14px;
+  }
+  .h3-plan-card-title {
+    margin-bottom: 0;
+  }
+  .plan-title-offset-card.card-long-txt {
+    padding-top: 30px;
+  }
+  .plan-title-offset-card .ab-action-button {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 40px;
+    margin: 1rem auto 0.5rem auto;
+  }
+  .plan-bracket-container.plan-bracket-right:after {
+    width: 40px;
+    border: 20px solid #fff;
+    border-left: none;
+  }
+}
+
+/* sec05 LINE好友 */
+.br_for_pcsize_space {
+  display: inline-block;
+  margin-right: 20px;
+}
+@media (max-width: 1365.98px) {
+  .sam2023 .ab-section__contact-us {
+    background-position: bottom;
+  }
+}
+@media (max-width: 1199.98px) {
+  .sam2023 .ab-section__contact-us {
+    height: 480px;
+  }
+  .ab-section__contact-us .section__title {
+    top: 130px;
+  }
+  .ab-section__contact-us .ab-section-engbg {
+    top: 100px;
+  }
+  .container.us-container-after-entitle {
+    margin-top: 140px;
+  }
+}
+@media (max-width: 920px) {
+  .ab-section__contact-us .section__title {
+    top: 90px;
+  }
+  .ab-section__contact-us .ab-section-engbg {
+    top: 60px;
+  }
+}
+@media (max-width: 767.98px) {
+  .ab-section__contact-us .section__title {
+    top: 60px;
+  }
+  .container.us-container-after-entitle {
+    margin-top: 110px;
+  }
+  .br_for_pcsize_space {
+    display: block;
+    height: 0;
+    margin-right: 0;
+  }
+  .sam2023 .ab-section__contact-us {
+    padding-top: 280px;
+    padding-bottom: 120px;
+    width: 100%;
+    height: 380px;
+    background: url("../img/footer_bg_m.jpg") no-repeat center top;
+  }
+  .sam2023 .ab-section__contact-us:after {
+    background: linear-gradient(to bottom, rgba(203, 203, 203, 0) 10%, rgba(62, 62, 62, 0.46) 40%, rgba(0, 0, 0, 1) 90%);
+  }
+  .section__title.section__title_white {
+    text-shadow: 1px 1px 5px rgba(0, 0, 0, 1);
+  }
+}
+
+/* footer */
+.o-contact-us-tw__list-item:not(:last-child) {
+  margin-right: 90px;
+}
+@media (max-width: 1199.98px) {
+  .esg-portal-footer-bottom__social {
+    -webkit-box-pack: center;
+    -ms-flex-pack: center;
+    justify-content: space-between;
+    margin: 0 auto;
+    padding: 24px 0;
+  }
+  .o-contact-us-tw__list {
+    margin-top: 130px;
+  }
+}
+@media (max-width: 920px) {
+  .o-contact-us-tw__list {
+    width: 100%;
+  }
+}
+@media (max-width: 767.98px) {
+  .o-contact-us-tw__list-item:not(:last-child) {
+    margin-right: 30px;
+  }
+  .o-contact-us-tw__list-item-icon {
+    transform: scale(0.9);
+    margin-bottom: 12px;
+  }
+  .o-contact-us-tw__list-item-text {
+    font-size: 14px;
+  }
+  .o-contact-us-tw__list-item-text .icon {
+    margin-right: 0;
+  }
+  .esg-portal-footer-bottom__social {
+    padding: 24px 40px;
+  }
+  #idFooterLine {
+    right: auto;
+    left: calc(65px + 5vw);
+    width: 14vw;
+    top: 6px;
+  }
+  .o-contact-us-tw__list {
+    top: 50px;
+  }
+  .sam2023 .ab-section__contact-us {
+    background-size: 100vw auto;
+  }
+}
+/* @media (max-width: 600px) { */
+@media (max-width: 699.98px) {
+  .esg-portal-footer-bottom__social {
+    padding: 24px 24px;
+  }
+}
+@media (max-width: 480px) {
+  #idFooterLine {
+    right: auto;
+    left: calc(65px + 5vw);
+    width: 14vw;
+    top: 6px;
+    display: none;
+  }
+}
+@media (max-width: 340px) {
+  .o-contact-us-tw__list-item:not(:last-child) {
+    margin-right: 10px;
+  }
+  #idFooterLine {
+    display: none;
+  }
+}
+@media (max-width: 920px) {
+  .section_no_padding_bottom {
+    padding-bottom: 0 !important;
+    border: 0px solid red;
+  }
+}
+
+/********************************************************************************
+  section -  永續大哉問 Q and A
+********************************************************************************/
+.qna_title1 .br_for_mobi,
+.qna_title2 .br_for_mobi,
+.qna_title1 .br_for_mobi_small,
+.qna_title2 .br_for_mobi_small {
+  margin-left: 0;
+}
+@media (max-width: 1199.98px) {
+  .qna_q {
+    font-size: 36px;
+  }
+  .qna_title1,
+  .qna_title2 {
+    font-size: 22px;
+  }
+}
+
+@media (max-width: 920px) {
+  .qna_title1 {
+    padding-bottom: 10px;
+  }
+
+  .qna_title2 {
+    line-height: 1.3;
+  }
+  .qna_title1 .br_for_mobi,
+  .qna_title2 .br_for_mobi {
+    display: block;
+  }
+  .qna_ans.with_branket:before {
+    margin-right: 10px;
+  }
+  .qna_ans.with_branket:after {
+    margin-left: 10px;
+  }
+  /* sec12 表格 */
+  .qna_relative {
+    /* position: relative; */
+    /* width: 100%; */
+    height: 245px;
+  }
+  .qna_absolute.img-prize {
+    top: 27%;
+  }
+}
+@media (max-width: 880px) {
+  .qna_absolute.img-prize {
+    top: 24%;
+  }
+}
+@media (max-width: 790px) {
+  .qna_absolute.img-prize {
+    top: 23%;
+  }
+}
+@media (max-width: 750px) {
+  .qna_absolute.img-prize {
+    top: 22%;
+  }
+}
+@media (max-width: 720px) {
+  .qna_absolute.img-prize {
+    top: 20%;
+  }
+}
+/* 換成直式圖片 */
+@media (max-width: 699.98px) {
+  .qna_note {
+    margin-top: 1rem;
+  }
+  .qna_section {
+    padding: 60px 0.5rem;
+  }
+  .qna_slider .swiper-wrapper {
+    padding: 0;
+  }
+  .qna_box {
+    width: 100%;
+    padding: 0 0.5rem;
+    border: 0px solid red;
+  }
+  .qna_ans {
+    margin: 0 0 1rem 0;
+  }
+  .qna_q {
+    font-size: 24px;
+  }
+  .qna_title1,
+  .qna_title2 {
+    font-size: 22px;
+  }
+
+  .qna_title1 .br_for_mobi_small,
+  .qna_title2 .br_for_mobi_small {
+    display: block;
+  }
+  .sec_desc p {
+    margin-bottom: 1rem;
+    font-size: 16px;
+    line-height: 1.7;
+  }
+  .sec_desc {
+    padding: 0 0.5rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+  }
+  .qna_img.forPC,
+  .qna_absolute.forPC {
+    display: none;
+  }
+  .qna_img.forMobi,
+  .qna_absolute.forMobi {
+    display: block;
+    max-width: 340px;
+    margin: 0 auto;
+  }
+  .qna_img {
+    max-width: 340px;
+  }
+
+  .qna_slider .swiper-button-next,
+  .qna_slider .swiper-button-prev {
+    top: 40%;
+    bottom: auto;
+    margin-top: 0;
+  }
+  .qna_slider .swiper-button-next {
+    right: 0px;
+  }
+  .qna_slider .swiper-button-prev {
+    left: 0px;
+  }
+  /* sec12 表格 */
+  .qna_relative {
+    height: 340px;
+  }
+  .qna_absolute.img-prize {
+    width: 25%;
+    top: 5%;
+    left: 25%;
+  }
+}
+
+/* 小手機 */
+@media (max-width: 374px) {
+  .qna_relative {
+    height: 90vw;
+  }
+  .section__context:lang(zh) {
+    font-size: 12px;
+  }
+  .qna_title1,
+  .qna_title2 {
+    font-size: 18px;
+  }
+
+  .sec_desc p {
+    font-size: 14px;
+    letter-spacing: 0;
+  }
+  .qna_section {
+    padding-top: 1rem;
+  }
+  .qna_slider .swiper-button-next,
+  .qna_slider .swiper-button-prev {
+    top: 30%;
+  }
+  p.ab-navtxt {
+    font-size: 16px;
+  }
+}
+/********************************************************************************
+  section -  聯博實力
+********************************************************************************/
+/* 換成直式圖片 */
+@media (max-width: 699.98px) {
+  .sec4-globe-img-wrapper {
+    margin-top: -1rem;
+    max-width: 100%;
+    margin: 0 auto;
+    height: 150px;
+  }
+  /* sec4 插圖 動畫*/
+  .sec4-absolute.forPC {
+    display: none;
+  }
+  .sec4-absolute.forMobi {
+    display: block;
+  }
+  .sec4-img-sun {
+    width: 7%;
+    top: 10%;
+    left: 55%;
+  }
+  .sec4-img-line {
+    top: 4px;
+  }
+  @keyframes sec4LineAnim {
+    0% {
+      stroke-dasharray: 0, 600;
+      stroke-dashoffset: -320;
+    }
+    50%,
+    100% {
+      opacity: 1;
+      stroke-dasharray: 600, 600;
+      stroke-dashoffset: 0;
+    }
+  }
+  /* sec4 數字 動畫 */
+  .sec4-counter-wrapper {
+    flex-direction: column;
+    align-items: center;
+  }
+  .sec4-counter-col {
+    width: 200px;
+    max-width: none;
+  }
+  .sec4-counter-col {
+    margin-bottom: 1.5rem;
+  }
+  /* 3組數字 直式*/
+  .ab-ani-number-relative {
+    /* border: 0px solid yellow; */
+    /* position: relative; */
+    width: 80px;
+    height: 50px;
+  }
+  .ab-ani-number-relative.-num2 {
+    width: 164px;
+  }
+  .ab-ani-number-relative.-num3 {
+    width: 128px;
+  }
+  .ab-ani-number-relative span {
+    /* position: absolute; */
+  }
+  .ab-ani-number-num,
+  .ab-ani-number-add,
+  .ab-ani-number-year,
+  .ab-ani-number-txt {
+    /* font-family: Klavika;
+  font-weight: 700;
+  line-height: 1;
+  color: var(--txt-darkdarkgray); */
+  }
+  .ab-ani-number-num {
+    /* display: block; */
+    /* width: 100%; */
+    font-size: 50px;
+    /* top: 0; */
+    /* left: 0; */
+    /* letter-spacing: 0; */
+    /* text-align: left; */
+    /* color: var(--teal); */
+  }
+  .ab-ani-number-add {
+    /* color: var(--teal); */
+    font-size: 20px;
+    top: -6px;
+    right: 0;
+  }
+  .ab-ani-number-year {
+    right: 2px;
+    bottom: 14px;
+  }
+  .ab-ani-number-txt {
+    /* text-align: center;
+  line-height: 1.5; */
+  }
+  .ab-ani-number-line {
+    /* display: block;
+  background-color: #c4c4c4;
+  background-color: var(--txt-darkgray);
+  width: 100%;
+  height: 1px; */
+    margin: 0rem 0 0.25rem 0;
+  }
+  .ab-ani-number-txt_h3 {
+    font-size: 14px;
+  }
+  /* plus title */
+  .ab-bullet-plus {
+    width: 14px;
+    height: 14px;
+  }
+
+  .ab-bullet-plus-title {
+    text-indent: -18px;
+    padding-left: 18px;
+  }
+}

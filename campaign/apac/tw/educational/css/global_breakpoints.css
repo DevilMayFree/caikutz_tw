@@ -1,0 +1,123 @@
+/****************************************************
+min-width:375px
+ ****************************************************/
+@media (min-width: 375px) {
+    h2 {
+        padding: 0 15px;
+    }
+
+    .naviga a {
+        margin-left: 15px;
+    }
+}
+
+/****************************************************
+min-width:576px
+ ****************************************************/
+@media (min-width: 576px) {
+    h2 {
+        font-size: 2.2em;
+        padding: 0 25px;
+    }
+
+    h3 {
+        font-size: 1.4em;
+    }
+
+    .header .logo {
+        width: 150px;
+        top: 19px;
+        left: 20px;
+    }
+
+    .naviga {
+        top: 32px;
+        font-size: 1em;
+        right: 30px;
+    }
+
+    .naviga a {
+        margin-left: 10px;
+    }
+
+    .hamburger {
+        top: 22px;
+        right: 8px;
+        transform: scale(0.6);
+    }
+}
+
+/****************************************************
+ min-width:768px
+  ****************************************************/
+@media (min-width: 768px) {
+    h2 {
+        font-size: 2.5em;
+        padding: 0 35px;
+        margin: 40px 0 80px 0;
+    }
+
+    h3 {
+        font-size: 1.6em;
+    }
+
+    blockquote {
+        font-size: 0.8em;
+    }
+
+    .subTitle::after {
+        top: calc(50% + -8px);
+    }
+
+    .naviga {
+        display: block;
+    }
+
+    .naviga a {
+        margin-left: 35px;
+        font-size: 1.1em;
+        display: inline-block;
+        margin-top: 0;
+    }
+
+    .naviga a:first-child {
+        margin-top: 0;
+    }
+
+    .hamburger {
+        display: none;
+    }
+}
+
+/****************************************************
+ min-width:992px
+  ****************************************************/
+@media (min-width: 992px) {
+}
+
+/****************************************************
+ min-width:1200px
+  ****************************************************/
+@media (min-width: 1200px) {
+    .footer.box {
+        padding: 60px 100px;
+    }
+}
+
+/****************************************************
+ max-width:767px
+  ****************************************************/
+@media (max-width: 767px) {
+    .footer_seo {
+        margin-top: 20px;
+        margin-bottom: 20px;
+    }
+    .footer_seo ul {
+        display: contents;
+        text-align: center;
+    }
+
+    .footer_seo ul li {
+        display: none;
+    }
+}

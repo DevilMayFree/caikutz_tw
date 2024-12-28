@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="26px" height="26px" viewBox="0 0 26 26" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <title>icon/arrow/right</title>
+    <g id="icon/arrow/right" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <circle id="Oval" fill="#00DCC0" transform="translate(13.000000, 13.000000) rotate(270.000000) translate(-13.000000, -13.000000) " cx="13" cy="13" r="13"></circle>
+        <rect id="Rectangle" fill="#FFFFFF" transform="translate(12.000000, 13.000000) rotate(270.000000) translate(-12.000000, -13.000000) " x="11" y="6" width="2" height="14"></rect>
+        <rect id="Rectangle-Copy" fill="#FFFFFF" transform="translate(16.560660, 10.060660) rotate(-45.000000) translate(-16.560660, -10.060660) " x="15.5606602" y="5.06066017" width="2" height="10"></rect>
+        <rect id="Rectangle-Copy-2" fill="#FFFFFF" transform="translate(16.560660, 15.939340) rotate(225.000000) translate(-16.560660, -15.939340) " x="15.5606602" y="10.9393398" width="2" height="10"></rect>
+    </g>
+</svg>

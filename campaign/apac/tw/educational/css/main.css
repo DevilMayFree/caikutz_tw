@@ -1,0 +1,771 @@
+/****************************************************
+ Header
+ ****************************************************/
+.header.box {
+    width: 100%;
+    height: 60px;
+    background-color: white;
+    padding: 0;
+    position: fixed;
+    top: 0;
+    z-index: 99999;
+}
+
+/****************************************************
+ 主視覺
+ ****************************************************/
+.kv {
+    overflow: hidden;
+    width: 100%;
+    padding: 0;
+    margin: 60px auto 0;
+    height: 250px;
+    max-width: 1400px;
+}
+
+.kv img {
+    width: 100%;
+    height: 100%;
+    background: lightgray;
+    object-fit: cover;
+    object-position: top right;
+}
+
+/****************************************************
+ title
+ ****************************************************/
+.title {
+    background-color: white;
+    padding: 15px 30px;
+    max-width: 1160px;
+    margin: 0 auto;
+    position: relative;
+    top: -50px;
+}
+
+.title h1 {
+    text-align: left;
+}
+
+/****************************************************
+ Section: 善用收益策略強化收益機會
+ ****************************************************/
+.startVideo {
+    overflow: hidden;
+}
+
+.startVideo h2 {
+    font-size: 1.5em;
+    line-height: 1.5em;
+}
+
+.startVideo p {
+    text-align: left;
+    /* font-size: 1.3em; */
+    /* line-height: 1.4em; */
+    max-width: 800px;
+    margin: 0 auto;
+}
+
+.startVideo .videoContainer {
+    width: 90%;
+    max-width: 800px;
+    margin: 0 auto;
+}
+
+.startVideo .videoWrapper {
+    position: relative;
+    padding-bottom: 56.25%;
+    height: 0;
+    margin-bottom: 100px;
+}
+
+.startVideo .videoWrapper iframe {
+    z-index: 1;
+}
+
+.startVideo .videoWrapper::before {
+    content: "";
+    display: block;
+    background-color: #e0f5ff;
+    position: absolute;
+    top: 8%;
+    left: -4%;
+    width: 60%;
+    height: 100%;
+    z-index: 1;
+}
+
+.startVideo .videoWrapper::after {
+    content: "";
+    display: block;
+    background-color: #fff8e5;
+    position: absolute;
+    top: 16%;
+    left: -8%;
+    width: 60%;
+    height: 100%;
+    z-index: 0;
+}
+
+/****************************************************
+ 認識非投資等級債券
+ ****************************************************/
+.introduce.box {
+    background-color: #fff8e5;
+    padding-bottom: 100px;
+}
+
+.introduce h2 {
+    background-color: #fff8e5;
+}
+
+.introduce .swiperIntroduce {
+    max-width: 1160px;
+}
+
+.introduce.box .swiper-wrapper {
+    margin: 0 auto;
+    display: flex;
+    flex-direction: row;
+    align-items: stretch;
+}
+
+.introduce.box .swiper-wrapper .swiper-slide {
+    background-color: white;
+    cursor: pointer;
+    -o-box-shadow: 0px 0px 20px -15px #000;
+    -moz-box-shadow: 0px 0px 20px -15px #000;
+    -webkit-box-shadow: 0px 0px 20px -15px #000;
+    box-shadow: 0px 0px 20px -15px #000;
+    transition: transform 0.3s;
+}
+
+.introduce.box .swiper-wrapper .swiper-slide .swiper-inner {
+    margin: 20px;
+}
+
+.introduce.box img {
+    width: 100%;
+}
+
+/****************************************************
+ 看影音長知識
+ ****************************************************/
+.videoLearn .videoContainer,
+.videoLearn .description {
+    max-width: 560px;
+    margin: 0 auto;
+}
+
+/****************************************************
+ 看圖說故事
+ ****************************************************/
+.imageStory .swiperImageStory {
+    max-width: 376px;
+}
+
+/****************************************************
+ 聯博主題投資方案
+ ****************************************************/
+.ab-section__wrapper {
+    border: 0px solid yellow;
+    width: 100%;
+    margin: 0 auto 60px auto;
+    max-width: 900px;
+}
+
+.plan-offset-relative {
+    position: relative;
+    max-width: 100%;
+    display: flex;
+    flex-direction: column;
+}
+
+.plan-title-offset-card {
+    max-height: 330px;
+    background: #000;
+    padding: 20px 20px;
+    text-align: left;
+    color: white;
+}
+
+.plan-title-offset-card p {
+    font-size: 14px;
+    line-height: 1.5;
+    margin: 0;
+}
+
+.plan-title-offset-card .h3-plan-card-title {
+    margin-bottom: 0;
+    font-size: 20px;
+    line-height: 1.2;
+    margin: 0.5rem 0;
+}
+
+.ab-action-button {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 40px;
+    margin: 1rem auto 0.5rem auto;
+    border: 2px solid #1e9bd7;
+    border-radius: 24px;
+    -webkit-transition: all 0.3s ease-in-out;
+    transition: all 0.3s ease-in-out;
+    color: white;
+}
+
+.ab-action-button .btn_arrowRight {
+    margin-top: 1px;
+    display: block;
+    width: 16px;
+    height: 16px;
+    line-height: 16px;
+}
+
+.ab-action-button:lang(zh) {
+    font-size: 12px;
+    line-height: 1.5;
+    font-weight: 500;
+    text-indent: 0;
+}
+
+.ab-action-button:hover .btn_arrowRight path {
+    stroke: #fff;
+}
+
+.ab-action-button.btn-no-bg {
+    background-color: transparent;
+}
+
+.ab-action-button.btn-no-bg:hover {
+    background-color: #1e9bd7;
+    color: white;
+}
+
+.plan-img-offset-wrapper {
+    display: flex;
+    align-items: stretch;
+    overflow: hidden;
+    z-index: -1;
+    position: static;
+    top: auto;
+    right: auto;
+    max-width: none;
+    justify-content: flex-end;
+    border: 0px solid red;
+}
+
+.ab-action-button-text {
+    padding-right: 12px;
+    height: 16px;
+    line-height: 17px;
+}
+
+.plan-bracket-container {
+    position: relative;
+    min-height: 0;
+    max-width: none;
+    width: 100%;
+}
+
+.plan-bracket-container.plan-bracket-right:after {
+    z-index: 2;
+    display: block;
+    content: " ";
+    position: absolute;
+    top: 0;
+    height: 100%;
+    right: 0;
+    width: 40px;
+    border: 20px solid #fff;
+    border-left: none;
+    box-sizing: border-box;
+}
+
+/****************************************************
+ 成為聯博LINE好友 即時掌握全球投資資訊
+ ****************************************************/
+.social.box {
+    padding-left: 0;
+    padding-right: 0;
+    overflow: hidden;
+}
+
+.social h2 {
+    background-color: transparent;
+    padding: 20px 0 0 0;
+}
+
+.esg-investmentSelection__section-bg-title {
+    text-align: center;
+    opacity: 0.1;
+    line-height: 1.2;
+    font-family: Klavika;
+    font-weight: 700;
+    font-size: 60px;
+    color: #1e9bd7;
+}
+
+.us-contact-us-tw__section .esg-investmentSelection__section-bg {
+    position: absolute;
+    top: 30px;
+    left: 50%;
+    transform: translateX(-50%);
+    z-index: 0;
+    width: 100%;
+}
+
+.us-contact-us-tw__section .section__title {
+    width: 100%;
+}
+
+.o-contact-us-tw__list {
+    display: flex;
+    -ms-flex-pack: center;
+    justify-content: center;
+    padding-bottom: 80px;
+}
+
+.o-contact-us-tw__list-item:not(:last-child) {
+    margin-right: 10px;
+}
+
+.o-contact-us-tw__list-item-icon {
+    width: 124px;
+    height: 124px;
+    display: flex;
+    -webkit-box-align: center;
+    align-items: center;
+    -webkit-box-pack: center;
+    justify-content: center;
+    position: relative;
+    margin: 0 auto 25px;
+}
+
+.o-contact-us-tw__list-item-icon img {
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+    padding: 8px;
+    width: 110px;
+    height: 110px;
+}
+
+.esg-portal-footer-bottom__social {
+    display: flex;
+    -webkit-box-align: center;
+    align-items: center;
+    max-width: 700px;
+    justify-content: space-between;
+    margin: 0 auto;
+    padding: 24px 24px;
+}
+
+.esg-portal-footer-bottom__social-item {
+    position: relative;
+    color: #7c7c7c;
+}
+
+.esg-portal-footer-bottom__social-item:lang(zh) {
+    font-size: 15px;
+    line-height: 1.3;
+    font-weight: 700;
+    text-indent: 0;
+    font-family: "Klavika";
+    color: #676767;
+}
+
+.m-social-links__label {
+    position: relative;
+}
+
+.idFooterLine {
+    position: absolute;
+    right: auto;
+    left: calc(65px + 5vw);
+    width: 14vw;
+    top: 6px;
+    display: none;
+}
+
+.esg-portal-footer-bottom__social-item:nth-child(2) {
+    width: auto;
+    height: auto;
+    background-color: transparent;
+}
+
+.esg-portal-footer-bottom__social-item-yt-icon {
+    margin-right: 2px;
+    margin-bottom: -3px;
+    width: 16px;
+}
+
+.icon {
+    width: 1rem;
+    height: 1rem;
+    fill: currentColor;
+    font-size: 14px;
+    color: #1e9bd7;
+    display: inline-block;
+    margin-right: 0;
+}
+
+.icon[data-icon="item-plus"]::before {
+    text-rendering: auto;
+    -webkit-font-smoothing: antialiased;
+    font-family: custom-L35270;
+    font-weight: normal;
+    content: "\e00d";
+    display: block;
+}
+
+/****************************************************
+ footer
+ ****************************************************/
+.footer.box {
+    margin-top: 0px;
+}
+
+/****************************************************
+ 2022/9/16 關鍵問答集
+ ****************************************************/
+.ab-section__wrapper-videolist {
+    max-width: 1360px;
+    margin-top: 20px;
+    margin-bottom: 120px;
+}
+.ab-row.ab-row-videolist {
+    display: flex;
+    justify-content: center;
+    align-items: stretch;
+}
+.txt-wrapper.g-sec01 {
+    /* margin-top: 3rem; */
+    margin-top: 10%;
+}
+.ab-col-videolist-main,
+.ab-col-videolist-thumb {
+    width: 50%;
+}
+.ab-video-wrapper {
+    width: 100%;
+    height: 0;
+    padding-bottom: 56.56%;
+    position: relative;
+}
+.ab-video-wrapper iframe {
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    left: 0;
+    top: 0;
+}
+.ab-videolist-main-relative {
+    border: 0px solid yellow;
+    width: 100%;
+    position: relative;
+    height: 100%;
+}
+.ab-videolist-main-fg-layer {
+    position: absolute;
+    left: 0;
+    top: 0;
+    z-index: 1;
+    width: 100%;
+}
+.ab-videolist-main-bg-layer {
+    width: 60%;
+    height: 55%;
+    position: absolute;
+    left: -10%;
+    top: 15%;
+    z-index: 0;
+    background-color: #f5f5f5;
+}
+.ab-col-videolist-thumb {
+    padding: 0 20px;
+}
+.ab-videolist-thumb-relative {
+    position: relative;
+    width: 100%;
+    height: calc(560px + 50px);
+}
+.msg-carousell.videolist-thumb-slider {
+    width: 90%;
+    left: 5%;
+    height: 100%;
+    margin: 0;
+    position: absolute;
+    top: -60px;
+    z-index: 1;
+}
+.msg-carousell.videolist-thumb-slider .swiper-btn {
+    width: 100%;
+    height: 50px;
+    margin-bottom: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+}
+.msg-carousell.videolist-thumb-slider .swiper-button-prev,
+.msg-carousell.videolist-thumb-slider .swiper-button-next {
+    width: 44px;
+    height: 44px;
+    border: 2px solid;
+    border-color: var(--bg-blue);
+    border-color: #1e9bd7;
+    border-radius: 22px;
+    position: static;
+    margin: 0 0.5rem;
+}
+.msg-carousell.videolist-thumb-slider .swiper-button-prev.disabled,
+.msg-carousell.videolist-thumb-slider .swiper-button-next.disabled {
+    opacity: 0.2;
+}
+.msg-carousell.videolist-thumb-slider .swiper-button-prev:after,
+.msg-carousell.videolist-thumb-slider .swiper-button-next:after {
+    display: none;
+}
+.msg-carousell.videolist-thumb-slider .swiper-button-prev .btn_arrowRight {
+    transform: rotate(90deg);
+}
+.msg-carousell.videolist-thumb-slider .swiper-button-next .btn_arrowRight {
+    transform: rotate(-90deg);
+}
+.swiper-mask {
+    border: 0px solid orange;
+    width: 100%;
+    width: calc(100% - 20px);
+    height: 140px;
+    left: 10px;
+    bottom: 0;
+    position: absolute;
+    z-index: 3;
+    background: linear-gradient(to top, rgba(255, 255, 255, 1) 0%, rgba(255, 255, 255, 1) 30%, rgba(255, 255, 255, 0) 80%);
+}
+.ab-videolist-thumb-bg-layer {
+    width: 90%;
+    height: calc(100% + 20px);
+    position: absolute;
+    top: -40px;
+    right: -10%;
+    z-index: 0;
+    background-color: rgba(233, 245, 251, 0.8);
+}
+.msg-carousell.videolist-thumb-slider .ra-swiper-relative {
+    border: 0px solid red;
+    position: relative;
+    width: 100%;
+    height: calc(560px + 90px);
+    overflow: hidden;
+}
+.msg-carousell.videolist-thumb-slider .swiper-container {
+    border: 0px solid green;
+    width: 100%;
+    height: 540px;
+    /* height: 600px; */
+    overflow: visible; /* 以便露出第4隻影片 */
+}
+
+.ab-videolist-thumb-item {
+    border: 0px solid blue;
+    height: 170px;
+    position: relative;
+}
+
+.ab-videolist-thumb-item-box {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+    width: calc(100% - 20px);
+    height: calc(100% - 20px);
+}
+.ab-videolist-thumb-item-box.new-tag::after {
+    content: "NEW";
+    display: block;
+    width: 73px;
+    height: 63px;
+    position: absolute;
+    background-color: #343434;
+    z-index: -1;
+    top: -27px;
+    left: -5px;
+    color: white;
+    text-align: center;
+    font-size: 1.3rem;
+    font-weight: 600;
+    animation: animateNew 1s;
+    overflow: hidden;
+}
+@keyframes animateNew {
+    0% {
+        width: 1px;
+        height: 1px;
+    }
+    50% {
+        width: 1px;
+        height: 63px;
+    }
+    100% {
+        width: 73px;
+        height: 63px;
+    }
+}
+
+.ab-videolist-thumb-item .ab-videolist-thumb-deco .decoline {
+    position: absolute;
+    background-color: var(--bg-blue);
+    background-color: #1e9bd7;
+}
+
+.ab-videolist-thumb-item:hover {
+    cursor: pointer;
+}
+
+.ab-videolist-thumb-item:hover .ab-videolist-thumb-deco .decoline.forleft,
+.ab-videolist-thumb-item.active .ab-videolist-thumb-deco .decoline.forleft {
+    transform-origin: bottom;
+    transform: scaleY(1);
+    transition: transform 0.2s linear;
+}
+
+.ab-videolist-thumb-item .ab-videolist-thumb-deco .decoline.forleft {
+    left: 0px;
+    top: 0px;
+    width: 2px;
+    height: 50%;
+    transform-origin: bottom;
+    transform: scaleY(0);
+    transition: transform 0.2s linear;
+}
+
+.ab-videolist-thumb-item.active .ab-videolist-thumb-deco .decoline.fortop,
+.ab-videolist-thumb-item:hover .ab-videolist-thumb-deco .decoline.fortop {
+    transform-origin: left;
+    transform: scaleX(1);
+    transition: transform 0.2s 0.2s linear;
+}
+
+.ab-videolist-thumb-item .ab-videolist-thumb-deco .decoline.fortop {
+    left: 0px;
+    top: 0px;
+    height: 2px;
+    width: 90%;
+    transform-origin: left;
+    transform: scaleX(0);
+    transition: transform.2s 0.2slinear;
+}
+
+.ab-videolist-thumb-item.active .ab-videolist-thumb-deco .decoline.forright,
+.ab-videolist-thumb-item:hover .ab-videolist-thumb-deco .decoline.forright {
+    transform-origin: top;
+    transform: scaleY(1);
+    transition: transform 0.2s linear;
+}
+
+.ab-videolist-thumb-item .ab-videolist-thumb-deco .decoline.forright {
+    right: 0px;
+    bottom: 0px;
+    width: 2px;
+    height: 50%;
+    transform-origin: top;
+    transform: scaleY(0);
+    transition: transform 0.2s linear;
+}
+
+.ab-videolist-thumb-item.active .ab-videolist-thumb-deco .decoline.forbottom,
+.ab-videolist-thumb-item:hover .ab-videolist-thumb-deco .decoline.forbottom {
+    transform-origin: right;
+    transform: scaleX(1);
+    transition: transform 0.2s 0.2s linear;
+}
+
+.ab-videolist-thumb-item .ab-videolist-thumb-deco .decoline.forbottom {
+    right: 0px;
+    bottom: 0px;
+    height: 2px;
+    width: 90%;
+    transform-origin: right;
+    transform: scaleX(0);
+    transition: transform 0.2s 0.2s linear;
+}
+
+.ab-videolist-thumb-deco {
+    position: absolute;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+}
+.ab-videolist-thumb-item-thumb {
+    width: 50%;
+    height: 100%;
+}
+.ab-videolist-thumb-item-texts {
+    width: 50%;
+    height: 100%;
+    text-align: left;
+}
+.ab-videolist-thumb-item-thumb {
+    position: relative;
+    display: block;
+    background: black center no-repeat;
+    background-size: cover;
+    /* background-size: 100% auto; */
+    overflow: hidden;
+}
+.ab-videolist-thumb-item-play {
+    width: 80px;
+    height: 80px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    display: block;
+    -webkit-transform: translate3d(-50%, -50%, 0);
+    transform: translate3d(-50%, -50%, 0);
+}
+.ab-videolist-thumb-item:hover .play-circle {
+    transform: rotate(360deg);
+    transition: transform 0.5s 0.2s linear;
+}
+.ab-videolist-thumb-item .play-circle {
+    transform: rotate(0deg);
+    transition: transform 0.5s 0.2s linear;
+}
+.ab-videolist-thumb-item-play .play-circle,
+.ab-videolist-thumb-item-play .play-triangle {
+    user-select: none;
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    margin: auto;
+    display: block;
+    max-width: 100%;
+}
+.ab-videolist-thumb-item-play .play-triangle {
+    width: 50%;
+}
+.ab-videolist-thumb-item-texts {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: #fff;
+    padding: 0 20px;
+}
+.ab-videolist-thumb-item-title {
+    font-size: 18px;
+    color: #67676e;
+    font-weight: 600;
+    width: 100%;
+}
