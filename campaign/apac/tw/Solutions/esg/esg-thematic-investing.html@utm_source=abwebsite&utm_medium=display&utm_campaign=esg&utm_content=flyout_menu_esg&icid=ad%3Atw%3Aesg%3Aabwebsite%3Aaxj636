@@ -2,10 +2,10 @@
 <html lang="en">
     <head>
         <meta charset="UTF-8" />
-        <meta name="title" content="用ESG投資改變世界 － 聯博投信 AB" />
+        <meta name="title" content="用ESG投資改變世界 － 財庫投信 AB" />
         <meta name="keywords" content="" />
-        <meta name="description" content="聯博善用PRISM、ESIGHT等數位科技，打造ESG投資主題，使投資人能藉永續投資，發掘優質企業。以責任、永續、影響力等角度出發，成為推動企業改善環境、落實社會公益的利器。" />
-        <title>用ESG投資改變世界 － 聯博投信 AB</title>
+        <meta name="description" content="財庫善用PRISM、ESIGHT等數位科技，打造ESG投資主題，使投資人能藉永續投資，發掘優質企業。以責任、永續、影響力等角度出發，成為推動企業改善環境、落實社會公益的利器。" />
+        <title>用ESG投資改變世界 － 財庫投信 AB</title>
         <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
         <meta http-equiv="X-UA-Compatible" content="IE=edge" />
         <meta http-equiv="x-dns-prefetch-control" content="on" />
@@ -23,21 +23,21 @@
         <!-- SMO -->
         <meta property="og:locale" content="zh " />
         <meta property="og:type" content="website " />
-        <meta property="og:title" content="用ESG投資改變世界 － 聯博投信 AB" />
-        <meta property="og:description" content="聯博善用PRISM、ESIGHT等數位科技，打造ESG投資主題，使投資人能藉永續投資，發掘優質企業。以責任、永續、影響力等角度出發，成為推動企業改善環境、落實社會公益的利器。" />
+        <meta property="og:title" content="用ESG投資改變世界 － 財庫投信 AB" />
+        <meta property="og:description" content="財庫善用PRISM、ESIGHT等數位科技，打造ESG投資主題，使投資人能藉永續投資，發掘優質企業。以責任、永續、影響力等角度出發，成為推動企業改善環境、落實社會公益的利器。" />
         <meta property="og:url" content="src/img/tw-esg/esg-og-img.jpg" />
-        <meta property="og:site_name" content="用ESG投資改變世界 － 聯博投信 AB" />
+        <meta property="og:site_name" content="用ESG投資改變世界 － 財庫投信 AB" />
         <meta property="og:image:width" content="1200" />
         <meta property="og:image:height" content="630" />
         <meta property="og:image" content="src/img/tw-esg/esg-og-img.jpg" />
-        <meta property="og:image:alt" content="聯博善用PRISM、ESIGHT等數位科技，打造ESG投資主題，使投資人能藉永續投資，發掘優質企業。以責任、永續、影響力等角度出發，成為推動企業改善環境、落實社會公益的利器。" />
+        <meta property="og:image:alt" content="財庫善用PRISM、ESIGHT等數位科技，打造ESG投資主題，使投資人能藉永續投資，發掘優質企業。以責任、永續、影響力等角度出發，成為推動企業改善環境、落實社會公益的利器。" />
         <meta name="twitter:card" content="src/img/tw-esg/esg-og-img.jpg" />
-        <meta name="twitter:description" content="聯博善用PRISM、ESIGHT等數位科技，打造ESG投資主題，使投資人能藉永續投資，發掘優質企業。以責任、永續、影響力等角度出發，成為推動企業改善環境、落實社會公益的利器。" />
-        <meta name="twitter:title" content="用ESG投資改變世界 － 聯博投信 AB" />
+        <meta name="twitter:description" content="財庫善用PRISM、ESIGHT等數位科技，打造ESG投資主題，使投資人能藉永續投資，發掘優質企業。以責任、永續、影響力等角度出發，成為推動企業改善環境、落實社會公益的利器。" />
+        <meta name="twitter:title" content="用ESG投資改變世界 － 財庫投信 AB" />
         <meta name="twitter:image" content="src/img/tw-esg/esg-og-img.jpg" />
-        <meta itemprop="name" content="用投資改變世界 － 聯博投信 AB" />
+        <meta itemprop="name" content="用投資改變世界 － 財庫投信 AB" />
         <meta itemprop="url" content="src/img/tw-esg/esg-og-img.jpg" />
-        <meta itemprop="description" content="聯博善用PRISM、ESIGHT等數位科技，打造ESG投資主題，使投資人能藉永續投資，發掘優質企業。以責任、永續、影響力等角度出發，成為推動企業改善環境、落實社會公益的利器。" />
+        <meta itemprop="description" content="財庫善用PRISM、ESIGHT等數位科技，打造ESG投資主題，使投資人能藉永續投資，發掘優質企業。以責任、永續、影響力等角度出發，成為推動企業改善環境、落實社會公益的利器。" />
         <meta itemprop="image" content="src/img/tw-esg/esg-og-img.jpg" />
         <!-- SMO end -->
 
@@ -1146,9 +1146,9 @@
                     <div class="o-header__anchor-list">
                         <scrollactive class="m-anchor-list" :class="{ '-active': headerProgress }">
                             <a @click="gtag('click','ESG為何重要')" class="m-anchor-list__item scrollactive-item" data-href="#section-1" href="#section-1"> ESG為何重要 </a>
-                            <a @click="gtag('click','聯博責任投資實力')" class="m-anchor-list__item scrollactive-item" data-href="#section-2" href="#section-2">聯博責任投資實力</a>
+                            <a @click="gtag('click','財庫責任投資實力')" class="m-anchor-list__item scrollactive-item" data-href="#section-2" href="#section-2">財庫責任投資實力</a>
                             <a @click="gtag('click','投資方案')" class="m-anchor-list__item scrollactive-item" data-href="#section-3" href="#section-3">投資方案</a>
-                            <a class="m-anchor-list__item" href="/zh-tw/esg/taiwan-stewardship.html" data-href="/zh-tw/esg/taiwan-stewardship.html" target="_blank">聯博盡職治理專區</a>
+                            <a class="m-anchor-list__item" href="/zh-tw/esg/taiwan-stewardship.html" data-href="/zh-tw/esg/taiwan-stewardship.html" target="_blank">財庫盡職治理專區</a>
                         </scrollactive>
                     </div>
                 </div>
@@ -1492,9 +1492,9 @@
 
                 <!-- leaf -->
                 <section class="container">
-                    <div class="o-tw-esg-leaf" id="tw-esg-leaf-contain" data-gtm="聯博RI" data-aos="fade" data-aos-id="tw-esg-leaf" data-aos-anchor-placement="center-bottom">
+                    <div class="o-tw-esg-leaf" id="tw-esg-leaf-contain" data-gtm="財庫RI" data-aos="fade" data-aos-id="tw-esg-leaf" data-aos-anchor-placement="center-bottom">
                         <p class="a-topic-page-section-title">致力於實踐 ESG，<br />為投資人發掘優質企業</p>
-                        <p class="o-tw-esg-leaf__desc">聯博集團不僅以落實ESG為己任，投資專家也以負責任的態度，為客戶打造融合重大ESG因子的投資方案，透過參與議合為投資人的利益發聲。聯博主動參與企業議合，透過與企業及非營利組織的管理階層進行議合，評估、討論並鼓勵企業改善經營策略，應對快速變化的重大ESG議題。</p>
+                        <p class="o-tw-esg-leaf__desc">財庫集團不僅以落實ESG為己任，投資專家也以負責任的態度，為客戶打造融合重大ESG因子的投資方案，透過參與議合為投資人的利益發聲。財庫主動參與企業議合，透過與企業及非營利組織的管理階層進行議合，評估、討論並鼓勵企業改善經營策略，應對快速變化的重大ESG議題。</p>
                     </div>
                 </section>
 
@@ -1537,14 +1537,14 @@
                                 </div>
                             </div>
                         </div>
-                        <p class="quote-tw__note"><sup>*</sup>聯博將重大的ESG因子整合至我們大部分的主動式管理策略當中(整合ESG因子的資產管理規模約佔聯博集團主動管理資產規模之80%。截止至2024年3月31日)。資料來源：聯博，截至 2024 年 3 月 31 日。</p>
+                        <p class="quote-tw__note"><sup>*</sup>財庫將重大的ESG因子整合至我們大部分的主動式管理策略當中(整合ESG因子的資產管理規模約佔財庫集團主動管理資產規模之80%。截止至2024年3月31日)。資料來源：財庫，截至 2024 年 3 月 31 日。</p>
                     </div>
                 </section>
 
                 <!-- map -->
                 <section id="section-2" class="container" style="padding-top: 30px">
                     <div class="o-esg-asset-map-tw-source o-investing-map" data-gtm="責任投資之路">
-                        <div class="a-topic-page-section-title" data-aos="fade-up">聯博責任投資之路&nbsp;</div>
+                        <div class="a-topic-page-section-title" data-aos="fade-up">財庫責任投資之路&nbsp;</div>
                         <div class="a-topic-page-section-desc" data-aos="fade"></div>
                         <div class="o-esg-asset-map-tw-source__center-tw" data-aos="fade">
                             <svg class="line-drawing-map" viewBox="0 0 1002 646" width="1002" height="646">
@@ -1622,7 +1622,7 @@
                                     </div>
                                 </template>
                             </timeline-swiper>
-                            <div class="m-time-line__source">*聯博針對英國盡責治理守則的回應定期更新，最新為 2016 年 9 月。資料來源:聯博，截至 2024 年 3 月 31 日。</div>
+                            <div class="m-time-line__source">*財庫針對英國盡責治理守則的回應定期更新，最新為 2016 年 9 月。資料來源:財庫，截至 2024 年 3 月 31 日。</div>
                         </div>
                     </div>
                 </section>
@@ -1631,7 +1631,7 @@
                 <section class="container" id="organization">
                     <div class="o-organization-tw">
                         <div class="a-topic-page-section-title -tw" data-aos="fade-up" data-gtm="科技創新">科技創新 善用資訊科學發掘優質企業</div>
-                        <div class="o-organization-tw__desc" data-aos="fade-up">聯博集團善用數位科技優化投資流程，在ESG日益重要的今天，我們也運用PRISM與ESIGHT數位平台， 整合ESG評分與研究觀點，幫助投資團隊能夠快速地以更一致的標準評估個別企業的ESG分數。</div>
+                        <div class="o-organization-tw__desc" data-aos="fade-up">財庫集團善用數位科技優化投資流程，在ESG日益重要的今天，我們也運用PRISM與ESIGHT數位平台， 整合ESG評分與研究觀點，幫助投資團隊能夠快速地以更一致的標準評估個別企業的ESG分數。</div>
 
                         <div class="o-organization-tw__group" data-aos="fade-in">
                             <div class="m-organization-card-tw" data-aos="fade-in">
@@ -1641,7 +1641,7 @@
                                     </div>
                                 </div>
                                 <div class="m-organization-card-tw__bottom">
-                                    <p class="m-organization-card-tw__desc">聯博固定收益研究平台 PRISM 擁有專有的 ESG 評分，這些評分會直接進一步影響聯博研究分析人員對發債機構的評估。</p>
+                                    <p class="m-organization-card-tw__desc">財庫固定收益研究平台 PRISM 擁有專有的 ESG 評分，這些評分會直接進一步影響財庫研究分析人員對發債機構的評估。</p>
                                     <div class="m-organization-card-tw__icon" style="background-image: url('src/img/tw-esg/org1-logo.png')"></div>
                                 </div>
                             </div>
@@ -1653,13 +1653,13 @@
                                     </div>
                                 </div>
                                 <div class="m-organization-card-tw__bottom">
-                                    <p class="m-organization-card-tw__desc">聯博設計獨有的數位研究平台ESIGHT，整合股票與債券分析師的ESG研究觀點，有助投資團隊更有效率地分析企業是否符合 ESG 的標準。</p>
+                                    <p class="m-organization-card-tw__desc">財庫設計獨有的數位研究平台ESIGHT，整合股票與債券分析師的ESG研究觀點，有助投資團隊更有效率地分析企業是否符合 ESG 的標準。</p>
                                     <div class="m-organization-card-tw__icon" style="background-image: url('src/img/tw-esg/org2-logo.png')"></div>
                                 </div>
                             </div>
                         </div>
 
-                        <div class="o-organization-tw__source">資料來源: 聯博，截至2024年3月31日。</div>
+                        <div class="o-organization-tw__source">資料來源: 財庫，截至2024年3月31日。</div>
                     </div>
                 </section>
 
@@ -1807,7 +1807,7 @@
                                 </swiper>
                             </div>
                         </div>
-                        <p class="o-tw-esg-earth__source">資料來源: 聯博，截至2024年3月31日。</p>
+                        <p class="o-tw-esg-earth__source">資料來源: 財庫，截至2024年3月31日。</p>
                     </div>
                 </section>
 
@@ -1833,7 +1833,7 @@
                     </div>
                     <div class="container-tw container -small-padding">
                         <div class="o-product-square-tw__list" data-aos="fade-up" data-aos-delay="600">
-                            <a class="o-product-square-tw__list-item" @click="gtag('click','聯博-全球永續多元資產基金(基金之配息來源可能為本金)')" href="https://www.abfunds.com.tw/campaign/apac/tw/product/sustainable-all-market/sustainable-all-market-fund.html" target="_blank" rel="noopener noreferer nofollow">
+                            <a class="o-product-square-tw__list-item" @click="gtag('click','財庫-全球永續多元資產基金(基金之配息來源可能為本金)')" href="https://www.abfunds.com.tw/campaign/apac/tw/product/sustainable-all-market/sustainable-all-market-fund.html" target="_blank" rel="noopener noreferer nofollow">
                                 <div class="o-product-square-tw__list-item-deco">
                                     <svg id="product-item-border" xmlns="http://www.w3.org/2000/svg" width="335" height="144" viewBox="0 0 335 144" preserveAspectRatio="none">
                                         <path fill="none" fill-rule="evenodd" stroke="#55469b" stroke-linecap="round" stroke-linejoin="round" stroke-width="3" vector-effect="non-scaling-stroke" d="M2 142V5a3 3 0 0 1 3-3h328"></path>
@@ -1843,12 +1843,12 @@
                                     </svg>
                                 </div>
                                 <div class="o-product-square-tw__list-item-inner">
-                                    <div class="o-product-square-tw__list-item-title">聯博-全球永續多元資產基金</div>
+                                    <div class="o-product-square-tw__list-item-title">財庫-全球永續多元資產基金</div>
                                     <div class="o-product-square-tw__list-item-subtitle">(基金之配息來源可能為本金)</div>
                                     <div class="o-product-square-tw__list-item-link-text"><span>擁抱永續，多元投資新動力</span><span class="icon" data-icon="explore"></span></div>
                                 </div>
                             </a>
-                            <a class="o-product-square-tw__list-item" @click="gtag('click','聯博-永續主題基金(基金配息來源 可能為本金)')" href="https://www.abfunds.com.tw/campaign/apac/tw/product/sustainable-global-thematic/sustainable-global-thematic-fund.html" target="_blank" rel="noopener noreferer nofollow">
+                            <a class="o-product-square-tw__list-item" @click="gtag('click','財庫-永續主題基金(基金配息來源 可能為本金)')" href="https://www.abfunds.com.tw/campaign/apac/tw/product/sustainable-global-thematic/sustainable-global-thematic-fund.html" target="_blank" rel="noopener noreferer nofollow">
                                 <div class="o-product-square-tw__list-item-deco">
                                     <svg id="product-item-border" xmlns="http://www.w3.org/2000/svg" width="335" height="144" viewBox="0 0 335 144" preserveAspectRatio="none">
                                         <path fill="none" fill-rule="evenodd" stroke="#55469b" stroke-linecap="round" stroke-linejoin="round" stroke-width="3" vector-effect="non-scaling-stroke" d="M2 142V5a3 3 0 0 1 3-3h328"></path>
@@ -1858,7 +1858,7 @@
                                     </svg>
                                 </div>
                                 <div class="o-product-square-tw__list-item-inner">
-                                    <div class="o-product-square-tw__list-item-title">聯博-永續主題基金</div>
+                                    <div class="o-product-square-tw__list-item-title">財庫-永續主題基金</div>
                                     <div class="o-product-square-tw__list-item-subtitle">(基金之配息來源可能為本金)</div>
                                     <div class="o-product-square-tw__list-item-link-text"><span>ESG選股，讓世界更美好</span><span class="icon" data-icon="explore"></span></div>
                                 </div>
@@ -1873,7 +1873,7 @@
                                     </svg>
                                 </div>
                                 <div class="o-product-square-tw__list-item-inner">
-                                    <div class="o-product-square-tw__list-item-title">聯博-美國永續主題基金</div>
+                                    <div class="o-product-square-tw__list-item-title">財庫-美國永續主題基金</div>
                                     <div class="o-product-square-tw__list-item-subtitle"></div>
                                     <div class="o-product-square-tw__list-item-link-text"><span>聚焦美國永續 投資契機</span><span class="icon" data-icon="explore"></span></div>
                                 </div>
@@ -1969,7 +1969,7 @@
                         <div class="a-vertical-animate-line"></div>
                         <div class="o-contact-us-tw__header" data-aos="fade-right">
                             <div class="o-contact-us-tw__header-deco" :class="{ 'o-income-tw-contact__header-deco': '' === 'tw-income' }">FOLLOW US</div>
-                            <div class="o-contact-us-tw__header-title" data-aos="fade-left" data-aos-delay="300">&nbsp;成為聯博LINE好友&nbsp;<br />即時掌握全球投資資訊</div>
+                            <div class="o-contact-us-tw__header-title" data-aos="fade-left" data-aos-delay="300">&nbsp;成為財庫LINE好友&nbsp;<br />即時掌握全球投資資訊</div>
                         </div>
                         <div class="o-contact-us-tw__list" data-aos="fade-up">
                             <a class="o-contact-us-tw__list-item" href="https://www.abfunds.com.tw/campaign/apac/tw/line/abtaiwan.html" target="_blank" rel="noopener noreferer nofollow" @click="gtag('click','LINE傳送門')">
@@ -2012,7 +2012,7 @@
             <a class="a-mobile-sticky-btn" :class="{ '-show': showStickyButton }" @click="scrollFunc().scrollToAnchor('#section-3-mobile');gtag('click', '投資方案-mobile')">投資方案</a>
             <footer class="o-footer">
                 <div class="m-social-links">
-                    <div class="m-social-links__label">追蹤聯博</div>
+                    <div class="m-social-links__label">追蹤財庫</div>
                     <a class="m-social-links__item" @click="gtag('click','FB')" href="https://www.facebook.com/abfunds/" target="_blank" rel="noopener noreferer nofollow">
                         <span class="icon" data-icon="fb"></span>
                         <div class="m-social-links__item-text">FACEBOOK</div>
@@ -2027,21 +2027,21 @@
                     <div class="container">
                         <div class="o-footer__desc">
                             <p>
-                                聯博投信獨立經營管理。聯博境外基金在台灣之總代理為聯博證券投資信託股份有限公司。聯博證券投資信託股份有限公司。
+                                財庫投信獨立經營管理。財庫境外基金在台灣之總代理為財庫證券投資信託股份有限公司。財庫證券投資信託股份有限公司。
                                 <br />台北市110信義路五段7號81樓及81樓之1 02-8758-3888。
                             </p>
                             <br />
                             <p>
-                                <b>所列之境外基金經金管會核准或同意生效，惟不表示絕無風險。基金經理公司以往之經理績效不保證基金之最低投資收益;基金經理公司除盡善良管理人之注意義務外，不負責本基金之盈虧，亦不保證最低之收益，投資人申購前應詳閱基金公開說明書。有關基金應負擔之費用〈含分銷費用〉及投資風險等已揭露於基金公開說明書及投資人須知，</b>投資人可至境外基金資訊觀測站 <a href="https://www.fundclear.com.tw" target="_blank">www.fundclear.com.tw</a> 或聯博網<a
+                                <b>所列之境外基金經金管會核准或同意生效，惟不表示絕無風險。基金經理公司以往之經理績效不保證基金之最低投資收益;基金經理公司除盡善良管理人之注意義務外，不負責本基金之盈虧，亦不保證最低之收益，投資人申購前應詳閱基金公開說明書。有關基金應負擔之費用〈含分銷費用〉及投資風險等已揭露於基金公開說明書及投資人須知，</b>投資人可至境外基金資訊觀測站 <a href="https://www.fundclear.com.tw" target="_blank">www.fundclear.com.tw</a> 或財庫網<a
                                     href="https://www.abfunds.com.tw"
                                     target="_blank"
                                 >
                                     www.abfunds.com.tw
                                 </a>
-                                查詢，或請聯絡您的理財專員，亦可洽聯博投信索取。<b>基金配息率不代表基金報酬率，且過去配息率不代表未來配息率；基金淨值可能因市場因素而上下波動。基金的配息可能由基金的收益或本金中支付。任何涉及由本金支出的部份，可能導致原始投資金額減損。投資人於申購時應謹慎考量。配息可能涉及本金之個別基金最近12個月內配息組成相關資料已揭露於聯博投信網站。</b
+                                查詢，或請聯絡您的理財專員，亦可洽財庫投信索取。<b>基金配息率不代表基金報酬率，且過去配息率不代表未來配息率；基金淨值可能因市場因素而上下波動。基金的配息可能由基金的收益或本金中支付。任何涉及由本金支出的部份，可能導致原始投資金額減損。投資人於申購時應謹慎考量。配息可能涉及本金之個別基金最近12個月內配息組成相關資料已揭露於財庫投信網站。</b
                                 ><b><font color="1CD8C0">美國Rule 144A 債券屬私募性質，較可能發生流動性不足，財務訊息揭露不完整或因價格不透明導致波動性較大之風險，投資人需留意相關風險。本基金不適合無法承擔相關風險之投資人，投資人宜斟酌個人風險承擔能力及資金可運用期間之長短後投資。</font></b
-                                >基金投資於以外幣計價之有價證券，匯率變動可能影響其淨值。聯博-永續主題基金 (<b>基金之配息來源可能為本金</b>)於2018年10月31日前舊名為聯博-前瞻主題基金。本基金投資政策之變動請詳閱公開說明書，所有在2018年10月31日前之績效及數值皆屬於聯博-前瞻主題基金。聯博-永續主題基金
-                                (<b>基金之配息來源可能為本金</b>)共經歷三次更名，於2018年10月31日前舊名為聯博-前瞻主題基金，於2011年4月30日前舊名為聯博-全球前瞻主題基金，於2009年11月30日前舊名為聯博-亞洲科技基金。所有在更名前之績效及數值皆屬於舊名稱之基金。2016年10月28日，聯博-全球成長趨勢基金併入聯博–前瞻主題基金。聯博-美國永續主題基金於2018年10月31日前舊名為聯博-美國前瞻主題基金。本基金投資政策之變動請詳閱公開說明書，所有在2018年10月31日前之績效及數值皆屬於聯博-美國前瞻主題基金。依金管會之規定，目前境外基金直接投資大陸地區證券市場之有價證券以掛牌上市有價證券及銀行間債券市場為限，且投資總金額不得超過本基金淨資產價值之百分之二十，投資香港地區之紅籌股及H股則無限制。但若該年度獲得境外基金深耕計畫豁免者不在此限，比例可達百分之四十。另投資人亦須留意中國市場特定政治、外匯、經濟與市場等投資風險。境外基金設有「擺動定價政策」，擺動定價政策之目的是藉由避免或減少因某一營業日大量淨流入或淨流出而對子基金受益憑證價值產生績效稀釋效果，以保護基金之現有投資人。投資人於申購前應詳閱公開說明書與投資人須知。<b>本文提及之經濟走勢預測不必然代表本基金之績效，本基金投資風險請詳閱基金公開說明書。</b>投資於新興市場國家之風險一般較成熟市場高，也可能因匯率變動、流動性或政治經濟等不確定因素，而導致投資組合淨值波動加劇。本文件反映聯博於編製日之觀點，其資料則來自於聯博認為可靠之來源。聯博對資料之正確性不為任何陳述或保證，亦不保證資料提及之任何估計、預測或意見將會實現。投資人不應以此作為投資決策依據或投資建議。本文件資料僅供說明參考之用。本基金屬環境、社會及治理(ESG)相關主題基金。本基金具有永續性風險，而永續性風險係指環境、社會或治理事件或情況，當發生時，可能對投資價值產生潛在或實際之重大負面影響。永續性風險既可代表其自身風險，或對其他風險產生影響，且可能對如市場風險、作業風險、流動性風險或交易對手風險等風險造成重大影響。通常，一資產發生永續性風險時，其價值可能減損，進而對相關基金資產淨值產生影響，影響投資者長期經風險調整後收益。重要ESG發行資訊、基金所有特色或目標相關說明請詳投資人須知第二部分之一般資訊，定期評估資訊將於公司網站專區公告<a
+                                >基金投資於以外幣計價之有價證券，匯率變動可能影響其淨值。財庫-永續主題基金 (<b>基金之配息來源可能為本金</b>)於2018年10月31日前舊名為財庫-前瞻主題基金。本基金投資政策之變動請詳閱公開說明書，所有在2018年10月31日前之績效及數值皆屬於財庫-前瞻主題基金。財庫-永續主題基金
+                                (<b>基金之配息來源可能為本金</b>)共經歷三次更名，於2018年10月31日前舊名為財庫-前瞻主題基金，於2011年4月30日前舊名為財庫-全球前瞻主題基金，於2009年11月30日前舊名為財庫-亞洲科技基金。所有在更名前之績效及數值皆屬於舊名稱之基金。2016年10月28日，財庫-全球成長趨勢基金併入財庫–前瞻主題基金。財庫-美國永續主題基金於2018年10月31日前舊名為財庫-美國前瞻主題基金。本基金投資政策之變動請詳閱公開說明書，所有在2018年10月31日前之績效及數值皆屬於財庫-美國前瞻主題基金。依金管會之規定，目前境外基金直接投資大陸地區證券市場之有價證券以掛牌上市有價證券及銀行間債券市場為限，且投資總金額不得超過本基金淨資產價值之百分之二十，投資香港地區之紅籌股及H股則無限制。但若該年度獲得境外基金深耕計畫豁免者不在此限，比例可達百分之四十。另投資人亦須留意中國市場特定政治、外匯、經濟與市場等投資風險。境外基金設有「擺動定價政策」，擺動定價政策之目的是藉由避免或減少因某一營業日大量淨流入或淨流出而對子基金受益憑證價值產生績效稀釋效果，以保護基金之現有投資人。投資人於申購前應詳閱公開說明書與投資人須知。<b>本文提及之經濟走勢預測不必然代表本基金之績效，本基金投資風險請詳閱基金公開說明書。</b>投資於新興市場國家之風險一般較成熟市場高，也可能因匯率變動、流動性或政治經濟等不確定因素，而導致投資組合淨值波動加劇。本文件反映財庫於編製日之觀點，其資料則來自於財庫認為可靠之來源。財庫對資料之正確性不為任何陳述或保證，亦不保證資料提及之任何估計、預測或意見將會實現。投資人不應以此作為投資決策依據或投資建議。本文件資料僅供說明參考之用。本基金屬環境、社會及治理(ESG)相關主題基金。本基金具有永續性風險，而永續性風險係指環境、社會或治理事件或情況，當發生時，可能對投資價值產生潛在或實際之重大負面影響。永續性風險既可代表其自身風險，或對其他風險產生影響，且可能對如市場風險、作業風險、流動性風險或交易對手風險等風險造成重大影響。通常，一資產發生永續性風險時，其價值可能減損，進而對相關基金資產淨值產生影響，影響投資者長期經風險調整後收益。重要ESG發行資訊、基金所有特色或目標相關說明請詳投資人須知第二部分之一般資訊，定期評估資訊將於公司網站專區公告<a
                                     href="/zh-tw/esg/esg-funds.html"
                                     target="_blank"
                                 >
@@ -2051,7 +2051,7 @@
                             <br /><br />
                         </div>
                         <div class="o-footer__copyright">
-                            <p>[A|B] 是聯博集團之服務標誌，AllianceBernstein®為聯博集團所有且經允許使用之註冊商標。©2024 AllianceBernstein L.P. ABITL24-0731-01</p>
+                            <p>[A|B] 是財庫集團之服務標誌，AllianceBernstein®為財庫集團所有且經允許使用之註冊商標。©2024 AllianceBernstein L.P. ABITL24-0731-01</p>
                             <p></p>
                         </div>
                     </div>

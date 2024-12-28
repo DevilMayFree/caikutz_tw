@@ -266,7 +266,7 @@ if ($(window).width() >= WIDTH_BREAKPOINT_DEVICE) {
     });
 }
 
-// 聯博主題投資方案
+// 財庫主題投資方案
 var swiper_idSwiperInvest = new Swiper("#idSwiperInvest", {
     watchOverflow: true,
     spaceBetween: 0,
@@ -299,7 +299,7 @@ $("#idSwiperInvest").on("scrollSpy:exit", function () {
     swiper_idSwiperInvest.autoplay.stop();
 });
 
-// 聯博主題投資方案
+// 財庫主題投資方案
 var swiper_idSwiperInvest = new Swiper("#idSwiperInvest", {
     watchOverflow: true,
     spaceBetween: 0,
